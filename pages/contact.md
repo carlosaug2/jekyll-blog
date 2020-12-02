@@ -8,4 +8,4 @@ intro_paragraph: |-
  **Envie-nos uma mensagem**
 ---
 
-**Envie-nos uma mensagem**
+
