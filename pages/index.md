@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Welcome
+title: 
 permalink: /
 section: home
 intro_paragraph: >
   
-  pages and posts, and a continuous deployment workflow.
+  seja bem vindo navegante, estamos em desenvolvimento....
 ---
