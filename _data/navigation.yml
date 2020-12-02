@@ -1,10 +1,10 @@
 # specify main menu items here
 
+- text: 
+  url: /about
 - text: Home
   url: /
-- text: About
-  url: /about
-- text: Contact
+- text: contato
   url: /contact
-- text: Index
+- text: index
   url: /blog
