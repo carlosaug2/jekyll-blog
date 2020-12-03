@@ -12,6 +12,7 @@ Não e de hoje que vemos os games retratarem os fatos e acontecimentos no mundo 
 
 
 ![Netlify CMS Screenshot] (/assets/img/uploads/medalofhonor.jpg)
+
 Medal of honor – franquia popular que retrata a segunda guerra mundial
 
 Apesar dos games que recontam a  historia do mundo atraírem um publico adulto e adolescentes fazendo um imersão e colocando você na pele de personagens fictícios , realizando missões mundo afora,  combatendo inimigos , com direito a muitas explosões, tiroteio e acao frenética trazendo você para o front real , podem ensinar e te mostrar como que tudo aconteceu de um modo fiel como se você estivesse participando de um filme....
@@ -20,6 +21,7 @@ Apesar dos games que recontam a  historia do mundo atraírem um publico adulto e
 
 
 ![Netlify CMS Screenshot] (/assets/img/uploads/ageofempire.jpg)
+
 Age of empire – Game com foco no imperio romano
 
 Podemos  ver games em modalidades distintas desde fps , estratégia e ate aventura, cada um com seu enredo retratando algum marco ou acontecimento desde os primórdios da humanidades.
@@ -29,6 +31,7 @@ Podemos  ver games em modalidades distintas desde fps , estratégia e ate aventu
 
 
 ![Netlify CMS Screenshot] (/assets/img/uploads/assassinscreed.jpg)
+
 Assasin creed- franquia focada em conflitos e acontecimentos na europa
 
 Porem não são todos os games que possuem como proposta conflitos sangrentos para relatar marcos historicos, também existem games que ensinam a aprender de um modo mais leve e divertido para os mais pequenos.
