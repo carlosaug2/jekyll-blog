@@ -5,5 +5,5 @@ permalink: /
 section: home
 intro_paragraph: >
   
-  seja bem vindo navegante, estamos em desenvolvimento....
+  Seja bem vindo, estamos em desenvolvimento....
 ---
