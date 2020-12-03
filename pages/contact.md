@@ -7,6 +7,6 @@ intro_paragraph: |-
 
 
 ---
-Olá amigo leitor, possue sugestões, alguma dúvida ou gostaria de conversar sobre futuras parceiras, fique a vontade:
+Olá amigo leitor, possue sugestões, dúvidas ou gostaria de conversar sobre parceiras, fique a vontade:
 
  **Envie-nos uma mensagem**
