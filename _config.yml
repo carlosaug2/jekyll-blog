@@ -60,7 +60,7 @@ defaults:
       # Author Settings
 author:
     name: Mateus Medeiros # Nome do autor
-    img: /assets/img/perfil.jpg # Imagem do Autor
+    img: /assets/img/uploads/chape1.jpg # Imagem do Autor
     blog: http://devmateusmedeiros.com.br # Blog do autor
     email: mateus.sousamedeiros@gmail.com # Email do autor
     twitter: mateussousam # Twitter do autor
