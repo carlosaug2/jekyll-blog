@@ -2,12 +2,12 @@
 layout: post
 title: A historia e os games
 meta_description: A description may also be set in a post. You can find more information about it in pages/about.md.
+image: /assets/img/uploads/credencial_home_ccxp_world.JPG
 author: PixelBr
 date: '2020-12-02 12:00:00'
 categories: misc
 ---
 
- ![Netlify CMS Screenshot](/assets/img/uploads/credencial_home_ccxp_world.JPG)
 
 Não e de hoje que vemos os games retratarem os fatos e acontecimentos no mundo afora. 
 Os jogos a algum tempo pararam de ser considerados com um brinquedo em si, atingindo apenas as pessoas mais jovens, passando assim a utilizar os games como um meio para educar e no ão apenas divertir. 
