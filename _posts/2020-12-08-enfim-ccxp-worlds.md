@@ -3,7 +3,7 @@ layout: post
 title: Enfim, CCXP WORLDS
 author: Pixelbr
 date: '2020-12-08 12:00:00'
-intro_paragraph: ''
+intro_paragraph: 'BLABLABLA'
 categories: misc
 ---
 
@@ -12,7 +12,7 @@ CCXP 2020, UMA JORNADA PARA O DESCONHECIDO !
 
 Calma caro padawan, não e bem assim, neste ano o maior e épico festival da cultura pop esta de volta porem em um novo formato (online) e com novo nome por motivos da pandemia que estamos sofrendo mundialmente , porem foi um ótimo evento recheados de entrevistas com diretores de cinema de varias nacionalidades, lives com atrizes/atores, bate-papos com convidados ilustres e ate show ao vivo( um conteúdo com mais de 100 horas), porem nem tudo são flores, no primeiro dia houve algumas falhas técnicas nas lives (por motivo de um grande numero de acessos), além de atrasos nas legendas (no caso dos entrevistados internacionais) porem nada se consiga ser contornado a partir do 2 dias.
 
-![Netlify CMS Screenshot](/assets/img/uploads/credencial_home_ccxp_world.jpg)
+![Netlify CMS Screenshot](/assets/img/uploads/credencial_home_ccxp_world.JPG)
 
 
 CCXP  MUDA DE NOME E  VIRÁ ONLINE, COMO ASSIM?
