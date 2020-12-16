@@ -5,8 +5,10 @@ author: john_doe
 date: '2020-12-15 21:12:32'
 intro_paragraph: ''
 categories: misc
+image:/assets/images/chape1.jpg
+image:/assets/images/chape1.jpg
 ---
-
+ ![]({{ page.image | relative.url )}}
 
 Para quem assistiu o primeiro space jam lançado por meados dos anos 90 deve lembrar deste excelente filme que mistorou os desenhos tradicionais em 2D e os trouxe para o mundo real, varias técnicas de computação gráfica inovadoras foram utilizadas na época. Alem da atuação de um dos deuses do basquete e imortalizado mesmo vivo nosso querido Michel Jordan entre outros astros do basque e um dos comediantes mais épicos de todos os tempo: Bill Murray. O filme possue muitas referencias a outros desenhos dos estúdios Warner Bros.Quem nunca ficou maravilhado vendo o Pernalonga e seus amigos saindo do seu mundo paralelo e invadindo o mundo real com suas doideiras e com a ajuda do nosso astrol do basquete tentando salvar o mundo de um bando de alienígenas perversos através de uma justa partida de basquete épica.
 
