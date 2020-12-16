@@ -3,6 +3,15 @@ layout: default
 ---
 {% assign author = site.data.authors[page.author] %}
 
+
+<section class="postlayout">
+  <div class="postsummary">
+    {% if page.image %}
+      <img src="{{ page.image }}" alt="{{ page.title }}"">
+    {% endif %}
+  </div>
+</section>
+
 <h2>{{ page.title }}</h2>
 
 <time datetime="{{ page.date }}">
@@ -14,15 +23,7 @@ layout: default
   </small>
 </time>
 
-<section class="postlayout">
-  <div class="postsummary">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
-    {% if page.image %}
-      <img src="{{ page.image }}" alt="{{ page.title }}"">
-    {% endif %}
-  </div>
-</section>
+
 
 {% include page-intro.html %}
 
