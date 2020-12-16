@@ -4,9 +4,8 @@ title: SPACE JAM O RETORNO
 author: john_doe
 date: '2020-12-15 21:12:32'
 intro_paragraph: ''
+image:/assets/img/uploads/chape1.jpg
 categories: misc
-image:/assets/images/chape1.jpg
-image:/assets/images/chape1.jpg
 ---
  ![]({{ page.image | relative.url )}}
 
