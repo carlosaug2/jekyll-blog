@@ -1,8 +1,9 @@
 ---
 layout: post
-title: SPACE JAM O RETORNO
+title: 
 author: john_doe
 date: '2020-12-15 21:12:32'
+image: /assets/img/uploads/credencial_home_ccxp_world.JPG
 intro_paragraph: ''
 categories: misc
 ---
