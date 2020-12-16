@@ -25,7 +25,7 @@ Pois e, quem acho que ia dar errado, e não iria sair nada desta cartola magica,
 O universo da ccxp deste ano foi composta pela Omelete Stage (Palco Principal) seguida pelo thunder arena , creators e cosplays, artistis valley e o game arena seguido das subareas como as  loginhas virtuais  ccxp store , iron studios  e as salas de bate papo d Chiascuro studios ccxp tips e pelo mmet e greet onde aconteciam lives com seus artistas favoritos.
 O conteúdo dos mundos poderia ser visto como na imagem abaixo, podem assim filtras o tipo de conteúdo e ate programar notificações do horário daquilo que você queria assistir
 
-![Netlify CMS Screenshot](/assets/img/uploads/programacao_ccxp_world.jpg)
+![Netlify CMS Screenshot](/assets/img/uploads/programacao_ccxp_world1.jpg)
 
 
 E VAMOS A PROGRAMACAO
