@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Enfim, CCXP WORLDS
-author:Pixelbr
-date: 2018-12-08T00:12:57.000Z
+author: Pixelbr
+date: '2020-12-08 12:00:00'
 intro_paragraph: ''
 categories: misc
 ---
