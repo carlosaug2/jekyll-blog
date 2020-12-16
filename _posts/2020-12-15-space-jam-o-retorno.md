@@ -12,12 +12,12 @@ Para quem assistiu o primeiro space jam lançado por meados dos anos 90 deve lem
 
 
 ![Netlify CMS Screenshot](/assets/img/uploads/jordam_spacejam1.gif)
-![Netlify CMS Screenshot](/assets/img/uploads/jordam_spacejam1.jpg)
+
 
 
 Bom depois de muitas anos este boato de uma nova versão que estava em desenvolvimento foi confirmada, não temos muitas noticias ainda e não sabemos se sera apenas um remake ou uma continuação, o que tudo indica que os personagens mais populares da warner bros irão retornar porem desta vez o trono sera passado para o grande astrol do basquete atual LebronJams para muitos, seria o sucessor do Jornal. Mais noticias em breve !
 
-![Netlify CMS Screenshot](/assets/img/uploads/pernalonga_spacejam1.jpg)
+
 ![Netlify CMS Screenshot](/assets/img/uploads/pernalonga_spacejam1.gif)
 
 
