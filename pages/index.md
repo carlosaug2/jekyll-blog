@@ -12,4 +12,4 @@ intro_paragraph: >
              ![Netlify CMS Screenshot](/assets/img/uploads/credencial_home_ccxp_world.JPG)
             </a>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeA1ryi_GsWpL0obtqCEqWJIFlKkChy6VM8SDldl6xP5SMxiA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeA1ryi_GsWpL0obtqCEqWJIFlKkChy6VM8SDldl6xP5SMxiA/viewform?embedded=true" width="440" height="234" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
