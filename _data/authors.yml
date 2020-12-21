@@ -1,7 +1,7 @@
 # specify site authors in this file
 # you can add .yml files for any other global data in this folder
 
-dan_urbanowicz:
+Pixel_br:
     name: Pixel br
     email: dan.urbanowicz@gmail.com
     web: https://www.danurbanowicz.com
