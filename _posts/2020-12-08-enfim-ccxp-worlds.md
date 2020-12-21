@@ -7,13 +7,14 @@ intro_paragraph: 'ANÁLISE/REVIEWS'
 categories: misc
 ---
 
+![Netlify CMS Screenshot](/assets/img/uploads/credencial_home_ccxp_world.JPG)
 
 **CCXP 2020, UMA JORNADA PARA O DESCONHECIDO ?!**
 
 Este ano pandemico, infelizmente tivemos cancelamento de varios grandes eventos e festivais do mundo do entretenimento, porem quem achou que o maior festival de quadrinhos do universo foi cancelado, achou errado! Pois e a CCXP se reinventou e lancou pela primeira vez um evento em aguas digitais ou seja um eventos 100% online atraves de um grande portal repleto de conteudo, entrevistas e shows ao vivo, apresentadores carismaticos entre outras surpresas.
 
 
-![Netlify CMS Screenshot](/assets/img/uploads/credencial_home_ccxp_world.JPG)
+
 
 
 **CCXP MUDA DE NOME E VIRÁ ONLINE, COMO ASSIM?**
