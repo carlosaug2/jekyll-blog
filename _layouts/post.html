@@ -4,6 +4,11 @@ layout: default
 
 {% assign author = site.data.authors[page.author] %}
 
+
+
+<h2>{{ page.title }}</h2>
+
+
 <section class="postlayout">
   <div class="postsummary">
     {% if page.image %}
@@ -12,8 +17,6 @@ layout: default
   </div>
 </section>
 
-
-<h2>{{ page.title }}</h2>
 
 <time datetime="{{ page.date }}">
   <small>
