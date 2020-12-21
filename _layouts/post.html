@@ -8,8 +8,13 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-
-
+<section class="postlayout">
+  <div class="postsummary">
+    {% if page.image %}
+      <img src="{{ page.image }}">
+    {% endif %}
+  </div>
+</section>
 
 
 <time datetime="{{ page.date }}">
