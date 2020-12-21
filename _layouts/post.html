@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+
+<section class="postlayout">
+  <div class="postsummary">
+    {% if page.image %}
+      <img src="{{ page.image }}">
+    {% endif %}
+  </div>
+</section>
+
 {% assign author = site.data.authors[page.author] %}
 
 <h2>{{ page.title }}</h2>
@@ -32,14 +41,6 @@ layout: default
     {% endif %}
   </ul>
 </nav>
-
-<section class="postlayout">
-  <div class="postsummary">
-    {% if page.image %}
-      <img src="{{ page.image }}" alt="{{ page.title }}"">
-    {% endif %}
-  </div>
-</section>
 
 Seja o primeiro a comentar
 <div id="commento"></div>
