@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Enfim, CCXP WORLDS JORNEY OF HOPE
-author: Pixelbr
+author: Pixel_br
 date: '2020-12-08 12:00:00'
 intro_paragraph: 'ANÁLISE/REVIEWS'
 categories: misc
