@@ -4,9 +4,14 @@ layout: default
 
 {% assign author = site.data.authors[page.author] %}
 
- {% if page.image %}
+<section class="postlayout">
+  <div class="postsummary">
+    {% if page.image %}
       <img src="{{ page.image }}">
     {% endif %}
+  </div>
+</section>
+
 
 <h2>{{ page.title }}</h2>
 
