@@ -2,7 +2,7 @@
 layout: post
 title: SEJAM BEM VINDOS AO MUNDO DO PIXELADAS!
 meta_description: A description may also be set in a post. You can find more information about it in pages/about.md.
-author: Pixel br
+author: Pixel_br
 date: '2020-11-10 12:00:00'
 categories: misc
 ---
