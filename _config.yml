@@ -56,16 +56,7 @@ defaults:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
       
-      
-      # Author Settings
-author:
-    name: Mateus Medeiros # Nome do autor
-    img: /assets/img/uploads/chape1.jpg # Imagem do Autor
-    blog: http://devmateusmedeiros.com.br # Blog do autor
-    email: mateus.sousamedeiros@gmail.com # Email do autor
-    twitter: mateussousam # Twitter do autor
-    github:  mateussmedeiros # GitHub do autor
-    bio: Desenvolvedor Front End apaixonado por novas tecnologias. Sou apaixonado pelo que faço e procuro aprender cada dia mais. # Descrição do autor
+     
       
       
 
