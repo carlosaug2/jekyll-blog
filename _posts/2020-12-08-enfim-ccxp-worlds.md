@@ -4,10 +4,10 @@ title: Enfim, CCXP WORLDS JORNEY OF HOPE
 author: Pixel_br
 date: '2020-12-08 12:00:00'
 intro_paragraph: 'ANÁLISE/REVIEWS'
+image:/assets/img/uploads/credencial_home_ccxp_world.JPG
 categories: misc
 ---
 
-![Netlify CMS Screenshot](/assets/img/uploads/credencial_home_ccxp_world.JPG)
 
 **CCXP 2020, UMA JORNADA PARA O DESCONHECIDO ?!**
 
