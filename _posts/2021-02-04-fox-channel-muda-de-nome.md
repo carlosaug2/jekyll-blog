@@ -15,3 +15,6 @@ como podemos ver com a advento da pandemia em 2020, o entretenimento necessitou 
 certas mudanças do canal, agora se chamara STAR CHANNEL !!
 
 blablablslbalablbalbalbal
+
+
+teste
