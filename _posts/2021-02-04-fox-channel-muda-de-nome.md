@@ -1,3 +1,13 @@
+---
+layout: post
+title: 
+author: PixelBr
+date: '2021-02-04 10:30:32'
+image: /assets/img/uploads/foxchannel_logo.jpg
+intro_paragraph: ''
+categories: misc
+---
+
 Salve galera ! Apos um periodo de recesso no final de 2020 estamos de volta as atividades a todo vapor !!
 
 Estamos com muitas novidades para 2021, uma delas e a mudança de um dos grandes canais de TV norte americano, o FOX CHANNEL, para a surpresa de muitos e a estranheza de poucos , 
