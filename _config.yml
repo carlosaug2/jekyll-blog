@@ -25,9 +25,9 @@ url: "https://pixelbr.netlify.app/" # the base hostname & protocol for your site
 permalink: /blog/:title
 
  # Comments Article
-    comment-post: https://docs.google.com/forms/d/e/1FAIpQLSfQYYNNxjczO2pacLm_mcDpRDP0RJQGKEotPolbxE_5N0zzVA
-    comment-read: https://docs.google.com/spreadsheets/d/1JTK0p4FdE18bqxbsbXIJXxfFuhUDcPxT-rMnheNO25Q
-    comment-post-fields: [entry.889345940, entry.362781631, entry.130066504]
+    comment-post: "https://docs.google.com/forms/d/e/1FAIpQLSfQYYNNxjczO2pacLm_mcDpRDP0RJQGKEotPolbxE_5N0zzVA"
+    comment-read: "https://docs.google.com/spreadsheets/d/1JTK0p4FdE18bqxbsbXIJXxfFuhUDcPxT-rMnheNO25Q"
+    comment-post-fields: [ entry.889345940, entry.362781631, entry.130066504 ]
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
