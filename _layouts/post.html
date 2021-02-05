@@ -43,18 +43,13 @@ layout: default
   </ul>
 </nav>
 
-<div class="comments-go-here"></div>
-<script src="https://comments.yoursite.com/embed.js"
-    data-schnack-slug="post-slug"
-    data-schnack-target=".comments-go-here">
-</script>
+<div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
 
-
-<div class="comments-go-here"></div>
-<script src="https://comments.pixelbr.netlify.app/embed.js"
-    data-schnack-slug="post-slug"
-    data-schnack-target=".comments-go-here">
-</script>
+  {%- if site.commentbox.id -%}
+    {%- include commentbox.html -%}
+  {%- endif -%}>
 
 
                  
