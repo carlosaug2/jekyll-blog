@@ -25,9 +25,9 @@ url: "https://pixelbr.netlify.app/" # the base hostname & protocol for your site
 # comment-post: https://docs.google.com/forms/d/e/1FAIpQLSfkJtcLg2Pjwq21QovfngKKsV9IbHPWrZfCzY8JxGrELdue_A
 # comment-post-fields: [ entry.847858609, entry.1410144464, entry.1686069321]
 
-# isso:
- # data_isso: /isso/
- # script_src: /isso/js/embed.min.js
+ isso:
+  data_isso: /isso/
+  script_src: /isso/js/embed.min.js
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
