@@ -1,6 +1,6 @@
 ---
 layout: post
-title: foxchanneltitulo
+title: 
 author: pixelbr
 date: '2021-02-04 10:30:32'
 image: /assets/img/uploads/foxchannel_logo.jpg
