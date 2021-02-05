@@ -135,7 +135,7 @@
 	HTML for displaying the actual comment section.
 	It has a state for oth when the article has comments and when it does not.
 -->
-<h4 class="post-subtitle">Comments</h4>
+<h4 class="post-subtitle"></h4>
 <div id="commentSection" class="comments">
 	<div id="no-comments" class="post-info">
 		<p></p>
@@ -149,9 +149,9 @@
 	<div class="comments-form">
 		<form onsubmit="return postComment()" id="comment-form" autocomplete="off">
 			<ul>
-				<li><input id="comment-name" name="username" type="text" placeholder="Name" required="" value=""></li>
-				<li><textarea id="comment-comment" name="comment" placeholder="Comment" required=""></textarea></li>
-				<li><input id="comment-submit" type="submit" value="Post"></li>
+				<li><input id="comment-name" name="username" type="text" placeholder="Nome" required="" value=""></li>
+				<li><textarea id="comment-comment" name="comment" placeholder="Comentario" required=""></textarea></li>
+				<li><input id="comment-submit" type="submit" value="Postar"></li>
 			</ul>
 		</form>
 	</div>
