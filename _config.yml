@@ -25,7 +25,6 @@ comment-read: https://docs.google.com/spreadsheets/d/1JTK0p4FdE18bqxbsbXIJXxfFuh
 comment-post: https://docs.google.com/forms/d/e/1FAIpQLSfQYYNNxjczO2pacLm_mcDpRDP0RJQGKEotPolbxE_5N0zzVA
 comment-post-fields: [ entry.362781631, entry.52841835, entry.130066504]
 
-
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
 
