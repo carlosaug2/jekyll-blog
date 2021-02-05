@@ -28,12 +28,7 @@ layout: default
 
 {{ content }}
 
- <!-- START OF RELEVANT PART -->
-  <div
-   <div class = "just-comments" data-apikey = " 37e74e1d-2232-437b-9e9e-a13a1f33a43a " > </div>
-  </div>
 
-  <!-- END OF RELEVANT PART -->
 
 <nav aria-label="Adjacent Posts">
   <ul>
@@ -54,7 +49,13 @@ layout: default
 
  
 
- 
+ <script src="https://cdn.fastcomments.com/js/embed.min.js"></script>
+<div id="fastcomments-widget"></div>
+<script>
+    window.FastCommentsUI(document.getElementById('fastcomments-widget'), {
+        tenantId: '47IF9sQ4_'
+    });
+</script>
 
   
 
