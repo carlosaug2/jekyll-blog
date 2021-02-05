@@ -28,9 +28,7 @@ layout: default
 
 {{ content }}
 
-  {%- if site.commentbox.id -%}
-    {%- include commentbox.html -%}
-  {%- endif -%}
+ {% include comment-section.html url = page.url%}
 
 <nav aria-label="Adjacent Posts">
   <ul>
