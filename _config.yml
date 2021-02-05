@@ -26,7 +26,7 @@ url: "https://pixelbr.netlify.app/" # the base hostname & protocol for your site
  
  comment-read: https://docs.google.com/spreadsheets/d/1_B1ydsABsXjLQKEdsIw5is-F789CEQl3ZpnucZdYv4Q
  comment-post: https://docs.google.com/forms/d/e/1FAIpQLSfkJtcLg2Pjwq21QovfngKKsV9IbHPWrZfCzY8JxGrELdue_A
- comment-post-fields: [ entry.847858609, entry.1410144464, entry.1686069321]
+ comment-post-fields: [entry.847858609, entry.1410144464, entry.1686069321]
 
 
 # Permalink format (/blog/ is ignored for pages)
