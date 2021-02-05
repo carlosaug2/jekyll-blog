@@ -6,7 +6,6 @@ layout: default
 
 
 <h2>{{ page.title }}</h2>
-
 <section class="postlayout">
   <div class="postsummary">
     {% if page.image %}
@@ -34,13 +33,11 @@ layout: default
     {% if page.previous.url %}
       <li>
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}</a>
-      
       </li>
     {% endif %}
     {% if page.next.url %}
       <li>
         <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
-      
       </li>
     {% endif %}
   </ul>
