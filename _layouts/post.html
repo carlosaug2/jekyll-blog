@@ -39,17 +39,17 @@ layout: default
       <li>
         <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
       </li>
+    <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
+    <section id="isso-thread"></section>
     {% endif %}
   </ul>
 </nav>
 
 
-{% raw %}
-{% if site.isso.script_src %}
-  <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
-  <section id="isso-thread"></section>
-{% endif %}
-{% endraw %}
+
+    <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
+    <section id="isso-thread"></section>
+
 
 
 
