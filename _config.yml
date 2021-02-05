@@ -21,13 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://pixelbr.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
 
- #commentbox:
-# id: 5715539213156352-proj
- 
- comment-read: https://docs.google.com/spreadsheets/d/1_B1ydsABsXjLQKEdsIw5is-F789CEQl3ZpnucZdYv4Q
- comment-post: https://docs.google.com/forms/d/e/1FAIpQLSfkJtcLg2Pjwq21QovfngKKsV9IbHPWrZfCzY8JxGrELdue_A
- comment-post-fields: [ entry.847858609, entry.1410144464, 
- entry.1686069321]
+
 
 
 # Permalink format (/blog/ is ignored for pages)
