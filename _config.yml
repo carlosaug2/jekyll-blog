@@ -25,6 +25,10 @@ comment-read: https://docs.google.com/spreadsheets/d/1_B1ydsABsXjLQKEdsIw5is-F78
 comment-post: https://docs.google.com/forms/d/e/1FAIpQLSfkJtcLg2Pjwq21QovfngKKsV9IbHPWrZfCzY8JxGrELdue_A
 comment-post-fields: [ entry.847858609, entry.1410144464, entry.1686069321]
 
+ isso:
+  data_isso: /isso/
+  script_src: /isso/js/embed.min.js
+
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
 
@@ -47,7 +51,6 @@ sass:
 # Compress HTML (in liquid via layouts/compress.html)
 compress_html:
   clippings: all
-  
  
      
  
