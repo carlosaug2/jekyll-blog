@@ -28,6 +28,10 @@ layout: default
 
 {{ content }}
 
+  {%- if site.commentbox.id -%}
+    {%- include commentbox.html -%}
+  {%- endif -%}
+
 <nav aria-label="Adjacent Posts">
   <ul>
     {% if page.previous.url %}
@@ -45,9 +49,7 @@ layout: default
 
 
 
-  {%- if site.commentbox.id -%}
-    {%- include commentbox.html -%}
-  {%- endif -%}
+
 
 
                  
