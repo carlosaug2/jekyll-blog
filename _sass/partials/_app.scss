@@ -62,22 +62,19 @@ header > h1 {
 header > nav {
   @media screen and (min-width: $screen-sm-min) {
     float: right;
-      
   }
   ul {
     // flexbox is better than grid for distributing an unknown qty of children
     display: flex;
-     
     li {
       margin-right: 2rem;
       display: inline-block;
       @media screen and (min-width: $screen-sm-min) {
         margin-right: 0;
-     
       }
       a,
       a:visited {
-        
+        color: white;
         text-decoration: none;
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
@@ -93,6 +90,7 @@ header > nav {
     }
   }
 }
+     
 
 // our main content wrapper, the width scales with font size
 main {
