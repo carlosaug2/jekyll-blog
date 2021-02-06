@@ -42,6 +42,7 @@ header > h1 {
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
+       color: yellow;
   }
   a,
   a:visited {
@@ -53,7 +54,8 @@ header > h1 {
     }
   }
   a:hover {
-    color: white;
+   // color: white;
+       color: green;
   }
 }
 
@@ -61,15 +63,18 @@ header > h1 {
 header > nav {
   @media screen and (min-width: $screen-sm-min) {
     float: right;
+       color: pink;
   }
   ul {
     // flexbox is better than grid for distributing an unknown qty of children
     display: flex;
+       color: black;
     li {
       margin-right: 2rem;
       display: inline-block;
       @media screen and (min-width: $screen-sm-min) {
         margin-right: 0;
+        color: grey;
       }
       a,
       a:visited {
@@ -116,9 +121,9 @@ main {
 
 // blog posts list
 html[data-current="blog"] main > section {
-     color: black;
+   
   ul li {
-       color: grey;
+       
     padding: 2rem 0;
     border-bottom: 0.05em solid $hairline-color;
  
@@ -135,14 +140,14 @@ nav[aria-label="Adjacent Posts"] {
   padding: 4rem 0;
   ul {
     display: flex;
-    color: pink;
+   
     li {      
       flex: 0 0 50%;
       width: auto;
-      color: yellow;
+    
       &:nth-child(2) {
         text-align: right;
-         color: blue;
+         
        
       }
     }
