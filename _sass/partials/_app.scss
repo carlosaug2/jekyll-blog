@@ -46,8 +46,8 @@ header > h1 {
   }
   a,
   a:visited {
-   // text-decoration: none;
-    border: 0;
+    text-decoration: none;
+    border: 10px solid white;
  
     @media screen and (min-width: $screen-sm-min) {
       padding: 1rem;
@@ -79,7 +79,7 @@ header > nav {
       a,
       a:visited {
         
-      //  text-decoration: none;
+        text-decoration: none;
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
           padding: 1rem;
