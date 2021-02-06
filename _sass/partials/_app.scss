@@ -14,7 +14,7 @@ body {
     [full-start] minmax(1rem, 1fr)
     [main-start] minmax(0, 52rem) [main-end]
     minmax(1rem, 1fr) [full-end];
-  background: lightgrey;
+
 }
 
 // by default, make any new children of body to span the full track
@@ -131,6 +131,7 @@ nav[aria-label="Adjacent Posts"] {
   ul {
     display: flex;
     li {
+      color: green;
       flex: 0 0 50%;
       width: auto;
       &:nth-child(2) {
