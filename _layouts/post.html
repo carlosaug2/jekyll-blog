@@ -18,6 +18,9 @@ layout: default
 
 {{ content }}
 
+{%- if site.commentbox.id -%}
+    {%- include commentbox.html -%}
+
 <nav aria-label="Adjacent Posts">
   <ul>
     {% if page.previous.url %}
@@ -37,4 +40,4 @@ layout: default
 <a href="https://pixeladasx.com/contact/">
 <p style=" border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px #888888;text-decoration:none;text-align: center;color: green;">Relatar erros técnicos da página.</p></a>
+  box-shadow: 5px 10px #888888;text-decoration:none;text-align: center;color: green;text-size:10em;">Relatar erros técnicos da página.</p></a>
