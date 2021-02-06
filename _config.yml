@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://pixelbr.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
 
 commentbox:
- id: 5660558061731840-proj
+ id: 5630525477748736-proj
 
 
 # Permalink format (/blog/ is ignored for pages)
