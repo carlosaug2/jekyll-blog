@@ -33,7 +33,7 @@ header {
   @media screen and (min-width: $screen-sm-min) {
     grid-template-columns: 1fr auto;
     grid-column-gap: 1rem;
-    background:green;
+   
   }
 }
 
@@ -43,6 +43,7 @@ header > h1 {
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
+    color:white;
       
   }
   a,
