@@ -116,28 +116,33 @@ main {
 
 // blog posts list
 html[data-current="blog"] main > section {
+     color: black;
   ul li {
+       color: grey;
     padding: 2rem 0;
     border-bottom: 0.05em solid $hairline-color;
  
     p {
       padding-bottom: 0;
-      color: green;
+   
     }
   }
 }
 
 // adjacent blog posts links
 nav[aria-label="Adjacent Posts"] {
-  color: green;
+ 
   padding: 4rem 0;
   ul {
     display: flex;
+    color: pink;
     li {      
       flex: 0 0 50%;
       width: auto;
+      color: yellow;
       &:nth-child(2) {
         text-align: right;
+         color: blue;
        
       }
     }
