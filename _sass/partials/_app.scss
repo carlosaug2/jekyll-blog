@@ -121,6 +121,7 @@ html[data-current="blog"] main > section {
     border-bottom: 0.05em solid $hairline-color;
     p {
       padding-bottom: 0;
+      color: green;
     }
   }
 }
@@ -130,8 +131,7 @@ nav[aria-label="Adjacent Posts"] {
   padding: 4rem 0;
   ul {
     display: flex;
-    li {
-      color: green;
+    li {      
       flex: 0 0 50%;
       width: auto;
       &:nth-child(2) {
