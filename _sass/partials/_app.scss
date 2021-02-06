@@ -14,7 +14,7 @@ body {
     [full-start] minmax(1rem, 1fr)
     [main-start] minmax(0, 52rem) [main-end]
     minmax(1rem, 1fr) [full-end];
-  background: green;
+  background: lightgreen;
 }
 
 // by default, make any new children of body to span the full track
