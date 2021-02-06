@@ -42,20 +42,20 @@ header > h1 {
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
-       color: yellow;
+      
   }
   a,
   a:visited {
-    text-decoration: none;
+   // text-decoration: none;
     border: 0;
-    color: white;
+ 
     @media screen and (min-width: $screen-sm-min) {
       padding: 1rem;
     }
   }
   a:hover {
-   // color: white;
-       color: green;
+   color: white;
+      
   }
 }
 
@@ -63,23 +63,23 @@ header > h1 {
 header > nav {
   @media screen and (min-width: $screen-sm-min) {
     float: right;
-       color: pink;
+      
   }
   ul {
     // flexbox is better than grid for distributing an unknown qty of children
     display: flex;
-       color: black;
+     
     li {
       margin-right: 2rem;
       display: inline-block;
       @media screen and (min-width: $screen-sm-min) {
         margin-right: 0;
-        color: grey;
+     
       }
       a,
       a:visited {
-        color: white;
-        text-decoration: none;
+        
+      //  text-decoration: none;
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
           padding: 1rem;
