@@ -1,7 +1,8 @@
 {%- if page.comments != false  -%}
-<div class="commentbox"><h2>comentario</h2></div>
+<div class="commentbox"></div>
   <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
   <script>
+    backgroundColor: '#fff',
     commentBox('{{ site.commentbox.id }}');
   </script>
   <noscript>Please enable JavaScript to view the comments.</noscript>
