@@ -18,6 +18,9 @@ layout: default
 
 {{ content }}
 
+{%- if site.commentbox.id -%}
+    {%- include commentbox.html -%}
+
 <nav aria-label="Adjacent Posts">
   <ul>
     {% if page.previous.url %}
