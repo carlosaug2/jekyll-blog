@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6,figure {
 
 p.intro {
  // font-size: 2.4rem;
-	font-size: 5.4rem;
+	font-size: 5.4rem; // texto superior da pagina inicial
   color: lighten($text-color, 40%);
   padding-bottom: 4rem;
   @media screen and (min-width: $screen-sm-min) {
@@ -54,12 +54,13 @@ h1,h2,h3,h4,h5,h6 {
 
 h2 {
  // font-size: 3.2rem;
-	font-size: 5.4rem;
+	font-size: 5.4rem; // titulo dos posts
   padding-bottom: 4rem;
 }
 
 h3 {
-  font-size: 2rem;
+ // font-size: 2rem;
+	font-size: 1rem;
 }
 
 code {
