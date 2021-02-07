@@ -52,6 +52,8 @@ header > h1 {
     color: white;
     @media screen and (min-width: $screen-sm-min) {
       padding: 1rem;
+      
+      
      
     }
   }
@@ -85,6 +87,7 @@ header > nav {
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
           padding: 1rem;
+           text-decoration: none;
         }
         &[data-current="current page"] {
           // you can add an active nav item style here
@@ -92,6 +95,7 @@ header > nav {
       }
       a:hover {
         color: white;
+         text-decoration: none;
       }
     }
   }
