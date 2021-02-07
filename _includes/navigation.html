@@ -1,8 +1,8 @@
 {% assign navurl = page.url | remove: 'index.html' %}
- <img src='{{ site.baseurl }}/assets/img/uploads/chapeulogo.png'>
+ 
 <ul>
 {% for item in include.navigation %}
-   <img src='{{ site.baseurl }}/assets/img/uploads/chapeulogo.png'>
+   
   <li>
    
 
@@ -11,7 +11,7 @@
       
             </a>
     
-   <img src='{{ site.baseurl }}/assets/img/uploads/chapeulogo.png'>
+
     {% if item.subitems %}
       {% include navigation.html navigation=item.subitems %}
     {% endif %}
