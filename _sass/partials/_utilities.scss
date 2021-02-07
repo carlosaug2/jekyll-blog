@@ -47,7 +47,7 @@ ul,
 ol,
 dl {
 	list-style: none;
-	 
+        font-size: 5.4rem; 
 }
 
 em {
@@ -72,13 +72,13 @@ pre {
 	background-color: $grey-bg-color;
 	border-radius: 0.3rem;
 	padding: 1rem;
-//	font-size: 5.4rem; 
+
 }
 
 code {
 	background-color: $grey-bg-color;
         padding: 0.2rem 0.4rem;
-	font-size: 5.4rem; 
+	
 }
 
 ::selection {
