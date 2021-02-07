@@ -43,6 +43,7 @@ header > h1 {
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
+    font-size: 1.4rem; 
   }
   a,
   a:visited {
