@@ -16,9 +16,10 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+//	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-size: 5.4rem; 
 }
 
 * {
@@ -46,12 +47,12 @@ ul,
 ol,
 dl {
 	list-style: none;
-	 // font-size: 5.4rem; 
+	 
 }
 
 em {
 	font-style: italic;
-	font-size: 5.4rem; 
+	
 	
 }
 
@@ -75,7 +76,7 @@ pre {
 
 code {
 	background-color: $grey-bg-color;
-  padding: 0.2rem 0.4rem;
+        padding: 0.2rem 0.4rem;
 }
 
 ::selection {
