@@ -69,7 +69,7 @@ header > h1 {
 header > nav {
   @media screen and (min-width: $screen-sm-min) {
     float: right;
-    text-decoration:none;
+    
    
   }
   ul {
@@ -90,7 +90,7 @@ header > nav {
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
           padding: 1rem;
-           border: 10px solid white;
+          
         }
         &[data-current="current page"] {
           // you can add an active nav item style here
@@ -98,7 +98,7 @@ header > nav {
       }
       a:hover {
         color: white;
-         border: 10px solid white;
+       
       }
     }
   }
