@@ -57,7 +57,7 @@ header > h1 {
   }
   a:hover {
     color: white;
-      font-size: 1.4rem; 
+     
   }
 }
 
@@ -65,6 +65,7 @@ header > h1 {
 header > nav {
   @media screen and (min-width: $screen-sm-min) {
     float: right;
+     font-size: 1.4rem; 
   }
   ul {
     // flexbox is better than grid for distributing an unknown qty of children
