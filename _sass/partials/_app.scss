@@ -59,7 +59,7 @@ header > h1 {
   }
   a:hover {
     color: white;
-    border: 10px solid white;
+    
    
      
   }
@@ -76,7 +76,7 @@ header > nav {
     // flexbox is better than grid for distributing an unknown qty of children
     display: flex;
       font-size: 1.4rem;  //
-    text-decoration:none;
+    
     li {
       margin-right: 2rem;
       display: inline-block;
@@ -90,7 +90,7 @@ header > nav {
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
           padding: 1rem;
-           text-decoration: none;
+           border: 10px solid white;
         }
         &[data-current="current page"] {
           // you can add an active nav item style here
@@ -98,7 +98,7 @@ header > nav {
       }
       a:hover {
         color: white;
-         text-decoration: none;
+         border: 10px solid white;
       }
     }
   }
@@ -150,7 +150,7 @@ nav[aria-label="Adjacent Posts"] {
   padding: 4rem 0;
   ul {
     display: flex;
-   text-decoration:none;
+ 
     li {      
       flex: 0 0 50%;
       width: auto;
