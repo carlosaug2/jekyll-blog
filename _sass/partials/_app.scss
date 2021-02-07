@@ -43,7 +43,7 @@ header > h1 {
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
-    font-size: 1.4rem; 
+   
   }
   a,
   a:visited {
@@ -52,6 +52,7 @@ header > h1 {
     color: white;
     @media screen and (min-width: $screen-sm-min) {
       padding: 1rem;
+       font-size: 1.4rem; 
     }
   }
   a:hover {
