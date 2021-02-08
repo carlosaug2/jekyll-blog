@@ -7,6 +7,6 @@ intro_paragraph: |-
 
 
 ---
-Possue sugestões para melhorar nosso contéudo, visualizou algum erro na página ou gostaria de conversar sobre parceria, fique a vontade:
+Possue sugestões de pauta/conteúdo, críticas , visualizou algum erro na página ou gostaria de conversar sobre assuntos comerciais, fique a vontade:
 
  **Envie-nos uma mensagem**
