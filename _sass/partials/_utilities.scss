@@ -105,5 +105,5 @@ textarea {
 button {
 	@include button($link-color, $text-color-negative);
 	background:lightgrey;
-	border:10px;
+	border-box:10px;
 }
