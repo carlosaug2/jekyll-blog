@@ -7,6 +7,6 @@ intro_paragraph: |-
 
 
 ---
-Olá amigo leitor, possue sugestões, dúvidas ou gostaria de conversar sobre parceiras, fique a vontade:
+Possue sugestões para melhorar nosso contéudo, visualizou algum erro na página ou gostaria de conversar sobre parceria, fique a vontade:
 
  **Envie-nos uma mensagem**
