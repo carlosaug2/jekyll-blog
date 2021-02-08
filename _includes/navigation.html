@@ -5,12 +5,9 @@
    
   <li>
    
-<ul><a class=href="/">  <img src='/assets/img/uploads/img_logo.png' style="width:20%;float:left;">  </a></ul>
+<ul> <img src='/assets/img/uploads/img_logo.png' style="width:20%;float:left;">  </ul>
     
-    <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}
-    
- 
-            </a>
+    <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}</a>
   
 
     {% if item.subitems %}
