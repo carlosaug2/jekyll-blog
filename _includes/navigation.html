@@ -1,5 +1,5 @@
 {% assign navurl = page.url | remove: 'index.html' %}
- <img src='/assets/img/uploads/img_logo.png' style="width:20%;">  
+
 <ul>
  
 {% for item in include.navigation %}
@@ -8,7 +8,7 @@
    
 
   
-    
+     <img src='/assets/img/uploads/img_logo.png' style="width:20%;">  
     <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}</a>
   
 
