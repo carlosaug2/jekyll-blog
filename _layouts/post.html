@@ -3,8 +3,8 @@ layout: default
 ---
 {% assign author = site.data.authors[page.author] %}
 
-<h2><img src="/assets/img/uploads/img_logo.jpeg" alt="Forest" width="10" height="10"></h2>
-
+<h2>{{ page.title }}</h2>
+<img src="/assets/img/uploads/img_logo.jpeg" alt="Forest" width="10" height="10">
 <time datetime="{{ page.date }}">
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
