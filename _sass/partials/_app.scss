@@ -172,12 +172,12 @@ html[data-current="contact"] main > form {
   }
   input,
   textarea {
-    width: 50%;
+    width: 100%;
     padding: 1rem;
     margin-bottom: 2rem;
   }
   button {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -187,8 +187,8 @@ html[data-current="contact"] main > form {
     input,
     textarea,
     button {
-      width: 10%;
-      max-width: none;
+      width: auto;
+      max-width: 10%;
     }
   }
 }
