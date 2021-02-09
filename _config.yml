@@ -14,8 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-img: /assets/img/uploads/chapeulogo.png
-image: /assets/img/uploads/chapeulogo.png
+
+
+use_logo: true
+
+
+avatar: /assets/img/uploads/chapeulogo.png
+logo: /assets/img/uploads/chapeulogo.png
 
 email: pixeladascanal@gmail.com
 
