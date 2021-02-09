@@ -1,6 +1,12 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 
-<img src="{{ author.img }}" alt="{{ author }}">
+.site-title::before {
+content: url("/assets/img/uploads/img_logo.png");
+display: inline-block;
+position: relative;
+width: 5px;
+top: 10px;
+}
 
 <ul>
  
