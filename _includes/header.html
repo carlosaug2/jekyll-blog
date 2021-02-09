@@ -7,6 +7,10 @@
  
   <nav>
   
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">
+      {% if site.logo %}
+        <img src="/{{ site.logo }}" class="site-logo" width="auto" height="56">
      
     {% include navigation.html navigation=site.data.navigation %}
   </nav>
