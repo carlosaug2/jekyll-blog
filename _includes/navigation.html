@@ -3,7 +3,7 @@
 
 <ul>
  
-{% for item in include.navigation %}
+ <span style="float:right;"> {% for item in include.navigation %} </span>
 
   <li>
    
@@ -13,8 +13,8 @@
    <span style="float:right;"> <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}   </a> </span>
   
 
-    {% if item.subitems %}
-      {% include navigation.html navigation=item.subitems %}
+   <span style="float:right;">   {% if item.subitems %} 
+      {% include navigation.html navigation=item.subitems %} </span>
     {% endif %}
   </li>
 {% endfor %}
