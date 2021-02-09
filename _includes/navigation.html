@@ -3,17 +3,17 @@
 
 <ul>
  
- <span style="float:right;"> {% for item in include.navigation %} </span>
+ <span style="text-align:center;"> {% for item in include.navigation %} </span>
 
   <li>
    
 
   
   
-   <span style="float:right;"> <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}   </a> </span>
+ <span style="text-align:center;"> <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}   </a> </span>
   
 
-   <span style="float:right;">   {% if item.subitems %} 
+   <span style="text-align:center;">  {% if item.subitems %} 
       {% include navigation.html navigation=item.subitems %} </span>
     {% endif %}
   </li>
