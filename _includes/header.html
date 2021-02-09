@@ -5,16 +5,13 @@
   <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>>  
   </h1>
   
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
-    <a class="site-title" href="{{ site.baseurl }}/">
-      {% if site.logo %}
-        <img src="/{{ site.logo }}" class="site-logo" width="auto" height="56">
+
  
   <nav>
   
   
       
-       <img src="/assets/img/uploads/img_logo.png" class="site-logo" style="width:50%;">
+       <img src="/assets/img/uploads/img_logo.png" class="site-logo" style="width:50%; float:left;">
      
     {% include navigation.html navigation=site.data.navigation %}
   </nav>
