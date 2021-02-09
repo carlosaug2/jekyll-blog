@@ -2,9 +2,8 @@
 <header>
  
   <h1>
-   
- {% include navigation.html navigation=site.data.navigation %}  
-  
+   <a href="{{ "/" | relative_url }}"> {{ site.title | escape }} </a> 
+
  <!-- <a class="navbar-brand" href="/">  <img src='{{ site.baseurl }}/assets/img/uploads/chapeulogo.png' style="width:100%;max-width:200px;height: auto;float:left;">   </a> -->
    <!-- <img src='/assets/img/uploads/img_logo.png' style="width:25%;">  -->
    
@@ -12,7 +11,8 @@
  
   <nav>
  
-   <a href="{{ "/" | relative_url }}"> {{ site.title | escape }} </a> 
+    {% include navigation.html navigation=site.data.navigation %}  
+  
 
   </nav>
 
