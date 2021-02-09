@@ -8,3 +8,6 @@
   url: /contact
 - text: index
   url: /blog
+  
+  img_folder: "/assets/img/uploads/" 
+   img: /assets/img/uploads/img_logo.png # Imagem do Autor
