@@ -53,7 +53,7 @@ compress_html:
   clippings: all
  
      
-img_folder:  "/assets/img/uploads/" 
+img_folder: "/assets/img/uploads/" 
 
 # set some common post defaults
 defaults:
