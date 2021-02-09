@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: /assets/img/uploads/img_logo.jpeg
+title: img_logo.jpeg
 header_logo: img_logo.jpeg
 email: pixeladascanal@gmail.com
 
