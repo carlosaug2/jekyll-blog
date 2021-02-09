@@ -3,7 +3,7 @@
 
   <h1>
     <div>
-    {% assign filenames = "chapeulogo.png,img_logo.jpeg" | split: "," %}
+    {% assign filenames = "/assets/img/uploads/chapeulogo.png,img_logo.jpeg" | split: "," %}
     {% for name in filenames %}
   <!-- <a href="{{ "/" | relative_url }}">{{ site.img | escape }}</a>>  --> <a href="{{ site.imagesurl }}{{ name }}">  <img src="{{ site.imagesurl }}{{ name }} " alt="{{ name }}" />
       </a>
