@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: /assets/img/uploads/chapeulogo.png
-logo: /assets/img/uploads/img_logo.jpeg
+title:
+header: /assets/img/uploads/img_logo.jpeg
 email: pixeladascanal@gmail.com
 
 description: >- # this means to ignore newlines until "baseurl:"
