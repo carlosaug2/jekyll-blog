@@ -18,3 +18,4 @@ omipoderozu:
     
 author:
     img: /assets/img/uploads/img_logo.png # Imagem do Autor
+    img_folder:  "/assets/img/uploads/"
