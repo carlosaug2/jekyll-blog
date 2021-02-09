@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-header: texto
+img: /assets/img/uploads/chapeulogo.png
+image: /assets/img/uploads/chapeulogo.png
 
 email: pixeladascanal@gmail.com
 
@@ -69,6 +70,7 @@ defaults:
 # Build settings
 markdown: kramdown
 img_folder:  "/assets/img/uploads/" # Caminho das imagens
+image_folder:  "/assets/img/uploads/"
 
 # Kramdown options
 kramdown:
