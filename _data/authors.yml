@@ -14,4 +14,7 @@ omipoderozu:
     name: omipoderozu
     email: 
     web: 
-
+    
+    
+author:
+    img: /assets/img/uploads/img_logo.png # Imagem do Autor
