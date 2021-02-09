@@ -1,6 +1,6 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 
-
+<img src="{{ site.author.img }}" alt="{{ site.author }}" class="img-author">
 
 <ul>
  
@@ -10,7 +10,7 @@
    
 
   
-    <img src="{{ site.navigation.img }}" alt="{{ site.navigation.name }}" class="img-navigation">
+   
     <a href="{{ item.url }}"{% if item.url == navurl %} data-current="current page"{% endif %}>{{ item.text }}   </a>
   
 
