@@ -77,6 +77,13 @@ markdown: kramdown
 img_folder:  "/assets/img/uploads/" # Caminho das imagens
 image_folder:  "/assets/img/uploads/"
 
+image_path: images
+
+ scope:
+      path: "images"
+    values:
+      image: true
+
 # Kramdown options
 kramdown:
   # Prevent IDs from being added to h1-h6 tags
