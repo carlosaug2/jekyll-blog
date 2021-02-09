@@ -2,13 +2,10 @@
 <header>
 
   <h1>
-    <div>
-    {% assign filenames = "/assets/img/uploads/chapeulogo.png,img_logo.jpeg" | split: "," %}
-    {% for name in filenames %}
-  <!-- <a href="{{ "/" | relative_url }}">{{ site.img | escape }}</a>>  --> <a href="{{ site.imagesurl }}{{ name }}">  <img src="{{ site.imagesurl }}{{ name }} " alt="{{ name }}" />
-      </a>
-      </div>
- {% endfor %}
+
+      
+  <a href="{{ "/" | relative_url }}">{{ /assets/img/uploads/chapeulogo.png | escape }}</a>> 
+ 
   <!--<a class="navbar-brand" href="/">  <img src='{{ site.baseurl }}/assets/img/uploads/chapeulogo.png' style="width:100%;max-width:200px;height: auto;float:left;">   </a>-->
   </h1>
   
