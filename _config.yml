@@ -74,8 +74,7 @@ defaults:
 
 # Build settings
 markdown: kramdown
-img_folder:  "/assets/img/uploads/" # Caminho das imagens
-image_folder:  "/assets/img/uploads/"
+
 
 image_path: images
 
