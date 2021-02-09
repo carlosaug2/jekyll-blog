@@ -1,9 +1,9 @@
 # specify main menu items here
 
 - text: 
-  url: /about
+  url:
 - text: 
-  url: /
+  url: 
 - text: contato
   url: /contact
 - text: index
