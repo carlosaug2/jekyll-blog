@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://pixelbr.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
 
 logo:
-   img: /assets/img/uploads/img_logo.png
+   img: /assets/img/uploads/img_logo.jpeg
 
 commentbox:
  id: 5630525477748736-proj
@@ -53,7 +53,7 @@ compress_html:
   clippings: all
  
      
- 
+img_folder:  "/assets/img/uploads/" 
 
 # set some common post defaults
 defaults:
