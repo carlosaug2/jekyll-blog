@@ -5,13 +5,9 @@ layout: default
 
 
   
-  {{count_words}} Words in Post.
- Reading Time:  ~ {{time_words | divided_by: 60}} min. or so
 
-  {% assign words = page.content | strip_html | number_of_words %}
-    {% assign ert = words | divided_by:250 | at_least: 1 %}
-    {{ ert }} minuto de leitura {% if ert != 1 %}s
 
+  
 <h2>{{ page.title }}</h2>
   
 <time datetime="{{ page.date }}">
@@ -20,6 +16,10 @@ layout: default
     {% if author %}
       by {{ author.name }}
     {% endif %}
+    {% assign words = page.content | strip_html | number_of_words %}
+    {% assign ert = words | divided_by:250 | at_least: 1 %}
+    {{ ert }}  minuto de leitura {% if ert != 1 %}s{% endif %}
+
   </small>
 </time>
 
