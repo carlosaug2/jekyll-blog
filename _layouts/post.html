@@ -5,15 +5,18 @@ layout: default
 
 
 <h2>{{ page.title }}</h2>
-  <p>Read in {{ .ReadingTime }} minutes</p>
-<time datetime="{{ page.date }}">
-  <small>
-    <strong>{{ page.date | date_to_string }}</strong>
-    {% if author %}
-      by {{ author.name }}
-    {% endif %}
-  </small>
-</time>
+  {% capture words %}
+      {{ page.content | number_of_words | minus: 180 }}
+   {% endcapture %}
+   {% unless words contains "-" %}
+     {% assign minutes = words | plus: 180 | divided_by: 180 %}
+        {{ minutes }}
+     {% if minutes == 1 %}
+        {{ " minute to read." }}
+     {% else %}
+        {{ " minutes to read." }}
+     {% endif %}
+   {% endunless %}
 
 
 {% include page-intro.html %}
