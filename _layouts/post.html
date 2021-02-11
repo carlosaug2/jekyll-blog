@@ -2,20 +2,23 @@
 layout: default
 ---
 {% assign author = site.data.authors[page.author] %}
-
+<abbr title="Estimated reading time"></abbr>
+    {% assign words = page.content | strip_html | number_of_words %}
+    {% assign ert = words | divided_by:250 | at_least: 1 %}
+    {{ ert }} minute{% if ert != 1 %}s{% endif %}
 
 
 <h2>{{ page.title }}</h2>
   
-<span>
-    <abbr title="Estimated reading time">ERT</abbr>
-    {% assign words = page.content | strip_html | number_of_words %}
-    {% assign ert = words | divided_by:250 | at_least: 1 %}
-    {{ ert }} minute{% if ert != 1 %}s{% endif %}
-</span>
+
 
 
 {% include page-intro.html %}
+
+
+
+    
+
 
 {{ content }}
 
