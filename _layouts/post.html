@@ -19,7 +19,7 @@ layout: default
    
   </small>
   <span class="ert" style="float:right;">
-    <abbr title="Estimated reading time"></abbr>
+    <abbr title="Estimated reading time">Leitura de</abbr>
     {% assign words = page.content | strip_html | number_of_words %}
     {% assign ert = words | divided_by:250 | at_least: 1 %}
     {{ ert }} minuto{% if ert != 1 %}s{% endif %} 
