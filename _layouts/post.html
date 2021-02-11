@@ -3,16 +3,14 @@ layout: default
 ---
 {% assign author = site.data.authors[page.author] %}
 
-{% capture count_words %} 
-	{{ page.content | number_of_words }} 
-  {% endcapture %}
-  	
-  {% capture time_words %} 
-  	{{count_words | divided_by: 5}} 
-  {% endcapture %} 
+
   
   {{count_words}} Words in Post.
  Reading Time:  ~ {{time_words | divided_by: 60}} min. or so
+
+  {% assign words = page.content | strip_html | number_of_words %}
+    {% assign ert = words | divided_by:250 | at_least: 1 %}
+    {{ ert }} minuto de leitura {% if ert != 1 %}s
 
 <h2>{{ page.title }}</h2>
   
