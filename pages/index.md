@@ -8,4 +8,4 @@ intro_paragraph:
 
 
 ---
-<div><iframe frameborder="0" width="100%" height="100%" src="https://s.surveyplanet.com/DfMRsEWR8"></iframe></div>
+<div><iframe frameborder="0" width="100%" height="800" src="https://s.surveyplanet.com/DfMRsEWR8"></iframe></div>
