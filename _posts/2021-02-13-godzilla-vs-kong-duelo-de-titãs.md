@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Godzilla vs Kong - duelo de titãs!
-author: dan_urbanowicz
+author: john_doe
 date: 2021-02-13 13:39:22
 intro_paragraph: >-
   ![](/assets/img/uploads/god_kong2.jpg)
@@ -16,5 +16,5 @@ intro_paragraph: >-
   Veja um trailer a seguir:
 
 
-  <iframe width="420" height="315" src="https://www.youtube.com/watch?v=ZQA-Bg9MydE&ab_channel=Ingresso.com" frameborder="0" allowfullscreen></iframe>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/watch?v=ZQA-Bg9MydE&ab_channel=Ingresso.com" frameborder="0" allowfullscreen></iframe>
 ---
