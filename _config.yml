@@ -52,11 +52,7 @@ sass:
 compress_html:
   clippings: all
  
-     
-
-collections:
-  authors:
-   output: true
+    
    
 # set some common post defaults
 defaults:
