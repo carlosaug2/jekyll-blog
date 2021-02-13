@@ -4,6 +4,9 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
+{% for post in site.posts %}
+  <img src="{% post.image %}" />
+{% endfor %}
 
 
   {% include page-intro.html %}
