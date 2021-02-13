@@ -14,13 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jekyll Netlify Boilerplate
-email: your-email@example.com
+title: PIXELADASx
+email: pixeladascanal@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml.
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
-url: "https://jekyll-netlify-boilerplate.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://pixeladasx.com" # the base hostname & protocol for your site, e.g. https://example.com
+ 
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
@@ -53,6 +54,9 @@ defaults:
     values:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
+      
+      commentbox:
+         id: 5630525477748736-proj
 
 # Build settings
 markdown: kramdown
