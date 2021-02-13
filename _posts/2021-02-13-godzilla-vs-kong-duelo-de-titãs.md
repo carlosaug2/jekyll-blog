@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Godzilla vs Kong - duelo de titãs!
-author: dan_urbanowicz
+author: john_doe
 date: 2021-02-13 13:39:22
 intro_paragraph: >-
   ![](/assets/img/uploads/god_kong2.jpg)
