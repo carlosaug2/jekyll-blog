@@ -16,5 +16,5 @@ intro_paragraph: >-
   Veja um trailer a seguir:
 
 
-  <iframe width="420" height="315" src="https://www.youtube.com/watch?v=ZQA-Bg9MydE&ab_channel=Ingresso.com" frameborder="0" allowfullscreen></iframe>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/watch?v=ZQA-Bg9MydE&ab_channel=Ingresso.com" frameborder="0" allowfullscreen></iframe>
 ---
