@@ -8,6 +8,8 @@ layout: default
   <img src="{{ page.related_image }}" alt="">
 {% endif %}
 
+<section>  
+  
 {% assign author = site.data.authors[page.author] %}
   
 <time datetime="{{ page.date }}">
@@ -26,7 +28,8 @@ layout: default
 </span>
 
 </time>
-
+  
+</section>
 
 {% include page-intro.html %}
 
