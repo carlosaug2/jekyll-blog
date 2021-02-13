@@ -22,26 +22,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://jekyll-netlify-boilerplate.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
 
-
-#title: PIXELADASx
-#subtitle: Como construir um blog com Jekyll 
-#description: >- # this means to ignore newlines until "baseurl:"
- 
-#baseurl: "" # the subpath of your site if applicable, e.g. /blog
-#url: "https://pixelbr.netlify.app" # the base hostname & protocol for your site, e.g. https://example.com 
-
- commentbox:
-         id: 5630525477748736-proj
-
-#author:
- #   name: Mateus Medeiros # Nome do autor
-  #  img: #
-   # email: pixeladascanal@gmail.com
-
-
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
-
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
@@ -61,9 +43,7 @@ sass:
 # Compress HTML (in liquid via layouts/compress.html)
 compress_html:
   clippings: all
- 
-    
-   
+
 # set some common post defaults
 defaults:
   -
@@ -73,7 +53,6 @@ defaults:
     values:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
-  
 
 # Build settings
 markdown: kramdown
