@@ -18,12 +18,20 @@
 
 
 title: PIXELADASx
-email: pixeladascanal@gmail.com
-description:  >- # this means to ignore newlines until "baseurl:"
+subtitle: Como construir um blog com Jekyll 
+description:  # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml.
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://pixelbr.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
+
+ commentbox:
+    id: 5630525477748736-proj
+
+author:
+    name: Mateus Medeiros # Nome do autor
+    img: #
+    email: pixeladascanal@gmail.com
 
 
 # Permalink format (/blog/ is ignored for pages)
@@ -60,9 +68,7 @@ defaults:
     values:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
-      
- commentbox:
-    id: 5630525477748736-proj
+  
 
 # Build settings
 markdown: kramdown
