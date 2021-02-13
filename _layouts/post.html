@@ -3,10 +3,9 @@ layout: default
 ---
 {% assign author = site.data.authors[page.author] %}
 
-{% for post in site.posts %}
-  <img src="{% post.image %}" />
-{% endfor %}
-  
+{% if page.image %}
+  <img src="{{ page.image }}" alt="">
+
 
 
   
