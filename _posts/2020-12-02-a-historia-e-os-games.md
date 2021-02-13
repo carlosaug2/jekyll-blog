@@ -3,7 +3,7 @@ layout: post
 title: 
 meta_description: A description may also be set in a post. You can find more information about it in pages/about.md.
 image: /assets/img/uploads/credencial_home_ccxp_world.JPG
-author: Pixel_br
+author: pixelbr
 date: '2020-12-02 12:00:00'
 categories: misc
 ---
