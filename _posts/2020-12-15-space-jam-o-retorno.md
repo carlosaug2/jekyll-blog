@@ -3,7 +3,7 @@ layout: post
 title: 
 author: PixelBr
 date: '2020-12-15 21:12:32'
-replace_image: /assets/img/uploads/spacejam2.jpg
+image: /assets/img/uploads/spacejam2.jpg
 intro_paragraph: ''
 categories: misc
 ---
