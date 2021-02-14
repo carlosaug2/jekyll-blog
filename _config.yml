@@ -57,8 +57,7 @@ defaults:
     values:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
-       image: /assets/img/uploads/god_kong.jpg
-      
+   
    
 
 # Build settings
