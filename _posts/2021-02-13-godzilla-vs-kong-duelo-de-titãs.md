@@ -8,7 +8,7 @@ categories: misc
 ---
 
 
-
+![Netlify CMS Screenshot](/assets/img/uploads/jordam_spacejam1.gif)
 
 
 Se voce achou que a pandemia parou a industria do cinema, voce esta completamente errado!
