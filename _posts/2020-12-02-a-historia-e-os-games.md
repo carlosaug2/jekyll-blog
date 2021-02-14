@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: A historia e os games
 meta_description: A description may also be set in a post. You can find more information about it in pages/about.md.
 image: /assets/img/uploads/credencial_home_ccxp_world.JPG
 author: pixelbr
