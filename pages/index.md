@@ -4,7 +4,7 @@ title:
 permalink: /
 section: home
 intro_paragraph: >
-<img src="/assets/img/uploads/god_kong2.jpg" width="550" height="150" align="center">
+![Netlify CMS Screenshot](//assets/img/uploads/god_kong2.jpg)
 ---
 
 
