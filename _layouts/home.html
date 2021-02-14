@@ -12,7 +12,7 @@ layout: default
     {% for post in site.posts limit:3 %}
     {% assign author = site.data.authors[post.author] %}
      {% if post.image %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/uploads/" | prepend: site.baseurl | append : post.image}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    <a class="post-thumbnail" style="background-image: url({{"assets/img/uploads/" | prepend: site.baseurl | append : post.image}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% endif %}
       <li>
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
