@@ -14,21 +14,20 @@ layout: default
     <h3>Recent posts from the blog</h3>
 
     <ul>
-	{% for post in site.posts limit:3 %}
-    {% assign author = site.data.authors[post.author] %}
-      <li>
-        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-        <time datetime="{{ post.date }}">
-          <small>
-            <strong>{{ post.date | date_to_string }}</strong>
-            {% if author %}
+	    
+	     {% for post in site.posts limit:3 %}
+	     {% assign author = site.data.authors[post.author] %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+		 {% if author %}
               by {{ author.name }}
             {% endif %}
-          </small>
-        </time>
-        {{ post.excerpt | strip_newlines | truncate: 180 }}
-      </li>
-    {% endfor %}    
+        </li>
+      {% endfor %}
+	    
+	    
+	    
+	 
 	
     </ul>
 
