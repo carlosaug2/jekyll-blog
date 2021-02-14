@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enfim, CCXP WORLDS JORNEY OF HOPE
+title: CCXP Online desta vez
 author: Pixel_br
 date: '2020-12-08 12:00:00'
 intro_paragraph: 'ANÁLISE/REVIEWS'
