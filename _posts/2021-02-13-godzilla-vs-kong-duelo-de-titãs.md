@@ -4,6 +4,7 @@ title: Godzilla vs Kong - duelo de titãs!
 author: pixelbr
 date: 2021-02-13 13:39:22
 related_image: /assets/img/uploads/god_kong.jpg
+ image: /assets/img/uploads/god_kong.jpg
 categories: misc
 ---
 
