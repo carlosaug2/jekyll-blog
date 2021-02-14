@@ -24,12 +24,13 @@ layout: default
            <strong>{{ post.date | date_to_string }}</strong>
            {% if author %}
               by {{ author.name }}
+           {% endif %}
            <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;height:200px;" /></a></h4>
          <time datetime="{{ post.date }}">
           <small>
           
            
-            {% endif %}
+           
           </small>
         </time>
         {{ post.excerpt | strip_newlines | truncate: 180 }}
