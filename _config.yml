@@ -22,8 +22,8 @@ email: pixeladascanal@gmail.com
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://pixeladasx.com" # the base hostname & protocol for your site, e.g. https://example.com
 
- 
 
+  background: assets/img/uploads/god_kong.jpg
 
 
 # Permalink format (/blog/ is ignored for pages)
