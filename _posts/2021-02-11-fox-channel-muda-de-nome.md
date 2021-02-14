@@ -3,7 +3,7 @@ layout: post
 title: Fox Channel muda de nome
 author: pixelbr
 date: 2021-02-11 11:53:13
-related_image: /assets/img/uploads/foxchannel_logo.jpg
+thumbnail: "/assets/img/uploads/foxchannel_logo.jpg"
 categories: misc  
 ---
 
