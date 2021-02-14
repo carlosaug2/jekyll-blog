@@ -20,7 +20,7 @@ body {
 // by default, make any new children of body to span the full track
 body > * {
   grid-column: full;
-  padding: 2rem 12rem;
+  padding: 2rem 1rem;
 }
 
 // header, the first grid row
