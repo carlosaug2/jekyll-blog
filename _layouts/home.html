@@ -8,18 +8,18 @@ layout: default
 
   {{ content }}
 
-      <img src="/assets/img/uploads/news.png" style="width:100%; height:auto;"></img>
+      <img src="/assets/img/uploads/news.png" style="width:100px; height:auto;"></img>
 
   
   <section>
 	
-          
+	  <h3>Ultimos posts</h3>  
         
- <h3 style="letter-spacing:normal;">  <ul>  {% for post in site.posts limit:6 %}
+  <ul>  {% for post in site.posts limit:6 %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
-      {% endfor %} </ul></h3>
+      {% endfor %} </ul>
 
 
   
