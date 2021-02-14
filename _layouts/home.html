@@ -8,14 +8,14 @@ layout: default
 
   {{ content }}
 
-    
+      <img src="/assets/img/uploads/news.png" style="width:100%; height:auto;"></img>
 
   
   <section>
 	
-            <img src="/assets/img/uploads/news.png" style="width: 200px; height: 200px;"></img>
+          
         
- <h3 style="letter-spacing:normal;color:black;">  <ul>  {% for post in site.posts limit:6 %}
+ <h3 style="letter-spacing:normal;">  <ul>  {% for post in site.posts limit:6 %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
