@@ -9,7 +9,7 @@ categories: misc
 ---
 
 
-![Netlify CMS Screenshot](/assets/img/uploads/jordam_spacejam1.gif)
+
 
 A primeira versao deste magnifico filme foi lançado em meados dos anos 90 e alem de contar com artistas de peso como Bill Murray e astros do cinema como Michael Jordam fez a Junçao toda doida e misturada do universo 2D dos desenhos animados trazendo varios personagens dos estudios da Warners Bros como pernalonga e toda sua trupe, para nosso universo real, essa mistura foi perfeita tornando este filme classico passando por varias geracoes e trazendo grandes tecnologicos para a epoca, hollywood nunca mais foi a mesma. Space Jam o filme traz um enredo simples porem com uma grande moral por tras que encantou desde criança ate adultos de todas as idades. 
 
