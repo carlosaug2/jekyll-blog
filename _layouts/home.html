@@ -8,12 +8,7 @@ layout: default
 
   <h3>Posts</h3>
   
- <!--  {% for post in site.posts %}
-    <div>
-       <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
-        <a href="{{ post.url }}" >{{ post.title }}</a>
-    </div>
-{% endfor %}  -->
+
 
 
   <ul>
@@ -26,7 +21,7 @@ layout: default
            {% if author %}
               by {{ author.name }}
            {% endif %}
-                  </small>
+                  </small><br>
            <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;height:200px;" /></a></h4>
          <time datetime="{{ post.date }}">
          
