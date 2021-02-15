@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-
-<h2>{{ page.title }}
-{% assign author = site.data.authors[page.author] %}
+<div>
+<h2>{{ page.title }} </h2>
+<p>{% assign author = site.data.authors[page.author] %}</p>
+</div>
  
 <time datetime="{{ page.date }}">
   <small>
@@ -11,7 +12,7 @@ layout: default
     {% if author %}
       by {{ author.name }}
     {% endif %}
-   </h2>
+  
  
   </small>
   <span class="ert" style="float:right;">
