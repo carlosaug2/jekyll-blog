@@ -12,7 +12,8 @@ layout: default
     {% endif %}
   </small>
 </time>
-<img src="{{ site.post }}" style="width: 550px; height: 180px;" />
+<a href="{{ post.url }}" ><img src="{{ post.thumbnail }}"style="width: 600px; height: 180px;" />
+
 {% include page-intro.html %}
 
 {{ content }}
