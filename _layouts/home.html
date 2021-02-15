@@ -2,45 +2,30 @@
 layout: default
 ---
 
+<h2>{{ page.title }}</h2>
 
+  {% include page-intro.html %}
 
+  {{ content }}
 
-<section>
-
- 
- <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;">Ultimos Posts</h4>
+  <section>
+<h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;">Ultimos Posts</h4>
   <br><br>
+    <h3>Recent posts from the blog</h3>
 
+    <ul>
+      {% for post in site.posts limit:3 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+   
 
-  <ul>
-   {% for post in site.posts limit:4 %} {
-	  % assign author = site.data.authors[post.author] %} 
-      <li>    
-        <h4><a href="{{ post.url }}">{{ post.title }} <br><time datetime="{{ post.date }}"><p style="color:grey;font-size:15px;">
-            {{ post.date | date_to_string }}
-            {% if author %}
-              by {{ author.name }}
-            {% endif %}
-          </p></time> 
-         </h4> 
-	      
-	     
- 
- <div>
+	   <div>
 	  
-
            <a><img src="{{ post.thumbnail }}" style="width: 350px; height: 180px; margin:12px;padding:12px; float:left;" /></a></img>
 	 <p style="vertical-align:middle;">{{ post.excerpt | strip_newlines | truncate: 170 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
          </div>
-     
+   {% endfor %}
+    </ul>
 
-	
-      </li>
-    {% endfor %}
-  </ul>
-
-</section>
-
-
-
-  
+  </section>
