@@ -30,7 +30,7 @@ layout: default
         </time> -->
 	      <a><img src="{{ post.thumbnail }}" style="width: 350px; height: 180px; margin:12px;padding:12px; float:left;" /></a></img>
         
-	      <p style="vertical-align:middle;">{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
+	      <p style="vertical-align:100%;">{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
       </li>
     {% endfor %}
   </ul>
