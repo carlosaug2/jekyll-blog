@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<h2>{{ page.title }}
 {% assign author = site.data.authors[page.author] %}
 
 <time datetime="{{ page.date }}">
@@ -21,7 +21,8 @@ layout: default
 </span>
 
 </time>
-  
+  </h2>
+
 {% if page.related_image %}
   <img src="{{ page.related_image }}" alt="">
 {% endif %}
