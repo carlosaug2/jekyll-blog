@@ -33,9 +33,9 @@ layout: default
  <div>
 	
     
-           <img src="{{ post.thumbnail }}" style=" max-width:100%; width:200px;height:200px;vertical-align:middle;" /></a></img>
+           <a><img src="{{ post.thumbnail }}" style=" max-width:100%; width:200px;height:200px;vertical-align:middle;" /></a></img>
          </div>
-       {{ post.excerpt | strip_newlines | truncate: 180 }} 
+     <!--  {{ post.excerpt | strip_newlines | truncate: 180 }} -->
       </li>
     {% endfor %}
   </ul>
