@@ -18,7 +18,7 @@ layout: default
 
 
   <ul>
-  {% for post in site.posts limit:3 %}
+ 
       <li>    
     <!--    <h4><a href="{{ post.url }}">{{ post.title }} <br><time datetime="{{ post.date }}"><p style="color:grey;font-size:15px;">
             {{ post.date | date_to_string }}
@@ -32,7 +32,7 @@ layout: default
   
  <div>
 	
-      <!--    <span style="vertical-align:middle">  {% assign author = site.data.authors[post.author] %} </span> -->
+      <!--    <span style="vertical-align:middle">  {% for post in site.posts limit:3 %} {% assign author = site.data.authors[post.author] %} </span> -->
           <a> <img src="{{ post.thumbnail }}" style=" max-width:100%; width:200px;height:200px;vertical-align:middle;" /></a></img>
          </div>
         {{ post.excerpt | strip_newlines | truncate: 180 }}
