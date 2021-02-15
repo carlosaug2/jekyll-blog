@@ -29,7 +29,8 @@ layout: default
 	  
     
            <a><img src="{{ post.thumbnail }}" style=" max-width:100%; width:200px;height:200px;" /></a></img>
-	    {{ post.excerpt | strip_newlines | truncate: 180 | split:'<!--read more--> | first | append: "…"}} <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+	    {{ post.excerpt | strip_newlines | truncate: 180 }} 
+	      {{ post.content | split:'<!--read more-->' | first | append: "…"}} <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
          </div>
      
 
