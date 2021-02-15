@@ -28,8 +28,12 @@ layout: default
  <div>
 	  
     
-           <a><img src="{{ post.thumbnail }}" style="width: 200px; height: 200px; margin: 5px; float:left;" /></a></img>
-	    {{ post.excerpt | strip_newlines | truncate: 180 }} 
+           <a><img src="{{ post.thumbnail }}" style=" 
+   width:400px;
+    margin-left:10px;" /></a></img><span style="float:left;
+    max-width:500px;
+    margin-left:10px;">
+	      {{ post.excerpt | strip_newlines | truncate: 180 }} </span>
 	
          </div>
      
