@@ -29,7 +29,7 @@ layout: default
 	  
     
            <a><img src="{{ post.thumbnail }}" style=" width: 350px; height: 200px; margin: 5px; float:left;" /></a></img>
-	 <p style="vertical-align:100%;">   {{ post.excerpt | strip_newlines | truncate: 120 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
+	 <p style="vertical-align:100%;">{{ post.excerpt | strip_newlines | truncate: 180 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
          </div>
      
 
