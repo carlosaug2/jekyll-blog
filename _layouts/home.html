@@ -15,7 +15,7 @@ layout: default
 
  <ul>
     {% for post in site.posts limit:3 %}
-	 <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+	 <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width: 350px; height: 180px; margin:12px; float:left;" />
     {% assign author = site.data.authors[post.author] %}
 	
       <li>
