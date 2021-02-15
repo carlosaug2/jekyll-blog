@@ -4,14 +4,15 @@ layout: default
 
 <h2>{{ page.title }}
 {% assign author = site.data.authors[page.author] %}
- </h2>
+ 
 <time datetime="{{ page.date }}">
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       by {{ author.name }}
     {% endif %}
-   
+   </h2>
+ 
   </small>
   <span class="ert" style="float:right;">
     <!-- <abbr title="Estimated reading time">Leitura de</abbr> -->
