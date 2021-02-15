@@ -4,7 +4,6 @@ layout: default
 {% assign author = site.data.authors[page.author] %}
 
 <h2>{{ page.title }}</h2>
-<img src="{{ post.thumbnail }}" style="width: 350px; height: 180px;" />
 <time datetime="{{ page.date }}">
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
@@ -13,7 +12,7 @@ layout: default
     {% endif %}
   </small>
 </time>
-
+<img src="{{ post.thumbnail }}" style="width: 350px; height: 180px;" />
 {% include page-intro.html %}
 
 {{ content }}
