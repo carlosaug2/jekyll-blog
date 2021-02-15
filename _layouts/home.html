@@ -8,13 +8,8 @@ layout: default
 <section>
 
  
- <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;
-	background: yellow;
-	display: inline;
-	padding: 6px 4px !important;
-	position: relative;">Ultimos Posts</h4>
-  <br>
-  <br>
+ <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;">Ultimos Posts</h4>
+  <br><br>
 
 
   <ul>
@@ -33,7 +28,7 @@ layout: default
  <div>
 	  
     
-           <a><img src="{{ post.thumbnail }}" style=" max-width:100%; width:200px;height:200px; vertical-align: middle;" /></a></img>
+           <a><img src="{{ post.thumbnail }}" style=" max-width:100%; width:200px;height:200px;" /></a></img>
 	    <span style="line-height:30px;">  {{ post.excerpt | strip_newlines | truncate: 180 }} </span>
          </div>
      
