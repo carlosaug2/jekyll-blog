@@ -6,7 +6,7 @@ layout: default
 {% assign author = site.data.authors[page.author] %}
  
 <time datetime="{{ page.date }}">
-  <small style="float:left;">
+  <small style="text-align:left;">
     <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       by {{ author.name }}
@@ -14,7 +14,7 @@ layout: default
   
  
   </small>
-  <span class="ert" style="float:left;"><br>
+  <span class="ert" style="text-align:left;">
     <!-- <abbr title="Estimated reading time">Leitura de</abbr> -->
     {% assign words = page.content | strip_html | number_of_words %}
     {% assign ert = words | divided_by:250 | at_least: 1 %}
