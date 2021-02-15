@@ -2,9 +2,8 @@
 layout: default
 ---
 
-<h2>{{ page.title }}<p>{% assign author = site.data.authors[page.author] %}</p></h2>
-
-
+{{ page.title }}
+{% assign author = site.data.authors[page.author] %}
  
 <time datetime="{{ page.date }}">
   <small>
