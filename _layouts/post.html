@@ -1,46 +1,22 @@
 ---
 layout: default
 ---
+{% assign author = site.data.authors[page.author] %}
 
 <h2>{{ page.title }}</h2>
-{% assign author = site.data.authors[page.author] %}
- 
+
 <time datetime="{{ page.date }}">
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       by {{ author.name }}
     {% endif %}
-  
- 
   </small>
-  <span class="ert" style="float:right;">
-    <!-- <abbr title="Estimated reading time">Leitura de</abbr> -->
-    {% assign words = page.content | strip_html | number_of_words %}
-    {% assign ert = words | divided_by:250 | at_least: 1 %}
-    {{ ert }} minuto{% if ert != 1 %}s{% endif %} de leitura 
-</span>
-
 </time>
- 
-
-{% if page.related_image %}
-  <img src="{{ page.related_image }}" alt="">
-{% endif %}
-
-<br>
-  
-
 
 {% include page-intro.html %}
 
-
 {{ content }}
-
- {%- if site.commentbox.id -%}
-    {%- include commentbox.html -%}
-  {%- endif -%}
-
 
 <nav aria-label="Adjacent Posts">
   <ul>
@@ -51,12 +27,9 @@ layout: default
     {% endif %}
     {% if page.next.url %}
       <li>
-     <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo; </a> 
+        <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
       </li>
     {% endif %}
   </ul>
 </nav>
-
 <p style="text-decoration:none;text-align:center;font-size:.6em;"><img src='/assets/img/uploads/img_alert.png' style="width:5%;height:auto;margin:0 auto;"><a href="https://pixeladasx.com/contact/">Relatar erros da página</a></p>
-
-  
