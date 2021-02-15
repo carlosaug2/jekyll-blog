@@ -35,9 +35,9 @@ layout: default
      <!--  {% for post in site.posts limit:3 %} {% assign author = site.data.authors[post.author] %} -->
            <img src="{{ post.thumbnail }}" style=" max-width:100%; width:200px;height:200px;vertical-align:middle;" /></a></img>
          </div>
-       {{ post.excerpt | strip_newlines | truncate: 180 }} 
+     <!--  {{ post.excerpt | strip_newlines | truncate: 180 }} -->
       </li>
-   <!-- {% endfor %} -->
+    {% endfor %}
   </ul>
 
 </section>
