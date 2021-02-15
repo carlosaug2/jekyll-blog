@@ -7,8 +7,7 @@ thumbnail: assets/img/uploads/universal_plus.png
 categories: misc
 ---
 
-![Netlify CMS Screenshot](/assets/img/uploads/medalofhonor.jpg)
-Credito:Medal of honor – franquia popular que retrata a segunda guerra mundial
+
 
 
 
