@@ -29,14 +29,14 @@ layout: default
          </h4> -->
 	      
 	     
-  
+   {{ post.excerpt | strip_newlines | truncate: 75 }}
  <div>
 	
     
-           <a><img src="{{ post.thumbnail }}" style=" max-width:100%; width:200px;height:200px;vertical-align:middle;" /></a></img>
+           <a><img src="{{ post.thumbnail }}" style=" max-width:100%; width:200px;height:200px; vertical-align: middle;" /></a></img>
          </div>
-     <!-- {{ post.excerpt | strip_newlines | truncate: 75 }} -->
-	{{ post.excerpt | strip_html | truncatewords:75 }}
+     
+	
       </li>
     {% endfor %}
   </ul>
