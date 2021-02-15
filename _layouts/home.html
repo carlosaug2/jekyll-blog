@@ -19,7 +19,7 @@ layout: default
     {% for post in site.posts limit:3 %}
     {% assign author = site.data.authors[post.author] %}
       <li>
-        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+ <!--   <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
@@ -27,7 +27,7 @@ layout: default
               by {{ author.name }}
             {% endif %}
           </small>
-        </time>
+        </time> -->
 	      <a><img src="{{ post.thumbnail }}" style="width: 350px; height: 180px; margin:12px;padding:12px; float:left;" /></a></img>
         
 	      <p style="vertical-align:middle;">{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
