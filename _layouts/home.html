@@ -29,7 +29,7 @@ layout: default
           </small>
         </time>
 	      <a><img src="{{ post.thumbnail }}" style="width: 350px; height: 180px; margin:12px;padding:12px; float:left;" /></a></img>
-        {{ post.excerpt | strip_newlines | truncate: 180 }}
+        
 	      <p style="vertical-align:middle;">{{ post.excerpt | strip_newlines | truncate: 75 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
       </li>
     {% endfor %}
