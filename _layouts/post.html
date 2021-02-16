@@ -14,7 +14,13 @@ layout: default
     {% endif %}
   </small>
 </time>
-
+{{ page.category }} -
+			{% assign words = content | number_of_words %}
+			{% if words < 360 %}
+				1 min
+			{% else %}
+				{{ words | divided_by: 180 }} mins
+			{% endif %} read
 
 {% if page.related_image %}
 <img src="{{ page.related_image }}" alt="">
@@ -32,15 +38,9 @@ layout: default
 
 {% include page-intro.html %}
 
-<p class="summary">{{ page.category }} -
-			{% assign words = content | number_of_words %}
-			{% if words < 360 %}
-				1 min
-			{% else %}
-				{{ words | divided_by: 180 }} mins
-			{% endif %} read
-			<span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
-		</p>
+
+			
+		
 
 {{ content }}
 
