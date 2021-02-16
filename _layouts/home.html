@@ -19,8 +19,8 @@ layout: default
     
 	
       <li>
-	     {% assign author = site.data.authors[post.author] %}
-    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+	     
+    <h4><a href="{{ post.url }}">{{ post.title }}{% assign author = site.data.authors[post.author] %}</a></h4>
         <time datetime="{{ post.date }}">
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
