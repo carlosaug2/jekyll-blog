@@ -3,11 +3,12 @@ layout: default
 ---
 
 {% assign author = site.data.authors[page.author] %}
+
+
+<h2>{{ page.title }}</h2>
 {% if author %}
       by {{ author.name }}
     {% endif %}
-
-<h2>{{ page.title }}</h2>
 <time datetime="{{ page.date }}">
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
