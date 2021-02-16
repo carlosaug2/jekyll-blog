@@ -33,7 +33,7 @@ layout: default
         </time>
 	 </div>     
 	 <div>   <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:400px; height: 300px; margin:5px; float:left;" />
-	<p style="vertical-align:100%;">{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
+{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> 
 		 </div>	
       </li>
 			
