@@ -26,9 +26,9 @@ layout: default
 	 
         <a href="{{ post.url }}" >{{ post.title }}</a>
       <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width: 400px; height: 200px;margin:5px;float:left; />
-	      	<p  line-height: .5;
+	      	<p  
   
-  vertical-align: middle;> {{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
+  vertical-align:25%;> {{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
 	    
 		   
         <time datetime="{{ post.date }}">
