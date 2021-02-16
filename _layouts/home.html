@@ -24,10 +24,11 @@ layout: default
             <strong>{{ post.date | date_to_string }}</strong>
             {% if author %}
               by {{ author.name }}
+		    <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:300px;float:left;" />
             {% endif %}
           </small>
         </time>
-	       <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:300px;float:left;" />
+	     
         {{ post.excerpt | strip_newlines | truncate: 75 }}
       </li>
     {% endfor %}
