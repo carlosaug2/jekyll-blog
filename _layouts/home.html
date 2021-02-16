@@ -23,6 +23,7 @@ layout: default
 	     
 	   
 	   <!--   {{ post.url }}{{ post.title }} -->
+	        <div>
         <time datetime="{{ post.date }}">	
                {{ post.date | date_to_string }} 
          {% if author %}
@@ -31,7 +32,7 @@ layout: default
 		
         
 	     </time> 
-	      <div><p><a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:50%;height:200px;margin:15px;float:left;" /></p>    
+	    <p><a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:50%;height:200px;margin:15px;float:left;" /></p>    
               <p style="vertical-align:buttom;">{{ post.excerpt | strip_newlines | truncate:75 }} </p>
 	      <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </div>
       </li>
