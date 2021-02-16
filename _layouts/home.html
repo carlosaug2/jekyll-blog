@@ -14,7 +14,7 @@ layout: default
 		  Ultimos Posts</h4>	 <br> -->
 	  
 	   <h3>Posts</h3>
-	  <img src="{{ post.thumbnail }}" style="width:300px;" />
+	
  <ul>
     {% for post in site.posts limit:3 %} 
     {% assign author = site.data.authors[post.author] %}	 
@@ -28,6 +28,7 @@ layout: default
             {% endif %}
           </small>
 	     </time> 
+		         <img src="{{ post.thumbnail }}" style="width:300px;" />
 		{{ post.excerpt | strip_newlines | truncate: 75 }}
 		       <p> <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </p>
       </li>
