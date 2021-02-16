@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NOVIDADES NO PIXELADASx
-author: Pixel_br
+author: pixelbr
 date: '2021-02-16'
 intro_paragraph: 'DROPS DE NOTÍCIAS'
 image: 
