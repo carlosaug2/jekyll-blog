@@ -26,9 +26,9 @@ layout: default
             <strong>{{ post.date | date_to_string }}</strong>
             {% if author %}
               by {{ author.name }}
-	 
+	   <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:400px; height: 300px; margin:5px; float:left;" />
             {% endif %}
-		  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:400px; height: 300px; margin:5px; float:left;" />
+		
           </small>
 		
         </time>
