@@ -31,7 +31,7 @@ layout: default
           </small>
 	     </time> 
 		        
-		{{ post.excerpt | strip_newlines | truncate: 75 }}
+		{{ post.excerpt | strip_newlines | truncate: 100 }}
 		       <p> <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </p>
       </li>
     {% endfor %}
