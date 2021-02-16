@@ -18,11 +18,11 @@ layout: default
  <ul>
     {% for post in site.posts limit:3 %} 
     {% assign author = site.data.authors[post.author] %}
-	  <img src="{{ post.thumbnail }}" />
+	  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:50%;height:200px;" />
       <li>     
 	     
 	   
-	      {{ post.url }}{{ post.title }} 
+	   <!--   {{ post.url }}{{ post.title }} -->
         <time datetime="{{ post.date }}">	
                {{ post.date | date_to_string }} 
          {% if author %}
@@ -33,7 +33,7 @@ layout: default
 	     </time> 
 		        
 		 <p> {{ post.excerpt | strip_newlines | truncate:100 }}
-		       <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </p>
+		       <a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
       </li>
     {% endfor %}
   </ul>
