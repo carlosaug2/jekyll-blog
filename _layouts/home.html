@@ -27,8 +27,8 @@ layout: default
             {% endif %}
           </small>
         </time>
-	<div> <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:300px;float:left;" />
-		{{ post.excerpt | strip_newlines | truncate: 75 }} </div>
+	 <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:300px;" />
+		{{ post.excerpt | strip_newlines | truncate: 75 }} 
       </li>
     {% endfor %}
   </ul>
