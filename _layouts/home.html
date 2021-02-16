@@ -26,13 +26,13 @@ layout: default
             <strong>{{ post.date | date_to_string }}</strong>
             {% if author %}
               by {{ author.name }}
-	  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;width:280px; height: 180px; margin:12px; float:left;" /> 
+	 
             {% endif %}
 		
           </small>
         </time>
 	 </div>     
-	     
+	       <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;width:280px; height: 180px; margin:5px; float:left;" />
 	<p>{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
 		
       </li>
