@@ -12,28 +12,15 @@ layout: default
   <section>	  
 	<!--  <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">
 		  Ultimos Posts</h4>	 <br> -->
-	
-	
-		  
-  <h3>Posts</h3>
-
-  <ul>
-    {% for post in site.posts limit:3 %}
-  <div>
-	     <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width: 200px; height: 200px;margin:5px;float:left;" />
-		       <a href="{{ post.url }}">{{ post.title }}</a>
-		     </div>  
-		       {% assign author = site.data.authors[post.author] %}
-	      <li>
-		    
-     
-		    
-			     
-        
-		       <time datetime="{{ post.date }}">   
-    
-  
-	      
+	  
+	   <h3>Posts</h3>
+ <ul>
+    {% for post in site.posts %}
+    {% assign author = site.data.authors[post.author] %}
+      <li>
+	       <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <time datetime="{{ post.date }}">
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
             {% if author %}
@@ -41,7 +28,7 @@ layout: default
             {% endif %}
           </small>
         </time>
-      {{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> 
+        {{ post.excerpt | strip_newlines | truncate: 180 }}
       </li>
     {% endfor %}
   </ul>
