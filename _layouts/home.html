@@ -16,7 +16,7 @@ layout: default
   {% include page-intro.html %}
 
   {{ content }}
-
+   <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">Ultimos Posts</h4>
   <section>
 	  <ul>
     {% for post in site.posts limit:3 %}
@@ -26,7 +26,7 @@ layout: default
     <h4><a href="{{ post.url }}">{{ post.title }} 
 	    {% assign author = site.data.authors[post.author] %}</a></h4>
        <time datetime="{{ post.date }}">
-	         <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">Ultimos Posts</h4>
+	      
 	       
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
