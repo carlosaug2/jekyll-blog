@@ -10,7 +10,8 @@ layout: default
   {{ content }}
  
   <section>	  
-	  <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">Ultimos Posts</h4>	 
+	  <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">
+		  Ultimos Posts</h4>	 <br>
 		   <ul>
     {% for post in site.posts limit:3 %}
 			
@@ -40,10 +41,11 @@ layout: default
         </time>
 		     
 	      </div>
-	<p>{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p></div>	
+	     
+	<p> <img src="{{ post.thumbnail }}{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p></div>	
 		
       </li>
-		<!--<div><a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:200px; height: 200px; margin:5px; float:left;" />-->
+
 
     {% endfor %}
 			  
