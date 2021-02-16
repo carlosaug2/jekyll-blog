@@ -3,10 +3,10 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-
+  <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">Ultimos Posts</h4>
 
   {% include page-intro.html %}
-  <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">Ultimos Posts</h4>
+
   {{ content }}
  
   <section>	  
@@ -31,8 +31,8 @@ layout: default
           </small>
         </time>
 	 </div>     
-	     <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;width:280px; height: 180px; margin:12px; float:left;" /> 
-	<p>	{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
+	     
+	<p><a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;width:280px; height: 180px; margin:12px; float:left;" /> 	{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
 		
       </li>
 			
