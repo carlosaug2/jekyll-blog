@@ -33,7 +33,7 @@ layout: default
             {% endif %}
           </small>
         </time>
-        {{ post.excerpt | strip_newlines | truncate: 180 }}
+        
 		<p style="">{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p
       </li>
     {% endfor %}
