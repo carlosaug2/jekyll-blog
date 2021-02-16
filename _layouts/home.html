@@ -3,14 +3,14 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-  <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">Ultimos Posts</h4>
+
 
   {% include page-intro.html %}
 
   {{ content }}
  
   <section>	  
-		 
+	  <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">Ultimos Posts</h4>	 
 		   <ul>
     {% for post in site.posts %}
 			
@@ -33,7 +33,7 @@ layout: default
         </time>
 	 </div>     
 	 <div>   <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:280px; height: 180px; margin:5px; float:left;" />
-	<p>{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
+	<p style="vertical-align:100%;">{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
 		 </div>	
       </li>
 			
