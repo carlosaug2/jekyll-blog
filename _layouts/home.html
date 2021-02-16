@@ -26,9 +26,10 @@ layout: default
          {% if author %}
               by {{ author.name }}  
             {% endif %}
+		 <img src="{{ post.thumbnail }}" style="width:300px;" />
           </small>
 	     </time> 
-		         <img src="{{ post.thumbnail }}" style="width:300px;" />
+		        
 		{{ post.excerpt | strip_newlines | truncate: 75 }}
 		       <p> <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </p>
       </li>
