@@ -16,9 +16,10 @@ layout: default
  <ul>
     {% for post in site.posts limit:3 %}
 	 <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;width:280px; height: 180px; margin:12px; float:left;" />
-    {% assign author = site.data.authors[post.author] %}
+    
 	
       <li>
+	     {% assign author = site.data.authors[post.author] %}
     <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
           <small>
