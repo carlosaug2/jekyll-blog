@@ -9,9 +9,11 @@ layout: default
     {% for post in site.posts limit:3 %}
     <li>
 	     
-	    
-    <h4><a href="{{ post.url }}">{{ post.title }}{% assign author = site.data.authors[post.author] %}</a></h4>
+<span>	    
+    <h4><a href="{{ post.url }}">{{ post.title }}
+	    {% assign author = site.data.authors[post.author] %}</a></h4>
         <time datetime="{{ post.date }}">
+		</span>
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
 		  
