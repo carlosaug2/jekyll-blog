@@ -5,25 +5,7 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 
-<ul>
-    {% for post in site.posts limit:3 %}
-    <li>
-	     
-   <div>
-    <h4><a href="{{ post.url }}">{{ post.title }} 
-	    {% assign author = site.data.authors[post.author] %}</a></h4>
-       <time datetime="{{ post.date }}">
-	       
-	       
-          <small>
-            <strong>{{ post.date | date_to_string }}</strong>
-		
-		 {% if author %}
-		  </div>
-   by {{ author.name }}
-		    
-  {% endif %}  
-		  
+  
 		  
 		  
           
@@ -36,13 +18,32 @@ layout: default
   {{ content }}
 
   <section>
+	  <ul>
+    {% for post in site.posts limit:3 %}
+    <li>
+	     
+   <div>
+    <h4><a href="{{ post.url }}">{{ post.title }} 
+	    {% assign author = site.data.authors[post.author] %}</a></h4>
+       <time datetime="{{ post.date }}">
+	         <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">Ultimos Posts</h4>
+	       
+          <small>
+            <strong>{{ post.date | date_to_string }}</strong>
+		 <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;width:280px; height: 180px; margin:12px; float:left;" />
+		 {% if author %}
+		  </div>
+   by {{ author.name }}
+		    
+  {% endif %}  
+		
 
-	  <h4 style="box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;background: yellow;display: inline;padding: 6px 4px !important;position: relative;position:relative;top:-15px;">Ultimos Posts</h4>
+	
  
 
 	  
  
-	 <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;width:280px; height: 180px; margin:12px; float:left;" />
+	
     
 	
   
