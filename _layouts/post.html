@@ -3,10 +3,6 @@ layout: default
 ---
 {% assign author = site.data.authors[page.author] %}
 
-{% if page.related_image %}
-<img src="{{ page.related_image }}" alt="" >
-{% endif %}
-
 <h2>{{ page.title }}</h2>
 <time datetime="{{ page.date }}">
   <small>
@@ -17,6 +13,10 @@ layout: default
   </small>
 </time>
 <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}"style="width: 600px; height: 180px;" />
+  
+{% if page.related_image %}
+<img src="{{ page.related_image }}" alt="" >
+{% endif %} 
 
 {% include page-intro.html %}
 
