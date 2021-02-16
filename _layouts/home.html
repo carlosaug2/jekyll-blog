@@ -40,11 +40,11 @@ layout: default
         </time>
 		     
 	 </div>     
-	<div><a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:200px; height: 200px; margin:5px; float:left;" />
-<p>{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p></div>
+	
 		
       </li>
-			
+		<div><a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:200px; height: 200px; margin:5px; float:left;" />
+<p>{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p></div>	
     {% endfor %}
 			  
   </ul>
