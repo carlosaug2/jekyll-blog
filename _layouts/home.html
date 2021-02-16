@@ -24,9 +24,9 @@ layout: default
 			
 			   
     {% assign author = site.data.authors[post.author] %}
-			     <div>  
+			     
       <li>
-	   
+	   <div>  
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
           <small>
@@ -38,9 +38,10 @@ layout: default
           </small>
         </time>
         
-		<p style="">{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p
+		{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> 
+		    </div>
       </li>
-			 </div>
+			
     {% endfor %}
 			  
   </ul>
