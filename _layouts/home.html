@@ -23,13 +23,14 @@ layout: default
     {% for post in site.posts %}
     {% assign author = site.data.authors[post.author] %}
       <li>
+	   
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
             {% if author %}
               by {{ author.name }}
-		   <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;width:280px; height: 180px; margin:12px; float:left;" />
+		<!--   <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style=" max-width:100%;width:280px; height: 180px; margin:12px; float:left;" /> -->
             {% endif %}
           </small>
         </time>
