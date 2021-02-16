@@ -24,9 +24,10 @@ layout: default
         <time datetime="{{ post.date }}">
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
+		     <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:200px; height: 200px; margin:5px; float:left;" />
             {% if author %}
               by {{ author.name }}
-	   <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:200px; height: 200px; margin:5px; float:left;" />
+	
             {% endif %}
 		
           </small>
