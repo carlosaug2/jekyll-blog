@@ -32,9 +32,9 @@ layout: default
           </small>
         </time>
 	 </div>     
-	    <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:280px; height: 180px; margin:5px; float:left;" />
+	 <div>   <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:280px; height: 180px; margin:5px; float:left;" />
 	<p>{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p>
-		
+		 </div>	
       </li>
 			
     {% endfor %}
