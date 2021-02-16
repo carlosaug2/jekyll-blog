@@ -22,7 +22,7 @@ layout: default
       <a href="{{ post.url }}">{{ post.title }}</a>
 	      
 	    
-		     
+		<div>     
         <time datetime="{{ post.date }}">
 		
           <small>
@@ -39,12 +39,12 @@ layout: default
 			
         </time>
 		     
-	
-	
+	      </div>
+	<p>{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p></div>	
 		
       </li>
-		<div><a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:200px; height: 200px; margin:5px; float:left;" />
-<p>{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p></div>	
+		<!--<div><a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:200px; height: 200px; margin:5px; float:left;" />-->
+
     {% endfor %}
 			  
   </ul>
