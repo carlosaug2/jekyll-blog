@@ -3,8 +3,8 @@ layout: post
 title: Universal TV agora e Plus !
 author: pixelbr
 date: 2021-02-15 
-
-related_image: assets/img/uploads/medalofhonor.jpg
+thumbnail: /assets/img/uploads/universal_plus.png
+related_image: /assets/img/uploads/medalofhonor.jpg
 categories: misc
 ---
 
