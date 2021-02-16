@@ -42,8 +42,8 @@ layout: default
 		     
 	      </div>
 	     
-	<p> <img src="{{ post.thumbnail }}" />{{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a> </p></div>	
-			
+	<p> {{ post.excerpt | strip_newlines | truncate: 90 }} <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.thumbnail }}" />Leia mais</a> </p></div>	
+		
       </li>
 
 
