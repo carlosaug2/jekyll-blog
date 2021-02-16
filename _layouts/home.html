@@ -18,7 +18,7 @@ layout: default
  <ul>
     {% for post in site.posts limit:3 %} 
     {% assign author = site.data.authors[post.author] %}
-	  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:50%;height:200px;" />
+	  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:50%;height:200px;float:right;" />
       <li>     
 	     
 	   
@@ -32,8 +32,8 @@ layout: default
         
 	     </time> 
 		        
-		 <p> {{ post.excerpt | strip_newlines | truncate:100 }}
-		       <a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+		  {{ post.excerpt | strip_newlines | truncate:75 }}
+		   <p>    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
       </li>
     {% endfor %}
   </ul>
