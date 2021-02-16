@@ -23,8 +23,8 @@ layout: default
 	     
 	   
 	   
-	      <div style="padding:10px;">
-<p> <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+	      <div style="padding:10px;border-top: 3px solid #bbb;">
+<p><a href="{{ post.url }}">{{ post.title }}</a>
       <time datetime="{{ post.date }}">	
                {{ post.date | date_to_string }} 
       <!--   {% if author %}
