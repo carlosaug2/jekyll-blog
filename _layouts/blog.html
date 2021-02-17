@@ -6,7 +6,7 @@ layout: default
 
 {% include page-intro.html %}
  
-   
+    
         
 {{ content }}
 
@@ -28,7 +28,7 @@ layout: default
             {% endif %}
           </small>
         </time>
-          
+          <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
         {{ post.excerpt | strip_newlines | truncate: 180 }}
       </li>
     {% endfor %}
