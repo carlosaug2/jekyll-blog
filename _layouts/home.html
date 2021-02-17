@@ -15,12 +15,15 @@ layout: default
     <ul>
       {% for post in site.posts limit:3 %}
         <li>
-          <div>
-           <img src="{{ post.thumbnail }}" style="width: 200px; height: 100px; width: 300px;     text-align:center;    display: table;" /> 
-            <p style=" width: 33.3%;     display: table-cell;     border:1px solid #000;     vertical-align:bottom;     height:75px; "> <a href="{{ post.url }}">{{ post.title }}</a> </p>
+          <div  style="width: 500px;     text-align:center;    display: table;"> 
+          <div> <img src="{{ post.thumbnail }}" style="width: 200px; height: 100px; width: 300px;     text-align:center;    display: table;" /> </div>
+            <div style=" width: 33.3%;     display: table-cell;       border:1px solid #000;     vertical-align:middle; "> <a href="{{ post.url }}">{{ post.title }}</a> </div>
              </div>
         </li>
       {% endfor %}
     </ul>
 
+    1
+<style type="text/css">.principal{     width: 500px;     text-align:center;    display: table;}.coluna-1{      width: 33.3%;     display: table-cell;     border:1px solid #000;     vertical-align:bottom;    }.coluna-2{      width: 33.3%;     display: table-cell;       border:1px solid #000;     vertical-align:middle;    }.coluna-3{      width: 33.3%;     display: table-cell;       border:1px solid #000;   }</style><div class="principal">     <div class="coluna-1">texto-1</div>     <div class="coluna-2">texto-2</div>     <div class="coluna-3">Aqui eu vou usar um texto que ocupa varias linhas dos nossos blocos, deixando ele mais alto, mas não importa o quanto texto eu tenha os blocos ao lado vão respeitar o alinhamento estipulado, como se fosse uma tabela  </div></div
+    
   </section>
