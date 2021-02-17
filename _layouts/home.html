@@ -16,10 +16,16 @@ layout: default
              <li>      
            <div  style="width: 500px;     text-align:center;    display: table;"> 
               <div> <img src="{{ post.thumbnail }}" style="width:33.3%;  width:100px; height:100px;display:table-cell;vertical-align:middle;" /></div>  
-                <div style="width:43.3%; display:table-cell;"> <a href="{{ post.url }}">{{ post.title }}</a> </div>
+                <div style="width:53.3%; display:table-cell;"> <a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date }}"> {{ post.date | date_to_string }}
+          
+        </time> </div>
              <div>
              <!-- <div style="width: 33.3%;display: table-cell; "> {{ post.excerpt | strip_newlines | truncate: 75 }}<a href="{{ post.url }}">read more</a></div>  -->
-             
+            
+     
+        {{ post.date | date_to_string }}
+          
+        </time>
    <!--          <style type="text/css">.principal{     width: 500px;     text-align:center;    display: table;}
                .coluna-1{      width: 33.3%;     display: table-cell;     border:1px solid #000;     vertical-align:bottom;    }
                .coluna-2{      width: 33.3%;     display: table-cell;       border:1px solid #000;     vertical-align:middle;    }
