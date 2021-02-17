@@ -15,8 +15,8 @@ layout: default
                  {% for post in site.posts limit:3 %} 
              <li>      
            <div  style="width: 500px;     text-align:center;    display: table;"> 
-              <div> <img src="{{ post.thumbnail }}" style="  width: 33.3%;  width:300px; height:200px;    display: table-cell;     border:1px solid #000;     vertical-align:middle;  " /></div>  
-                <div style="  width: 33.3%;     display: table-cell;  "> <a href="{{ post.url }}">{{ post.title }}</a> </div>
+              <div> <img src="{{ post.thumbnail }}" style="  width: 33.3%;  width:100px; height:100px;    display: table-cell;     border:1px solid #000;     vertical-align:middle;  " /></div>  
+                <div style="  width: 33.3%;     display: table-cell;vertical-align:middle;  "> <a href="{{ post.url }}">{{ post.title }}</a> </div>
              <div>
              <!-- <div style="width: 33.3%;display: table-cell; "> {{ post.excerpt | strip_newlines | truncate: 75 }}<a href="{{ post.url }}">read more</a></div>  -->
              
