@@ -16,8 +16,8 @@ layout: default
              <li>      
            <div  style="width: 500px;     text-align:center;    display: table;"> 
               <div> <img src="{{ post.thumbnail }}" style="width: 400px; height: 300px;  text-align:center;    display: table;" /></div>  
-                <div style=" width: 33.3%;     display: table-cell;       border:none;     vertical-align:middle; "> <a href="{{ post.url }}">{{ post.title }}</a> <div>
-               <div style="width: 33.3%;     display: table-cell; "> <time datetime="{{ post.date }}"><strong>{{ post.date | date_to_string }}</strong></time></div> 
+                <div style=" width: 33.3%;     display: table-cell;  vertical-align:middle; "> <a href="{{ post.url }}">{{ post.title }}</a> 
+               <time datetime="{{ post.date }}"><strong>{{ post.date | date_to_string }}</strong></time></div> 
              <div style="width: 33.3%;      display: table-cell; "> {{ post.excerpt | strip_newlines | truncate: 75 }}<a href="{{ post.url }}">read more</a></div>    
           </div>
         </li>
