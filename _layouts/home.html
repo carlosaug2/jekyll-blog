@@ -11,11 +11,12 @@ layout: default
   <section>
 
     <h3>Recent posts from the blog</h3>
-
-    <ul>
-      {% for post in site.posts limit:3 %}
-        <li>
-           <h4 style="float:right;"><a href="{{ post.url }}">{{ post.title }}</a> 
+  
+          <div  style="width: 500px;     text-align:center;    display: table;"> 
+              <ul>
+                {% for post in site.posts limit:3 %}
+             <li>
+                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
           
                <time datetime="{{ post.date }}"> 
           <small>
@@ -25,8 +26,6 @@ layout: default
             {% endif %}
           </small>
         </time>
-             </h4>
-          <div  style="width: 500px;     text-align:center;    display: table;"> 
           <div> <img src="{{ post.thumbnail }}" style="width: 400px; height: 300px;  text-align:center;    display: table;" /> </div>
             <div style=" width: 33.3%;     display: table-cell;       border:none;     vertical-align:middle; "> <a href="{{ post.url }}">{{ post.title }}</a> </div>
              </div>
