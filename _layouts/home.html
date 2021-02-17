@@ -16,9 +16,10 @@ layout: default
       {% for post in site.posts limit:3 %}
         <li>
            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4> 
-        <time datetime="{{ post.date }}">
+          <div>
+            <div>    <time datetime="{{ post.date }}"> </div>
           <small>
-            <strong>{{ post.date | date_to_string }}</strong>
+            <div>   <strong>{{ post.date | date_to_string }}</strong> </div>
             {% if author %}
               by {{ author.name }}
             {% endif %}
@@ -28,6 +29,7 @@ layout: default
           <div> <img src="{{ post.thumbnail }}" style="width: 400px; height: 300px;  text-align:center;    display: table;" /> </div>
             <div style=" width: 33.3%;     display: table-cell;       border:none;     vertical-align:middle; "> <a href="{{ post.url }}">{{ post.title }}</a> </div>
              </div>
+          </div>
         </li>
       {% endfor %}
     </ul>
