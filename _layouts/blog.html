@@ -6,14 +6,14 @@ layout: default
 
 {% include page-intro.html %}
  
-        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+   
         
 {{ content }}
 
 <section>
 
   <h3>Posts</h3>
-
+     <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
   <ul>
     {% for post in site.posts limit:3 %}
     {% assign author = site.data.authors[post.author] %}  
