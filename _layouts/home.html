@@ -35,7 +35,7 @@ layout: default
 		      </time> 
 	  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:50%;height:200px;margin:15px;float:left;" /> 
           {{ post.excerpt | strip_newlines | truncate:75 }} </p>
-	      <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </div>
+	      <p>  <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </div> </p>
       </li>
     {% endfor %}
   </ul>
