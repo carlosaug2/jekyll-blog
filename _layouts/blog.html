@@ -5,7 +5,9 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 {% include page-intro.html %}
-<img src="{{ post.thumbnail }}" />
+ 
+        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+        
 {{ content }}
 
 <section>
