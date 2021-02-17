@@ -16,8 +16,8 @@ layout: default
       {% for post in site.posts limit:3 %}
         <li>
           <div  style="width: 500px;     text-align:center;    display: table;"> 
-          <div> <img src="{{ post.thumbnail }}" style="width: 200px; height: 100px; width: 300px;     text-align:center;    display: table;" /> </div>
-            <div style=" width: 33.3%;     display: table-cell;       border:1px solid #000;     vertical-align:middle; "> <a href="{{ post.url }}">{{ post.title }}</a> </div>
+          <div> <img src="{{ post.thumbnail }}" style="width: 100px; height: 100px;  text-align:center;    display: table;" /> </div>
+            <div style=" width: 33.3%;     display: table-cell;       border:none;     vertical-align:middle; "> <a href="{{ post.url }}">{{ post.title }}</a> </div>
              </div>
         </li>
       {% endfor %}
