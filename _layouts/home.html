@@ -24,8 +24,8 @@ layout: default
 	   
 	   
 	      <div style="padding:10px;">
-  <a href="{{ post.url }}">{{ post.title }}</a><br>
-    <p>  <time datetime="{{ post.date }}">	
+ <p> <a href="{{ post.url }}">{{ post.title }}</a><br>
+      <time datetime="{{ post.date }}">	
 	     {{ post.date | date_to_string }} 
       <!--   {% if author %}
               by {{ author.name }}  -->
