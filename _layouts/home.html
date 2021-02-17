@@ -25,7 +25,7 @@ layout: default
 	   
 	      <div style="padding:10px;">
   <a href="{{ post.url }}">{{ post.title }}</a><br>
-      <time datetime="{{ post.date }}">	
+    <p>  <time datetime="{{ post.date }}">	
 	     {{ post.date | date_to_string }} 
       <!--   {% if author %}
               by {{ author.name }}  -->
@@ -34,7 +34,7 @@ layout: default
         
 		      </time> 
 	  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" style="width:50%;height:200px;margin:15px;float:left;" /> 
-              <p style="vertical-align:buttom;">{{ post.excerpt | strip_newlines | truncate:75 }} </p>
+          {{ post.excerpt | strip_newlines | truncate:75 }} </p>
 	      <a href="{{ site.baseurl }}{{ post.url }}">Read more</a> </div>
       </li>
     {% endfor %}
