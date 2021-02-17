@@ -16,16 +16,10 @@ layout: default
               <ul>
                 {% for post in site.posts limit:3 %}
              <li>
-                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+               
+               <a href="{{ post.url }}">{{ post.title }}</a>
+                 <strong>{{ post.date | date_to_string }}</strong> 
           
-               <time datetime="{{ post.date }}"> 
-          <small>
-              <strong>{{ post.date | date_to_string }}</strong> 
-            {% if author %}
-              by {{ author.name }}
-            {% endif %}
-          </small>
-        </time>
           <div> <img src="{{ post.thumbnail }}" style="width: 400px; height: 300px;  text-align:center;    display: table;" /> </div>
             <div style=" width: 33.3%;     display: table-cell;       border:none;     vertical-align:middle; "> <a href="{{ post.url }}">{{ post.title }}</a> </div>
              </div>
