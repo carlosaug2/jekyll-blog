@@ -14,8 +14,8 @@ layout: default
               <ul>
                  {% for post in site.posts limit:3 %} 
              <li>      
-           <div  style="width:500px;text-align:center; display: table;"> 
-              <div> <img src="{{ post.thumbnail }}" style="width:400px; height:200px;display:block;margin:5px;vertical-align:middle;  " /></div>  
+           <div  style=" width:50%;margin:0 auto;"> 
+              <div> <img src="{{ post.thumbnail }}" style=" display:inline-block;width:24%;  " /></div>  
                 <div style="width:63.3%; display:block;vertical-align:middle; "> <a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date }}"><br>
                     <strong>{{ post.date | date_to_string }}</strong></time> {{ post.excerpt | strip_newlines | truncate: 60 }}<a href="{{ post.url }}">read more</a> 
                    </div>
