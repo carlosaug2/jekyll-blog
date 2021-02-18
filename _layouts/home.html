@@ -14,10 +14,8 @@ layout: default
               <ul>
                  {% for post in site.posts limit:3 %} 
              <li>
-               <div style=" display: flex;flex-wrap: wrap;padding: 0 4px;">
-                 <div style=" flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;">
+               <div style="display: flex;text-align: center;flex-wrap: wrap;">
+               
         <div>  <img src="{{ post.thumbnail }}" style=" margin-top: 8px;
   vertical-align: middle;"/> </div>
                  <div>  <a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date }}"> </div>
