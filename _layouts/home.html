@@ -16,7 +16,7 @@ layout: default
              <li>      
            <div  style="width: 500px;     text-align:center;    display: table;"> 
               <div> <img src="{{ post.thumbnail }}" style="width:13.3%;width:400px; height:200px;display:table-cell;vertical-align:middle;" /></div>  
-                <div style="width:63.3%; display:table-cell;vertical-align:middle;"> <a href="{{ post.url }}">{{ post.title }}</a><br> <time datetime="{{ post.date }}"> <br>
+                <div style="width:63.3%; display:table-cell;vertical-align:middle;"> <a href="{{ post.url }}">{{ post.title }}</a><br><time> {{ post.date | date_to_string }} <br>
                  <!-- {{ post.date | date_to_string }} -->
           
         </time> </div>
