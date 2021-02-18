@@ -15,9 +15,9 @@ layout: default
                  {% for post in site.posts limit:3 %} 
              <li>      
            <div  style="text-align: center; "> 
-             <div  style="display: block;
-        width: 20%; // Mudamos 33.333% para 20% 
-        height: 150px; ">
+             <div  style="   width: 25%;
+        height: 150px;
+        display: inline-block; ">
               <div> <img src="{{ post.thumbnail }}" style="margin-left: auto;  " /></div>  
                 <div style="margin-left: 40px;  "> <a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date }}"><br>
                     <strong>{{ post.date | date_to_string }}</strong></time> {{ post.excerpt | strip_newlines | truncate: 60 }}<a href="{{ post.url }}">read more</a> 
