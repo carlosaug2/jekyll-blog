@@ -14,12 +14,10 @@ layout: default
               <ul>
                  {% for post in site.posts limit:3 %} 
              <li>
-               <div style="align-items:center; display:inline-flex; padding:24px;">
-          <img src="{{ post.thumbnail }}" style=" width : 20%;
-                height: 20%;
-                vertical-align: middle;"/> 
-      <a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date }}"> 
-               
+               <div style="display: flex;flex-direction: column;">
+        <div>  <img src="{{ post.thumbnail }}" style="height: 90px;float: right; width: 20%;"/> </div>
+                 <div>  <a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date }}"> </div>
+                 </div>
             </li> 
       {% endfor %}
     </ul>
