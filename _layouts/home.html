@@ -45,30 +45,16 @@ layout: default
 }
 </style>
     
-    <h1>Responisve Flexbox</h1>
 
-<p>The "flex-direction: row;" stacks the flex items horizontally (from left to right).</p>
-<p>The "flex-direction: column;" stacks the flex items vertically (from top to bottom).</p>
-<p><b>Resize the browser window to see that the direction changes when the 
-screen size is 800px wide or smaller.</b></p>
-
-<div class="flex-container">
-  <div class="flex-item-left">1</div>
-  <div class="flex-item-right">2</div>
-</div>
-
-    
-    
               <ul>
                  {% for post in site.posts limit:3 %} 
              <li>
-               <div style="display: flex;text-align: center;flex-wrap: wrap;">
+                <div class="flex-container">
                
-        <div>  <img src="{{ post.thumbnail }}" style=" width:33.3%;
-  vertical-align: middle;"/> </div>
-                 <div>  <a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date }}"> </div>
+      <div class="flex-item-left">    <img src="{{ post.thumbnail }}"/> </div>
+                <div class="flex-item-right"> <a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date }}"></time> </div>
                  </div>
-                 </div>
+                
             </li> 
       {% endfor %}
     </ul>
