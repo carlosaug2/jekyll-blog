@@ -23,8 +23,7 @@ layout: default
   flex-direction: row;
   font-size: 10px;
   text-align: center;
-  width: 200px;
-  height: auto;
+
 }
 
 .flex-item-left {
@@ -54,7 +53,9 @@ layout: default
                 <div class="flex-container">
                
       <div class="flex-item-left">    <img src="{{ post.thumbnail }}" /> </div>
-                <div class="flex-item-right"> <a href="{{ post.url }}">{{ post.title }}</a></div>
+                  <div class="flex-item-right"> <a href="{{ post.url }}">{{ post.title }}</a>
+                    {{ post.excerpt | strip_newlines | truncate: 75 }}  
+                  <a href="{{ site.baseurl }}{{ post.url }}">Read more</a></div>
                  </div>
                 
             </li> 
