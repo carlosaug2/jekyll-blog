@@ -10,9 +10,24 @@ layout: default
 
   <section>
     
-
-    <h3 style="border:1px solid #8A658D;background:#8A658D;border-radius:10px;width:80%;color:white;font-size:20px;display: table;"><p style="display: table-cell;
-  vertical-align: middle;">Ultimos posts:</p></h3>
+    .pai {
+  display: table;
+  background: #dfdfdf; /* Não necessário */
+    border:1px solid #8A658D;
+    border-radius:10px;
+}
+.filho {
+  display: table-cell;
+  vertical-align: middle;
+  height: 500px; /* Não necessário */
+  width: 50%; /* Não necessário */
+  text-align: center; /* Não necessário */
+    color:white;font-size:20px;
+}
+    
+<div class="pai">
+  <div class="filho">
+    <h3>Ultimos posts:</p></h3></div></div>
     
     <style>
 * {
