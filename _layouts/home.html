@@ -83,9 +83,9 @@ layout: default
                 <div class="flex-container">
                
       <div class="flex-item-left">    <img src="{{ post.thumbnail }}"  /> </div>
-                  <div class="flex-item-right"><p> <a href="{{ post.url }}">{{ post.title }}</a>
+                  <div class="flex-item-right"> <a href="{{ post.url }}">{{ post.title }}</a>
                     {{ post.excerpt | strip_newlines | truncate: 85 }}  
-                    <a href="{{ site.baseurl }}{{ post.url }}"></p>Read more</a></div>
+                    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a></div>
                  </div>
                 
             </li> 
