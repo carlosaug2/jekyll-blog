@@ -48,7 +48,7 @@ layout: default
   font-family: 'Asap', sans-serif;
   text-align: none;
   align-items: center; 
-  width: 700px;
+  width: 600px;
   
 
 
@@ -58,7 +58,7 @@ layout: default
   background-color:none;
   padding: 20px;
   flex: 50%; 
-  width: 80%;
+ 
   
  
 }
@@ -66,7 +66,7 @@ layout: default
 .flex-item-right {
   background-color: none;
   padding: 20px;
-  flex: 50%;
+  flex: 100%;
  
  
   
@@ -89,7 +89,7 @@ layout: default
                
       <div class="flex-item-left">    <img src="{{ post.thumbnail }}"  /> </div>
                   <div class="flex-item-right"> <a href="{{ post.url }}">{{ post.title }}</a>
-                    {{ post.excerpt | strip_newlines | truncate: 100 }}  
+                    {{ post.excerpt | strip_newlines | truncate: 90 }}  
                     <a href="{{ site.baseurl }}{{ post.url }}">Read more</a></div>
                  </div>
                 
