@@ -3,7 +3,8 @@ layout: post
 title: Godzilla vs Kong - duelo de titãs!
 author: pixelbr
 date: 2021-02-13 13:39:22
-thumbnail: /assets/img/uploads/cinema4.jpg
+thumbnail: /assets/img/uploads/cinemamovie.jpg
+replace_image: /assets/img/uploads/cinemamovie.jpg
 categories: misc
 ---
 
