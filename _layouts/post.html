@@ -1,4 +1,3 @@
-
 ---
 layout: default
 ---
@@ -13,6 +12,7 @@ layout: default
     {% if author %}
       Postado por {{ author.name }}
     {% endif %}
+     <strong>{{ page.date | date_to_string }}</strong>
   </small>
 </time>
 
