@@ -21,8 +21,8 @@ email: pixeladascanal@gmail.com
   line in _config.yml.
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://pixeladasx.com" # the base hostname & protocol for your site, e.g. https://example.com
-
-
+commentbox:
+id: 5724755676102656-proj
  
 
 
@@ -57,8 +57,7 @@ defaults:
     values:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
-      image:
-         background: god_kong.jpg
+     
    
    
 
