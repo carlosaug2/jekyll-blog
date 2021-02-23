@@ -11,7 +11,7 @@ layout: default
 
 <time datetime="{{ page.date }}">
   <small>
-    <strong> on {{ page.date | date_to_string }}</strong>
+    <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
      Posted by {{ author.name }}
    
