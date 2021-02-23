@@ -21,8 +21,9 @@ email: pixeladascanal@gmail.com
   line in _config.yml.
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://pixeladasx.com" # the base hostname & protocol for your site, e.g. https://example.com
+
 commentbox:
-id: 5724755676102656-proj
+  id: 5724755676102656-proj
  
 
 
