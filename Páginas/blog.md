@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Arquivos gerais
+title: Resumo dos posts
 permalink: /blog
 section: blog
 intro_paragraph: >
