@@ -1,6 +1,8 @@
+
 ---
 layout: default
 ---
+
 
 
 {% assign author = site.data.authors[page.author] %}
@@ -8,15 +10,14 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 <time datetime="{{ page.date }}">
-    <!--   {% include read_time.html %} -->
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
-  Postado por{{ author.name }}
+      by {{ author.name }}
     {% endif %}
   </small>
 </time>
-<!-- {% thumbnail assets/img/uploads/cinema4.jpg 50x50 %} -->
+
 {% include page-intro.html %}
 
 {{ content }}
@@ -34,7 +35,8 @@ layout: default
       </li>
     {% endif %}
   </ul>
-  <p style="text-decoration:none;text-align:center;font-size:.6em;"><img src='/assets/img/uploads/img_alert.png' style="width:5%;height:auto;margin:0 auto;"><a href="https://pixeladasx.com/contact/">Relatar erros da página</a></p>
 </nav>
+
+
 
 
