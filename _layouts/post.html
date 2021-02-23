@@ -4,7 +4,7 @@ layout: default
 
 {% assign author = site.data.authors[page.author] %}
 
-<span>
+<div>
 <h2>{{ page.title }}</h2>
 
 <time datetime="{{ page.date }}">
@@ -16,7 +16,7 @@ layout: default
     <strong>em {{ page.date | date_to_string }}</strong>
   </small>
 </time>
-</span>
+</div>
 
 {% include page-intro.html %}
 
