@@ -3,15 +3,13 @@
 layout: default
 ---
 
-
-
 {% assign author = site.data.authors[page.author] %}
 
 <h2>{{ page.title }}</h2>
 
 <time datetime="{{ page.date }}">
   <small>
-    <strong>em{{ page.date | date_to_string }}</strong>
+    <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       Postado por {{ author.name }}
     {% endif %}
