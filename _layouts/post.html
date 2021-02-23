@@ -9,18 +9,12 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 
-<p class="meta">
-    <span>Posted by {{ page.author }} on {{ page.date }}.</span>
-    {% include read-time.html content=content %}
-</p>
-
-
-
 <time datetime="{{ page.date }}">
   <small>
-    <strong>{{ page.date | date_to_string }}</strong>
+    <strong> on {{ page.date | date_to_string }}</strong>
     {% if author %}
-      by {{ author.name }}
+     Posted by {{ author.name }}
+      {% include read_time.html %}
     {% endif %}
   </small>
 </time>
