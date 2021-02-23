@@ -8,12 +8,12 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-
+<!--
 <p class="meta">
     <span>Posted by {{ page.author }} on {{ page.date }}.</span>
     {% include read-time.html content=content %}
 </p>
-
+-->
 
 
 <time datetime="{{ page.date }}">
@@ -24,6 +24,7 @@ layout: default
     {% endif %}
   </small>
 </time>
+
 {% thumbnail assets/img/uploads/cinema4.jpg 50x50 %}
 
 {% include page-intro.html %}
