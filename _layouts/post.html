@@ -2,19 +2,21 @@
 layout: default
 ---
 {% assign author = site.data.authors[page.author] %}
+<div>
  <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+	 </div>
 
 <h2>{{ page.title }}</h2>
 
 <time datetime="{{ page.date }}">
-		{% assign words = content | number_of_words %}
+		
+  <small>
+    <strong>{{ page.date | date_to_string }} {% assign words = content | number_of_words %}
 			{% if words < 360 %}
 				1 min
 			{% else %}
 				{{ words | divided_by: 180 }} mins
-			{% endif %} read
-  <small>
-    <strong>{{ page.date | date_to_string }}</strong>
+			{% endif %} read</strong>
     {% if author %}
       by {{ author.name }}
     {% endif %}
