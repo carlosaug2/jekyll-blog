@@ -11,9 +11,9 @@ layout: default
 
 <time datetime="{{ page.date }}">
   <small>
-    <strong>{{ page.date | date_to_string }}</strong>
+    <strong>em{{ page.date | date_to_string }}</strong>
     {% if author %}
-      by {{ author.name }}
+      Postado por {{ author.name }}
     {% endif %}
   </small>
 </time>
