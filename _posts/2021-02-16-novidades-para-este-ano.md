@@ -3,7 +3,7 @@ layout: post
 title: Novidades no Pixeladas
 author: pixelbr
 date: '2021-02-16'
-thumbnail: /assets/img/uploads/megafon2.jpg
+thumbnail: /assets/img/uploads/megafone2.jpg
 related_image: /assets/img/uploads/news1.png
 intro_paragraph: 'DROPS DE NOTÍCIAS'
 image: 
