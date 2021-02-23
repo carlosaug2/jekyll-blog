@@ -16,9 +16,11 @@ layout: default
   </small>
 </time>
 
-    <div>
-        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" /> 
-    </div>
+
+       {% if page.related_image %}
+  <img src="{{ page.related_image }}" alt="">
+{% endif %}
+
 
 
 {% include page-intro.html %}
