@@ -8,12 +8,7 @@ layout: default
 <time datetime="{{ page.date }}">
 		
   <small>
-    <strong>{{ page.date | date_to_string }}
-	   {% assign words = content | number_of_words %}
-			{% if words < 360 %} 1 min
-			{% else %}
-	                {{ words | divided_by: 180 }} mins
-	 {% endif %} read
+    <strong>{{ page.date | date_to_string }}{% assign words = content | number_of_words %}{% if words < 360 %} 1 min{% else %}{{ words | divided_by: 180 }} mins read
 	  
 	  </strong>
 	  
