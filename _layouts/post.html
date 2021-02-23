@@ -1,3 +1,4 @@
+
 ---
 layout: default
 ---
@@ -6,25 +7,13 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 <time datetime="{{ page.date }}">
-<!--{% assign words = content | number_of_words %}{% if words < 360 %} 1 min{% else %}{{ words | divided_by: 180 }} mins read	-->	
   <small>
     <strong>{{ page.date | date_to_string }}</strong>
-	  
     {% if author %}
       by {{ author.name }}
     {% endif %}
   </small>
 </time>
-	<!-- {% if page.related_image %}
-<img src="{{ page.related_image }}" alt="">
-{% endif %}
--->
-
-	<!--
-	 <div>
-        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
-        <a href="{{ post.url }}" >{{ post.title }}</a>
-    </div> -->
 
 {% include page-intro.html %}
 
@@ -43,8 +32,8 @@ layout: default
       </li>
     {% endif %}
   </ul>
-</nav>
-
 </div>
 <p style="text-decoration:none;text-align:center;font-size:.6em;"><img src='/assets/img/uploads/img_alert.png' style="width:5%;height:auto;margin:0 auto;"><a href="https://pixeladasx.com/contact/">Relatar erros da página</a></p>
 </div>
+</nav>
+
