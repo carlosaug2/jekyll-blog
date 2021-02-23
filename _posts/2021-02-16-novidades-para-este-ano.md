@@ -4,7 +4,6 @@ title: Novidades no Pixeladas
 author: pixelbr
 date: '2021-02-16'
 thumbnail: /assets/img/uploads/megafonenews.jpg
-<!-- related_image: /assets/img/uploads/news1.png -->
 intro_paragraph: ''
 categories: misc
 ---
