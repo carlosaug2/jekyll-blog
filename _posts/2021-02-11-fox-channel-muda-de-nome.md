@@ -11,7 +11,7 @@ Salve galera ! Após um período de recesso no final de 2020 estamos de volta as
 
 Estamos com muitas novidades quentes para 2021, principalmente no mundo da televisão a cabo, como a aquisição  dos canais *FOX PREMIUM* e *FOX CHANNEL*  por outra grande empresa multinacional nada mais e nada menos do que pela Disney Picture famosa pelos seus clássicos infantis , a partir do dia 22 de fevereiro você  ira notar  a mudança da logo *FOX* para *STAR CHANNEL* E  *STAR PREMIUM*  , levando esta grande rede de televisão a outro patamar do mundo do entretenimento, segundo a Disney teremos muitas novidades boas como seriados exclusivos, não revelando de quem será a produção , então se você e fã da emissora de TV  pode ficar tranquilo sua programação atual não será alterada.
 
-![Netlify CMS Screenshot](/assets/img/uploads/foxchannel_logo.png)
+![Netlify CMS Screenshot](/assets/img/uploads/foxchannel_canal.jpg)
 
  Ate o próximo post! =D
 
