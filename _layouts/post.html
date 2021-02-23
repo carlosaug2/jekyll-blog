@@ -14,9 +14,10 @@ layout: default
     <strong> on {{ page.date | date_to_string }}</strong>
     {% if author %}
      Posted by {{ author.name }}
-      {% include read_time.html %}
+   
     {% endif %}
   </small>
+     {% include read_time.html %}
 </time>
 
 <!-- {% thumbnail assets/img/uploads/cinema4.jpg 50x50 %} -->
