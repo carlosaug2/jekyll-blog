@@ -4,17 +4,19 @@ layout: default
 
 {% assign author = site.data.authors[page.author] %}
 
+
 <h2>{{ page.title }}</h2>
 
 <time datetime="{{ page.date }}">
   <small>
-    <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       Postado por {{ author.name }}
     {% endif %}
-     <strong>{{ page.date | date_to_string }}</strong>
+     <strong>em{{ page.date | date_to_string }}</strong>
   </small>
 </time>
+
+{% thumbnail assets/img/uploads/cinema2.jpg 50x50 %}
 
 {% include page-intro.html %}
 
