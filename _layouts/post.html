@@ -6,13 +6,10 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 <time datetime="{{ page.date }}">
-		
+{% assign words = content | number_of_words %}{% if words < 360 %} 1 min{% else %}{{ words | divided_by: 180 }} mins read		
   <small>
-    <strong>{{ page.date | date_to_string }}{% assign words = content | number_of_words %}{% if words < 360 %} 1 min{% else %}{{ words | divided_by: 180 }} mins read
+    <strong>{{ page.date | date_to_string }}</strong>
 	  
-	  </strong>
-	  
-	 
     {% if author %}
       by {{ author.name }}
     {% endif %}
