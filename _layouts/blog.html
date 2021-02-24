@@ -19,7 +19,7 @@ layout: default
     {% for post in site.posts %}
    
     {% assign author = site.data.authors[post.author] %}  
-  
+  <br>
    <!--   <li>  -->
           <div style="border: 1px solid lightgrey;padding:20px;">
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -39,7 +39,7 @@ layout: default
            <img src="{{ page.related_image }}" alt="">
            {% endif %}
         {{ post.excerpt | strip_newlines | truncate: 180 }}
-        </div>
+        </div><br>
   <!--    </li> -->
   
     {% endfor %}
