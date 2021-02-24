@@ -21,10 +21,10 @@ layout: default
     {% assign author = site.data.authors[post.author] %}  
   
       <li>  
-       
+          <div style="border: 1px solid lightgrey;padding:50px;">
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
-     <div style="border: 1px solid lightgrey;padding:50px;">
+
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
             {% if author %}
@@ -33,7 +33,8 @@ layout: default
           </small>
          </div>
         </time>
-
+   </div>
+   <div style="border: 1px solid lightgrey;padding:50px;">
            {% if page.related_image %}
            <img src="{{ page.related_image }}" alt="">
            {% endif %}
