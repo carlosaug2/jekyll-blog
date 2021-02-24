@@ -8,7 +8,6 @@ layout: default
 
   {{ content }}
 
-  
     <!--
  <style> 
    
@@ -52,8 +51,6 @@ layout: default
   align-items: center; 
   width: 600px;
   height: auto;
-  
-
 
 }
 
@@ -62,9 +59,6 @@ layout: default
   padding: 20px; /* controla distanciamento entre imagem e texto */
   flex: 40%; 
   width: 100%;
-  
- 
-  
  
 }
 
@@ -85,20 +79,19 @@ layout: default
   }
 }
 </style>
-    
-  
-
-              <ul>
-                 {% for post in site.posts limit:3 %} 
+   <ul>
+      {% for post in site.posts limit:3 %} 
              <li>
-                <div class="flex-container">
-               
-      <div class="flex-item-left">    <img src="{{ post.thumbnail }}"  /> </div>
-                  <div class="flex-item-right"> <a href="{{ post.url }}">{{ post.title }}</a>
-                    {{ post.excerpt | strip_newlines | truncate: 100 }}  
-                    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a></div>
-                 </div>
-                
+          <div class="flex-container">          
+        <div class="flex-item-left">   
+         <img src="{{ post.thumbnail }}"  /> 
+               </div>
+                 <div class="flex-item-right">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    {{ post.excerpt | strip_newlines | truncate: 110 }}  
+                    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+                  </div>
+                </div>   
             </li> 
       {% endfor %}
     </ul>
