@@ -13,9 +13,9 @@ layout: default
 <section>
 
  <!-- <h3>Posts</h3> -->
-  
+      <div style="border: 1px solid lightgrey;padding:50px;">
   <ul>
-    <div style="border: 1px solid lightgrey;padding:50px;">
+
     {% for post in site.posts %}
    
     {% assign author = site.data.authors[post.author] %}  
@@ -42,7 +42,7 @@ layout: default
       </li>
   
     {% endfor %}
-  </div>
-  </ul>
 
+  </ul>
+  </div>
 </section>
