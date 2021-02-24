@@ -14,13 +14,11 @@ layout: default
 
  <!-- <h3>Posts</h3> -->
     
-  <ul>
+  <ul style="border 1px solid lightgrey;">
     {% for post in site.posts %}
     {% assign author = site.data.authors[post.author] %}  
-      <li>
+      <li style="border 1px solid lightgrey;">
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-   
-       
         <time datetime="{{ post.date }}">
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
@@ -30,8 +28,8 @@ layout: default
           </small>
         </time>
            {% if page.related_image %}
-  <img src="{{ page.related_image }}" alt="">
-{% endif %}
+           <img src="{{ page.related_image }}" alt="">
+           {% endif %}
         {{ post.excerpt | strip_newlines | truncate: 180 }}
       </li>
     {% endfor %}
