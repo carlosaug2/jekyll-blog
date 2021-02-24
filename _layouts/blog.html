@@ -21,7 +21,7 @@ layout: default
     {% assign author = site.data.authors[post.author] %}  
   
       <li>  
-          <div style="border: 1px solid lightgrey;padding:80px;">
+          <div style="border: 1px solid lightgrey;padding:20px;">
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
 
@@ -34,7 +34,7 @@ layout: default
          </div>
         </time>
    </div>
-   <div style="border: 1px solid lightgrey;padding:50px;">
+   <div style="border: 1px solid lightgrey;padding:20px;">
            {% if page.related_image %}
            <img src="{{ page.related_image }}" alt="">
            {% endif %}
