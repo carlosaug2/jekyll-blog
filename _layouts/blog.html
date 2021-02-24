@@ -23,22 +23,22 @@ layout: default
    <!--   <li>  -->
           <div style="border: 1px solid lightgrey;padding:15px;">
       
-        <time datetime="{{ post.date }}">
+      
 
           <small>
             
           
-            {% endif %}
+           <!-- {% endif %}-->
           </small>
          </div>
        
    </div>
    <div style="border: 1px solid lightgrey;padding:10px;">
-      <time datetime="{{ post.date }}">
+   <!--   <time datetime="{{ post.date }}">
     <strong>{{ post.date | date_to_string }}</strong>
          {% if author %}
               by {{ author.name }}
-        </time>
+        </time> -->
       <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
            {% if page.related_image %}
            <img src="{{ page.related_image }}" alt="">
