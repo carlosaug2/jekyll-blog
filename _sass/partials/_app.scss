@@ -43,7 +43,6 @@ header > h1 {
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
-    font-size:1em;
     font-weight: bold;
     border:none;
     color: white;
@@ -56,7 +55,7 @@ header > h1 {
     color: yellow;
     @media screen and (min-width: $screen-sm-min) {
       padding: 1rem;
-    
+      font-size:1em;
       
      
     }
