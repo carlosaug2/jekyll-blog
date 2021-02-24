@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<!--<h2>{{ page.title }}</h2>-->
 
 {% include page-intro.html %}
  
@@ -38,8 +38,9 @@ layout: default
         {{ post.excerpt | strip_newlines | truncate: 180 }}
         
       </li>
-   </div>
+  
     {% endfor %}
+  </div>
   </ul>
 
 </section>
