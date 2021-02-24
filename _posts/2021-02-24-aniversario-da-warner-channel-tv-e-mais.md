@@ -4,7 +4,7 @@ title: Aniversario da Warner Channel TV e mais
 author: pixelbr
 date: 2021-02-24 12:34:52
 thumbnail: /assets/img/uploads/aniversario.jpg 
-related_image: /assets/img/uploads/aniversario.jpg
+<!-- related_image: /assets/img/uploads/aniversario.jpg -->
 categories: misc
 ---
 
