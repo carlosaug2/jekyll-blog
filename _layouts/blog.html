@@ -20,7 +20,7 @@ layout: default
    
     {% assign author = site.data.authors[post.author] %}  
   
-      <li>  
+   <!--   <li>  -->
           <div style="border: 1px solid lightgrey;padding:20px;">
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
@@ -40,7 +40,7 @@ layout: default
            {% endif %}
         {{ post.excerpt | strip_newlines | truncate: 180 }}
         </div>
-      </li>
+  <!--    </li> -->
   
     {% endfor %}
 
