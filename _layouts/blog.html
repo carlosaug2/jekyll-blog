@@ -20,14 +20,14 @@ layout: default
       <li>
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
-         <div style="border 1px solid lightgrey;">ddddd</div>
+         <div style="border: 1px solid lightgrey;">
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
             {% if author %}
               by {{ author.name }}
             {% endif %}
           </small>
-         
+         </div>
         </time>
            {% if page.related_image %}
            <img src="{{ page.related_image }}" alt="">
