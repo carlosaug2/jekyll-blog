@@ -15,8 +15,9 @@ layout: default
  <!-- <h3>Posts</h3> -->
   
   <ul>
+    <div style="border: 1px solid lightgrey;padding:50px;">
     {% for post in site.posts %}
-    <div style="border: 1px solid lightgrey;padding:100px;">
+   
     {% assign author = site.data.authors[post.author] %}  
   
       <li>  
