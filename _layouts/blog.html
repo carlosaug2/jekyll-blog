@@ -18,7 +18,7 @@ layout: default
     {% for post in site.posts %}
     {% assign author = site.data.authors[post.author] %}  
       <li>  
-       <div style="border: 1px solid lightgrey;padding:200px;">
+       <div style="border: 1px solid lightgrey;padding:100px;">
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
      
@@ -30,11 +30,12 @@ layout: default
           </small>
          </div>
         </time>
-   </div>
+
            {% if page.related_image %}
            <img src="{{ page.related_image }}" alt="">
            {% endif %}
         {{ post.excerpt | strip_newlines | truncate: 180 }}
+          </div>
       </li>
     {% endfor %}
   </ul>
