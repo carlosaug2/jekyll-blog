@@ -12,8 +12,8 @@ layout: default
     {% if author %}
       Postado por {{ author.name }}
     {% endif %}<br>
-    <strong>em {{ page.date | date_to_string }} - {% include read_time.html text=content %} de leitura </strong>
-    <p align="right;"> reportar erro </p>
+    <strong>em {{ page.date | date_to_string }} - {% include read_time.html text=content %} de leitura  <p text-align: right;> reportar erro </p> </strong>
+   
   </small>
 </time>
 
