@@ -6,7 +6,7 @@ layout: default
 
 
 <h3>{{ page.title }}</h3>
-
+<div>
 <time datetime="{{ page.date }}">
  <small>
     {% if author %}
@@ -14,8 +14,8 @@ layout: default
    
    em {{ page.date | date_to_string }} | {% include read_time.html text=content %} de leitura  <a href="https://www.pixeladasx.com/contact"><span style="float:right;"> reportar erro </span> </a>
  </small>
-</time>
- {% endif %}<br>
+ </time></div>
+ {% endif %}
 
        {% if page.related_image %}
   <img src="{{ page.related_image }}" alt="">
