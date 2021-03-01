@@ -6,10 +6,10 @@ author: pixelbr
 thumbnail: /assets/img/uploads/clubhouse.jpg
 date: 2021-03-01 09:59:01
 intro_paragraph: >-
-  Drop News
 
 
-  ![créditos: https://macmagazine.com.br/](/assets/img/uploads/08-clubhouse-scaled.jpg "créditos: https://macmagazine.com.br/")
+
+  ![créditos: https://macmagazine.com.br/](/assets/img/uploads/08-clubhouse-scaled.jpg )
   créditos: macmagazine.com.br
 categories: misc
 ---
