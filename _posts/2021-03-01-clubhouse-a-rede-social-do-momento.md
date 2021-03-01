@@ -9,7 +9,7 @@ intro_paragraph: >-
 
 
 
-  ![créditos: https://macmagazine.com.br/](/assets/img/uploads/08-clubhouse-scaled.jpg )
+  ![créditos: https://macmagazine.com.br/](/assets/img/uploads/08-clubhouse-scaled.jpg )<br>
  
 categories: misc
 ---
