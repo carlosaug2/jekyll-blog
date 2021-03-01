@@ -10,9 +10,9 @@ layout: default
 <time datetime="{{ page.date }}">
   <small>
     {% if author %}
-      Postado por {{ author.name }}
+      Postado por {{ author.name }} <span style="text-align:right">reportar erro </span> 
     {% endif %}<br>
-    <strong>em {{ page.date | date_to_string }} - {% include read_time.html text=content %} de leitura <span style="text-align:right">reportar erro </span>  </strong>
+    <strong>em {{ page.date | date_to_string }} - {% include read_time.html text=content %} de leitura  </strong>
   </small>
 </time>
 
