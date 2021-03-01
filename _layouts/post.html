@@ -8,13 +8,14 @@ layout: default
 <h3>{{ page.title }}</h3>
 
 <time datetime="{{ page.date }}">
- 
+ <small>
     {% if author %}
     Postado por {{ author.name }} 
     {% endif %}<br>
-    <strong>em {{ page.date | date_to_string }} | {% include read_time.html text=content %} de leitura  </strong>
+   em {{ page.date | date_to_string }} | {% include read_time.html text=content %} de leitura  
 
   <p style="text-align:right">reportar erro </p>
+ </small>
 </time>
 
 
