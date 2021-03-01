@@ -12,10 +12,11 @@ layout: default
     {% if author %}
     Postado por {{ author.name }} 
    
-    <strong>em {{ page.date | date_to_string }} - {% include read_time.html text=content %} de leitura  </strong>
+    <strong>em {{ page.date | date_to_string }} | {% include read_time.html text=content %} de leitura  </strong>
   </small>
+  <p style="text-align:right">reportar erro </p>
 </time>
-<p style="text-align:right">reportar erro </p> {% endif %}<br>
+ {% endif %}<br>
 
        {% if page.related_image %}
   <img src="{{ page.related_image }}" alt="">
