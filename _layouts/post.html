@@ -10,12 +10,12 @@ layout: default
 <time datetime="{{ page.date }}">
  <small>
     {% if author %}
-    Postado por {{ author.name }} <p style="text-align:right">reportar erro </p>
-    {% endif %}<br>
-   em {{ page.date | date_to_string }} | {% include read_time.html text=content %} de leitura  
+    Postado por {{ author.name }}
+   
+   em {{ page.date | date_to_string }} | {% include read_time.html text=content %} de leitura  <p style="text-align:right"> reportar erro </p>
  </small>
 </time>
-
+ {% endif %}<br>
 
        {% if page.related_image %}
   <img src="{{ page.related_image }}" alt="">
