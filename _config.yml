@@ -25,7 +25,10 @@ url: "https://pixeladasx.com" # the base hostname & protocol for your site, e.g.
 commentbox:
   id: 5724755676102656-proj
  
-
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title
