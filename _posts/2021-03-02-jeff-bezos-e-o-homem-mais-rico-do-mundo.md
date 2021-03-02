@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jeff Bezos e  o homem mais rico  do mundo e mais
+thumbnail: /assets/img/uploads/amazon.jpg
 meta_description: drop news
 author: pixelbr
 date: 2021-03-02 19:03:18
