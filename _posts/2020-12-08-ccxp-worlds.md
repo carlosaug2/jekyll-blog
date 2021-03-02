@@ -9,7 +9,7 @@ categories: misc
 ---
 
 
-**CCXP 2020, UMA JORNADA PARA O DESCONHECIDO ?!**
+A Comic Con Xp este ano trouxe um novo formato para o evento devido a pandemina do Covid 19, trazendo novidades interessantes.
 
 Este ano pandemico, infelizmente tivemos cancelamento de varios grandes eventos e festivais do mundo do entretenimento, porem quem achou que o maior festival de quadrinhos do universo foi cancelado, achou errado! Pois e a CCXP se reinventou e lancou pela primeira vez um evento em aguas digitais ou seja um eventos 100% online atraves de um grande portal repleto de conteudo, entrevistas e shows ao vivo, apresentadores carismaticos entre outras surpresas.
 
