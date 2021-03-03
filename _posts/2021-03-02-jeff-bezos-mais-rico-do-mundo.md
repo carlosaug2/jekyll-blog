@@ -13,8 +13,8 @@ tags:
  - office-365-development
  - sharepoint-development
  - sharepoint-framework
-featured: true
-hidden: true
+featured: false
+hidden: false
 categories: misc
 ---
 
