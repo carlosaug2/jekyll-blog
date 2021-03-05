@@ -4,10 +4,9 @@ title:
 permalink: /contact
 section: contact
 intro_paragraph: |-
-
-
 ---
-Verificou erros na página , possue sugestões de contéudo ou deseja realizar alguma crítica: 
+
+Verificou erros na página , possue sugestões de contéudo ou criticas: 
 
  **Envie-nos uma mensagem**
 
