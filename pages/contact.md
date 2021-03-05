@@ -7,6 +7,9 @@ intro_paragraph: |-
 
 
 ---
-Possue sugestões de conteúdo, críticas , visualizou algum erro/s na página ou gostaria de conversar sobre assuntos comerciais, fique a vontade:
+Verificou erros na página , possue sugestões de contéudo ou deseja realizar alguma crítica: 
 
  **Envie-nos uma mensagem**
+
+
+Caso forem assuntos comerciais, favor entrar em contato com: pixeladascanal@gmail.com
