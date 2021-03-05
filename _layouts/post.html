@@ -5,11 +5,12 @@ layout: default
 {% assign author = site.data.authors[page.author] %}
 
  {% if page.related_image %}
-  <img src="{{ page.related_image }}" alt="">
+  <img src="{{ page.related_image }}">
 {% endif %} 
 
-<h3>{{ page.title }}</h3>
+
 <div>
+ <h3>{{ page.title }}</h3>
 <time datetime="{{ page.date }}">
  <small>
     {% if author %}
