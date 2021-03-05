@@ -6,7 +6,7 @@ section: contact
 intro_paragraph: |-
 ---
 
-Verificou erros na página , possue sugestões de contéudo ou criticas: 
+Verificou erros na página , possue sugestões de conteúdo ou críticas: 
 
  **Envie-nos uma mensagem**
 
