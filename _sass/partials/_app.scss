@@ -51,7 +51,7 @@ header > h1 {
   }
   a,
   a:visited {
-    text-decoration: none;
+    text-decoration: grey;
     border: 0;
     color: yellow;
     @media screen and (min-width: $screen-sm-min) {
@@ -62,7 +62,7 @@ header > h1 {
     }
   }
   a:hover {
-    color: lightgrey;
+    color: black;
     
    
      
@@ -101,7 +101,7 @@ header > nav {
         }
       }
       a:hover {
-        color: white;
+        color: yellow;
        
       }
     }
