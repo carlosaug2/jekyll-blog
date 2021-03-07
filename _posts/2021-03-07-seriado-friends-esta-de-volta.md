@@ -2,7 +2,7 @@
 layout: post
 title: Seriado Friends esta de volta !
 slug: friends-edicao-especial
-tumbnail: /assets/img/uploads/friends-divulgacao-ok.jpg
+thumbnail: /assets/img/uploads/friends-divulgacao-ok.jpg
 related_image: /assets/img/uploads/friends-divulgacao-ok.jpg
 meta_description: drop news
 author: john_doe
