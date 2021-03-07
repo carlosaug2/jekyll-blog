@@ -37,10 +37,7 @@ layout: default
 {{ content }}
 <br>
 
-<p> Seja o primeiro a comentar </p>
- {%- if site.commentbox.id -%}
-    {%- include commentbox.html -%}
-  {%- endif -%}
+
 
 <nav aria-label="Adjacent Posts">
   <ul>
@@ -56,3 +53,8 @@ layout: default
     {% endif %}
   </ul>
 </nav>
+
+<p> Seja o primeiro a comentar </p>
+ {%- if site.commentbox.id -%}
+    {%- include commentbox.html -%}
+  {%- endif -%}
