@@ -180,7 +180,7 @@ html[data-current="contact"] main > form {
     padding: 1rem;
     margin-bottom: 2rem;
   }
-  a.button:hover {
+  button {
     width: 100%;
     border: 10px;
     background-color: #e7e7e7;
@@ -193,10 +193,10 @@ html[data-current="contact"] main > form {
   html[data-current="contact"] main > form {
     input,
     textarea,
-    button {
+    button:hover {
       width: auto;
       max-width: 80%;
-      
+        background-color:yellow;
     }
   }
 }
