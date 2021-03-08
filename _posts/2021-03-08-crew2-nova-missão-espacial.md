@@ -4,6 +4,8 @@ title: Crew2 - Nova missão espacial
 meta_description: drops news
 author: pixelbr
 date: 2021-03-08 10:50:34
+thumbnail: /assets/img/uploads/1.jpg
+related_image: /assets/img/uploads/1.jpg
 intro_paragraph: "# Próxima missão tripulada da SpaceX será lançada em abril."
 categories: misc
 ---
