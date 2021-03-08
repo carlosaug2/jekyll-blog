@@ -181,7 +181,7 @@ html[data-current="contact"] main > form {
     margin-bottom: 2rem;
   }
   button {
-    width: 80%;
+    width: 50%;
     border: 30px;
    
   }
@@ -198,8 +198,8 @@ html[data-current="contact"] main > form {
     input,
     textarea,
     button {
-      width: 50px;
-      max-width: 100%;
+      width: auto;
+      max-width: 50%;
   
   
     }
