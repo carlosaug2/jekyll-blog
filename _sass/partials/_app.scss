@@ -181,15 +181,14 @@ html[data-current="contact"] main > form {
     margin-bottom: 2rem;
   }
   button {
-    max-width:80%;
-    width: 50px;
-    border: 15px;
-   
+    width: 100%;
+    border: 10px;   
   }
-.button1:hover {
-  background-color: darkblue;
+  
+  button1:hover {
+    background-color: darkblue;
  
-}
+  }
 
 }
 
