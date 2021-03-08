@@ -2,8 +2,8 @@
 
 - text: 
   url:
-- text: 
-  url: 
+- text: home
+  url: /
 - text: contato
   url: /contact
 - text: blog
