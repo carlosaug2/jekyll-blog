@@ -171,7 +171,6 @@ nav[aria-label="Adjacent Posts"] {
 // contact form
 html[data-current="contact"] main > form {
   display: grid;
-  background-color: #e7e7e7;
   label {
     display: none;
   }
@@ -181,10 +180,10 @@ html[data-current="contact"] main > form {
     padding: 1rem;
     margin-bottom: 2rem;
   }
-  button:hover {
+  button {
     width: 100%;
     border: 10px;
-    background-color: yellow;
+ 
   }
 
 }
