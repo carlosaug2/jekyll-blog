@@ -53,7 +53,7 @@ header > h1 {
   a:visited {
     text-decoration: none;
     border: 0;
-    color: yellow;
+    color: none;
     @media screen and (min-width: $screen-sm-min) {
       padding: 1rem;
      
@@ -62,7 +62,7 @@ header > h1 {
     }
   }
   a:hover {
-    color: black;
+    color: none;
     
    
      
@@ -101,7 +101,7 @@ header > nav {
         }
       }
       a:hover {
-        color: yellow;
+        color: white;
        
       }
     }
@@ -180,9 +180,10 @@ html[data-current="contact"] main > form {
     padding: 1rem;
     margin-bottom: 2rem;
   }
-  button {
+  button:hover {
     width: 100%;
     border: 10px;
+    background-color: #e7e7e7;
   }
 }
 
