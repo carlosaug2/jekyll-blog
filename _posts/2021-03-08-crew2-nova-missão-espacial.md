@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Crew2 - Nova missão espacial
+slug: crew2-missao-espacial
 meta_description: drops news
 author: pixelbr
 date: 2021-03-08 10:50:34
