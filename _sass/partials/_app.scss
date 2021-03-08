@@ -62,7 +62,7 @@ header > h1 {
     }
   }
   a:hover {
-    color: none;
+    color: yellow;
     
    
      
@@ -180,10 +180,13 @@ html[data-current="contact"] main > form {
     padding: 1rem;
     margin-bottom: 2rem;
   }
-  button:hover {
+  button {
     width: 100%;
     border: 10px;
     background-color: #e7e7e7;
+  }
+   button:hover {
+      background-color: #e7e7e7;
   }
 }
 
