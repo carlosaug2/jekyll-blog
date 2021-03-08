@@ -180,11 +180,16 @@ html[data-current="contact"] main > form {
     padding: 1rem;
     margin-bottom: 2rem;
   }
-  button {
+  button1 {
     width: 100%;
     border: 10px;
- 
+  background-color: white; 
+  color: black; 
   }
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
 
 }
 
