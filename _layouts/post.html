@@ -44,17 +44,18 @@ layout: default
 <style>
  
 new1 {
-  border: 1px dotted lightgrey;width:50%;
+  border: 1px dotted lightgrey;
+  width:50%;
 }
 </style>
 
 
-<div class="new1"></div>
+<div class="new1">hhhhhhh</div>
 
 <nav aria-label="Adjacent Posts">
   <ul>
     {% if page.previous.url %}
-   {{ post.excerpt | strip_newlines | truncate: 140 }} 
+  
       <li>
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}</a>
         
