@@ -61,14 +61,15 @@ div.b {
    
       <li>
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}  </a>
-         
+           {% if page.previous.image %} 
+           <img src="{{ ' /assets/img/uploads/1.jpg' |  append: page.previous.image }}" alt=""> 
       </li>
     {% endif %}
    
     {% if page.next.url %}
       <li>
         <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
-      <!-- <img src="{{ '/assets/img/' |  append: page.previous.image }}" alt=""> -->
+  
       </li>
     {% endif %}
   </ul>
