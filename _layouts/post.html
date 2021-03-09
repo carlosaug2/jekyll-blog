@@ -65,15 +65,29 @@ div.b {
       </li>
     {% endif %}
    
-    {% if page.next.url %}
+<!--    {% if page.next.url %}
      {% if page.next.subtitle %}
       <li>
         <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
 
       </li>
    {% endif %}
-    {% endif %}
+    {% endif %} -->
   </ul>
+</nav>
+
+<nav>
+<ul>
+{% if page.next.url %}
+    {% if page.next.subtitle %}
+ <li>
+    {{page.next.title}}&nbsp;<a href="{{page.next.url}}">{{page.next.subtitle}}</a>
+    {% else %}
+    <a href="{{page.next.url}}">{{page.next.title}}</a>
+ </li>
+    {% endif %}
+    {% endif %}
+</ul>
 </nav>
 
 <p align="center"> Deixe seu comentário </p>
