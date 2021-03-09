@@ -61,8 +61,7 @@ div.b {
    
       <li>
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}  </a>
-           {{ post.content | split:'<!--break-->' | first }}
-         {% if post.content contains '<!--break-->' %}
+          <p>{{ post.excerpt }}</p>
       </li>
     {% endif %}
    
