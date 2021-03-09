@@ -61,7 +61,9 @@ div.b {
    
       <li>
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}  </a>
-          <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" />
+        {% if page.related_image %}
+  <img src="{{ page.related_image }}" alt="">
+{% endif %}
       </li>
     {% endif %}
    
