@@ -1,5 +1,5 @@
 ---
-layout: contact
+layout: agradecimentos
 title:  Agradecimentos
 permalink: /agradecimentos
 section: agradecimentos
