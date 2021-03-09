@@ -61,8 +61,8 @@ div.b {
    
       <li>
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}  </a>
-           {% if page.previous.image %} 
-           <img src="{{ ' /assets/img/uploads/1.jpg' |  append: page.previous.image }}" alt=""> 
+           {{ post.content | split:'<!--break-->' | first }}
+         {% if post.content contains '<!--break-->' %}
       </li>
     {% endif %}
    
