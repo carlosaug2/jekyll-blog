@@ -54,11 +54,13 @@ new1 {
     {% if page.previous.url %}
       <li>
         <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}</a>
+       {{ post.excerpt | strip_newlines | truncate: 140 }}  
       </li>
     {% endif %}
     {% if page.next.url %}
       <li>
         <a href="{{page.next.url}}" rel="next">{{page.next.title}} &raquo;</a>
+       {{ post.excerpt | strip_newlines | truncate: 140 }}  
       </li>
     {% endif %}
   </ul>
