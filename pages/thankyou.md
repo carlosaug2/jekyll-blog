@@ -1,7 +1,8 @@
 ---
-layout: home
-title: 
+layout: page
+title:  Agradecimentos
 permalink: /
-section: home
-intro_paragraph: > Obrigado !  sua mensagem foi recebida, em breve voce receberá uma resposta !
+section: agradecimentos
+intro_paragraph:  Obrigado ! sua mensagem foi recebida, em breve voce receberá uma resposta !
 ---
+
