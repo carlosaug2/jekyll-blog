@@ -66,11 +66,9 @@ div.b {
     {% endif %}
    
     {% if page.next.url %}
-    {{page.next.into_paragraph}}
+   
       <li>
-    <a href="{{page.next.url}}" rel="next">{{page.next.title}}&raquo;</a> 
-       {{page.next.into_paragraph}}
-
+    <a href="{{page.next.url}}" rel="next">{{page.next.title}}&raquo; <p>{{page.next.into_paragraph}}</p></a> 
       </li>
  
     {% endif %} 
