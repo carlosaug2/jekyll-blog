@@ -29,7 +29,7 @@ layout: default
 <style>
  
  hr.new2 {
-  border-top: 1px solid yellow;width:50%;
+  border-top: 1px solid yellow;
 }
 </style>
 
@@ -47,14 +47,14 @@ layout: default
 
 
 
-
+<p style="border: 1px dashed lightgrey;height:20px;"> A dotted border.</p>
 
 <nav aria-label="Adjacent Posts">
   <ul>
     {% if page.previous.url %}
   
       <li>
-        <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}   {{ post.excerpt | strip_newlines | truncate: 140 }}  </a>
+        <a href="{{page.previous.url}}" rel="prev">&laquo; {{page.previous.title}}  </a>
         
       </li>
     {% endif %}
