@@ -1,6 +1,6 @@
 # specify main menu items here
 
-- text: agradecimentos
+- text: 
   url: /agradecimentos
 - text: home
   url: /
