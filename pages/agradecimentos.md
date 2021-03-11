@@ -6,7 +6,7 @@ section: contact
 intro_paragraph: 
 ---
 
-![Netlify CMS Screenshot](/assets/images/send1.png)
+![Netlify CMS Screenshot](/assets/uploads/images/send1.png)
 
 
 <p> Obrigado, seu email foi recebido com sucesso ! </p>
