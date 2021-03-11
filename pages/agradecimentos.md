@@ -8,7 +8,7 @@ section: contact
 <style>
   
 img{
-width:250px;height:auto;max-width: 100%;text-align:center;}
+width:200px;height:auto;max-width: 100%;text-align:center;}
   
   </style>
 
