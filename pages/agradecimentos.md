@@ -4,7 +4,7 @@ permalink: /agradecimentos
 section: contact
 ---
 
-![Netlify CMS Screenshot]( /assets/img/uploads/send2.png) 
+<span style="width:100px;height:100px;">![Netlify CMS Screenshot]( /assets/img/uploads/send2.png) </span>
 
 
 <p align="center"> Obrigado, seu email foi recebido com sucesso ! </p>
