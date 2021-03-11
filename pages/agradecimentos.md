@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  
-replace_image: /assets/img/uploads/send1.png
 permalink: /agradecimentos
 section: contact
-intro_paragraph: 
 ---
 
-<p> Obrigado, seu email foi recebido com sucesso ! </p>
+![Netlify CMS Screenshot]( /assets/img/uploads/send2.png) 
+
+
+<p align="center"> Obrigado, seu email foi recebido com sucesso ! </p>
 
