@@ -1,9 +1,10 @@
 ---
-layout: agradecimentos
-title:  Agradecimentos
+layout: default
+title:  
 permalink: /agradecimentos
-section: agradecimentos
+section: contact
 intro_paragraph: 
 ---
 
-Obrigado 
+<p> Obrigado, seu email foi recebido com sucesso ! </p>
+
