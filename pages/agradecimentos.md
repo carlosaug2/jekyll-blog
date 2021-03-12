@@ -1,6 +1,6 @@
 ---
 title: 
-layout: default
+layout: page
 exclude: true
 permalink: /agradecimentos
 ---
