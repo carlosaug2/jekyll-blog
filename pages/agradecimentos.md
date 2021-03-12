@@ -1,6 +1,5 @@
 ---
-layout: default
-published: false
+layout: page
 permalink: /agradecimentos
 ---
 
