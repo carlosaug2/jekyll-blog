@@ -1,8 +1,7 @@
 ---
-title: 
-layout: page
-exclude: true
+layout: post
 permalink: /agradecimentos
+section: post
 ---
 
 
