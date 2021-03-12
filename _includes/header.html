@@ -13,6 +13,13 @@
   </h1>
 
 
+
+
+ 
+  <nav>
+ 
+    {% include navigation.html navigation=site.data.navigation %}  
+
 {% for page in site.pages %}
   {% unless page.exclude_from_nav %}
     <a class="page-link" href="{ page.url | prepend: site.baseurl }">
@@ -20,11 +27,6 @@
     </a>
   {% endunless %}
 {% endfor %}
-
- 
-  <nav>
- 
-    {% include navigation.html navigation=site.data.navigation %}  
   
 
   </nav>
