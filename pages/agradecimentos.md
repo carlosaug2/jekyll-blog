@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 published: false
-permalink: /agradecimentos/
+permalink: /agradecimentos
 ---
 
 
