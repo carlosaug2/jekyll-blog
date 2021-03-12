@@ -1,5 +1,5 @@
 ---
-title: Some Title
+title: 
 layout: default
 exclude: true
 permalink: /agradecimentos
