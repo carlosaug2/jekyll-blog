@@ -3,27 +3,12 @@
     
   <h1>
    <a href="{{ "/" | relative_url }}"> {{ site.title | escape }} </a> 
-   
- {% for page in site.pages %}
-          {% unless page.exclude %}
-             {% if page.title %}
-               {{ page.title }}
-             {% endif %}
-          {% endunless %}
-        {% endfor %}
-
 
  <!-- <a class="navbar-brand" href="/">  <img src='{{ site.baseurl }}/assets/img/uploads/chapeulogo.png' style="width:100%;max-width:200px;height: auto;float:left;">   </a> -->
    <!-- <img src='/assets/img/uploads/img_logo.png' style="width:25%;">  -->
    
-
-   
   </h1>
 
-
-
-
- 
   <nav>
  
     {% include navigation.html navigation=site.data.navigation %}  
