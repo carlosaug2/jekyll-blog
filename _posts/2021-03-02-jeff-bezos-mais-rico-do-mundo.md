@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Jeff Bezos e o homem mais rico 
-do mundo
+title: Jeff Bezos e o homem mais rico do mundo
 slug: jeff-bezos-mais-rico
 meta_description: drop news
 author: pixelbr
