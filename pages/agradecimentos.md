@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: default
 permalink: /agradecimentos
-section: post
+
 ---
 
 
