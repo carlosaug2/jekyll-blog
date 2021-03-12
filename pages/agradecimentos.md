@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /agradecimentos
+permalink: /
 slug: contact
 section: contact
 ---
