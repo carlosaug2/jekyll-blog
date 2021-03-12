@@ -1,8 +1,7 @@
 ---
-layout: default
-permalink: /
-slug: contact
-section: contact
+layout: page
+published: false
+permalink: /agradecimentos/
 ---
 
 
