@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /agradecimentos
+slug: contact
 section: contact
 ---
 
