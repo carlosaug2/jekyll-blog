@@ -1,6 +1,7 @@
 ---
-layout: page
-exclude_from_nav: true
+title: Some Title
+layout: default
+exclude: true
 permalink: /agradecimentos
 ---
 
