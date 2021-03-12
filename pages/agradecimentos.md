@@ -1,6 +1,6 @@
 ---
 layout: page
-published: false
+exclude_from_nav: true
 permalink: /agradecimentos
 ---
 
