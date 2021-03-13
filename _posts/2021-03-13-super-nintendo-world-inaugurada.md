@@ -1,6 +1,8 @@
 ---
 layout: post
-title: SUPER NINTENDO WORLD INAUGURADA !
+title: SUPER NINTENDO WORLD INAUGURADA 
+replace_image: /assets/img/uploads/bign2.jpeg
+thumbnail:  /assets/img/uploads/bign3.jpeg
 meta_description: drop news
 author: pixelbr
 date: 2021-03-13 11:19:51
@@ -16,7 +18,9 @@ Voce que viveu a era de ouro dos videogames mas mesmo com o tempo voce ainda jog
 
 
 
-![](/assets/img/uploads/super-nintendo-world-kart.jpeg)
+![](/assets/img/uploads/bign1.jpeg)
+
+![](/assets/img/uploads/bign4.jpeg)
 
 
 
