@@ -15,5 +15,5 @@ width:200px;height:auto;max-width: 100%;display:block;  margin:0 auto;}
 <span class="img">![Netlify CMS Screenshot]( /assets/img/uploads/send2.png) </span>
 
 
-<p align="center"> Obrigado, seu email foi recebido ! </p>
+<p align="center"> Obrigado, seu email foi recebido ! Entraremos em contato em breve ! </p>
 
