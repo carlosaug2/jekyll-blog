@@ -7,3 +7,4 @@ date: 2021-03-15 08:34:14
 intro_paragraph: As Raves estão de volta na Europa com medidas restritivas ao covid-19.
 categories: misc
 ---
+As Raves estão de volta na Europa com medidas restritivas ao covid-19.
