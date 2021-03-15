@@ -1,6 +1,6 @@
 ---
 layout: post
-title: As Raves estao de volta
+title: AS RAVES ESTÃO DE VOLTA
 meta_description: drop news
 author: pixelbr
 date: 2021-03-15 08:26:09
