@@ -2,10 +2,10 @@
 layout: post
 title: Comic Con 2020 agora online!
 author: Pixel_br
-date: '2020-12-08 12:00:00'
-intro_paragraph: ''
+date: 2020-12-08 12:00:00
+intro_paragraph: ""
 image: /assets/img/uploads/credencial_home_ccxp_world.JPG
-categories: misc
+categories: article
 ---
 
 
