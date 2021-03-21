@@ -1,10 +1,10 @@
 ---
+meta_description: jeff bezes e mais rico que elon musk
+related_image: /assets/img/uploads/amazon.jpg
 layout: post
 title: Jeff Bezos mais rico
-slug: jeff-bezos-mais-rico
-meta_description: drop news
 author: pixelbr
-related_image: /assets/img/uploads/amazon.jpg
+slug: jeff-bezos-mais-rico
 thumbnail: /assets/img/uploads/amazon.jpg
 date: 2021-03-02 19:03:18
 categories: misc
