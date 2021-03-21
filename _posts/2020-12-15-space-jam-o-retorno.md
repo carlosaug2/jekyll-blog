@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Space Jam o legado
+meta_description: continuação do filme space jam
 author: pixelbr
-date: '2020-12-15 21:12:32'
+date: 2020-12-15 21:12:32
 image: /assets/img/uploads/space_jam.jpg
-intro_paragraph: ''
+intro_paragraph: ""
 categories: misc
 ---
 
