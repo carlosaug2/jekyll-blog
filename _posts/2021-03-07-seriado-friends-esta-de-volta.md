@@ -1,13 +1,13 @@
 ---
+meta_description: episodio especial de friends
+related_image: /assets/img/uploads/friends-divulgacao-ok.jpg
 layout: post
 title: Seriado Friends esta de volta !
+author: pixelbr
 slug: friends-edicao-especial
 thumbnail: /assets/img/uploads/friends-divulgacao-ok.jpg
-related_image: /assets/img/uploads/friends-divulgacao-ok.jpg
-meta_description: drop news
-author: pixelbr
 date: 2021-03-07 11:56:59
-intro_paragraph: >-
+intro_paragraph: ""
 categories: misc
 ---
 
