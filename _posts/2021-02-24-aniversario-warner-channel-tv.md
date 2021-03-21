@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Aniversario da Warner Channel  
+title: Aniversario da Warner Channel
+meta_description: "25 anos do canal warner "
 author: pixelbr
 date: 2021-02-24 12:34:52
-thumbnail: /assets/img/uploads/aniversario.jpg 
+thumbnail: /assets/img/uploads/aniversario.jpg
 categories: misc
 ---
 
