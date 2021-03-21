@@ -6,11 +6,7 @@ title: Super Nintendo World e inaugurada
 author: pixelbr
 thumbnail: /assets/img/uploads/bign2.jpeg
 date: 2021-03-13 11:19:51
-intro_paragraph: |-
-  
-
-
-  ESPAÇO TEMATICO DA NINTENDO E INAUGURADO NO JAPÃO.
+intro_paragraph: Espaço temático da Nintendo e inaugurado no Japão.
 categories: misc
 ---
 Voce que viveu a era de ouro dos videogames mas mesmo com o tempo voce ainda curte jogar ou gosta de relembrar dos bons tempos de infância com seu amigos, a partir de agora voce pode reviver isso pessoalmente.
