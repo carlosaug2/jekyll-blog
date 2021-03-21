@@ -1,13 +1,13 @@
 ---
+meta_description: nova rede social
+related_image: /assets/img/uploads/clubhouse.jpg
 layout: post
 title: Clubhouse, a rede social do momento!
-slug: clubhouse-rede-social
-meta_description: drop news
 author: pixelbr
+slug: clubhouse-rede-social
 thumbnail: /assets/img/uploads/clubhouse.jpg
-related_image: /assets/img/uploads/clubhouse.jpg
 date: 2021-03-01 09:59:01
-intro_paragraph: >-
+intro_paragraph: ""
 categories: misc
 ---
 
