@@ -2,7 +2,7 @@
 meta_description: parque de diversoes da nintendo
 related_image: /assets/img/uploads/bign2.jpeg
 layout: post
-title: SUPER NINTENDO WORLD INAUGURADA
+title: Super Nintendo World e inaugurada
 author: pixelbr
 thumbnail: /assets/img/uploads/bign2.jpeg
 date: 2021-03-13 11:19:51
