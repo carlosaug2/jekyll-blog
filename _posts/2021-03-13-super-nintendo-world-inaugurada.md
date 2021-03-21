@@ -1,10 +1,10 @@
 ---
-layout: post
-title: SUPER NINTENDO WORLD INAUGURADA 
+meta_description: parque de diversoes da nintendo
 related_image: /assets/img/uploads/bign2.jpeg
-thumbnail:  /assets/img/uploads/bign2.jpeg
-meta_description: drop news
+layout: post
+title: SUPER NINTENDO WORLD INAUGURADA
 author: pixelbr
+thumbnail: /assets/img/uploads/bign2.jpeg
 date: 2021-03-13 11:19:51
 intro_paragraph: |-
   
