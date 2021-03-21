@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Godzilla vs Kong - duelo de titãs!
+meta_description: filme com os personagens godzilla e king kong
 author: pixelbr
-date: 2021-02-13 13:39:22
 thumbnail: /assets/img/uploads/cinemamovie.jpg
+date: 2021-02-13 13:39:22
 replace_image: /assets/img/uploads/cinemamovie.jpg
+title: Godzilla vs Kong - duelo de titãs!
 categories: misc
 ---
 
