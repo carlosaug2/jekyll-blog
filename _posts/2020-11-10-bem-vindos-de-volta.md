@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Sejam bem vindos ao mundo do pixeladasx!
-meta_description: A description may also be set in a post. You can find more
-  information about it in pages/about.md.
+meta_description: atualizações do pixeladasx
 author: pixelbr
 date: 2020-11-10 12:00:00
 categories: article
