@@ -1,11 +1,12 @@
 ---
+meta_description: atualização no pixeladasx
+related_image: /assets/img/uploads/megafonenews.jpg
 layout: post
 title: Novidades no Pixeladas
 author: pixelbr
-date: '2021-02-16'
-thumbnail: /assets/img/uploads/megafonenews.jpg 
-related_image: /assets/img/uploads/megafonenews.jpg
-intro_paragraph: ''
+thumbnail: /assets/img/uploads/megafonenews.jpg
+date: 2021-02-16
+intro_paragraph: ""
 categories: misc
 ---
 
