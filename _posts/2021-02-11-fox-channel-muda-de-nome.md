@@ -1,10 +1,11 @@
 ---
+meta_description: fox agora e space channel
+related_image: /assets/img/uploads/starchannel_chamada.jpg
 layout: post
 title: Canais FOX mudam de nome !
 author: pixelbr
-date: 2021-02-11 11:53:13
 thumbnail: /assets/img/uploads/foxchannel_logo.jpg
-related_image: /assets/img/uploads/starchannel_chamada.jpg
+date: 2021-02-11 11:53:13
 categories: misc
 ---
 Salve galera ! Após um período de recesso no final de 2020 estamos de volta as atividades a todo vapor !!
