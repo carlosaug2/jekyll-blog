@@ -1,7 +1,7 @@
 ---
 layout: home
-title: drop news
+title: 
 permalink: /
 section: home
-intro_paragraph: drop
+intro_paragraph: drop news
 ---
