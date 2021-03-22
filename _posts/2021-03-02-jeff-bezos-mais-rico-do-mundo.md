@@ -12,7 +12,8 @@ categories: misc
 ---
 
 
-Elon Musk dono da Tesla Motors e SpaceX  ve a sua fortuna diminuir em menos de 2 meses sendo ultrapassado pelo CEO da Amazon.De acordo com o Bloomberg Billionaires Index.
+Elon Musk dono da Tesla Motors e SpaceX  ve a sua fortuna diminuir em menos de 2 meses sendo ultrapassado pelo CEO da Amazon.
+De acordo com o Bloomberg Billionaires Index.
 
 
 
