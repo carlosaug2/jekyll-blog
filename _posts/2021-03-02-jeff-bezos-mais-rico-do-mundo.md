@@ -7,6 +7,7 @@ author: pixelbr
 slug: jeff-bezos-mais-rico
 thumbnail: /assets/img/uploads/amazon.jpg
 date: 2021-03-02 19:03:18
+intro_paragraph: ""
 categories: misc
 ---
 
