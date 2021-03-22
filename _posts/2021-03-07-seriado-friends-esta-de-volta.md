@@ -2,7 +2,7 @@
 meta_description: episodio especial de friends
 related_image: /assets/img/uploads/friends-divulgacao-ok.jpg
 layout: post
-title: Seriado Friends esta de volta !
+title: Seriado Friends esta de volta
 author: pixelbr
 slug: friends-edicao-especial
 thumbnail: /assets/img/uploads/friends-divulgacao-ok.jpg
