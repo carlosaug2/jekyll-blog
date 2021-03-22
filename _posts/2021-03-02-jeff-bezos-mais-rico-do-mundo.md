@@ -13,6 +13,8 @@ categories: misc
 Elon Musk dono da Tesla Motors e SpaceX  ve a sua fortuna diminuir em menos de 2 meses 
 sendo ultrapassado pelo CEO da Amazon.De acordo com o Bloomberg Billionaires Index, 
 a fortuna do CEO, que está em vias de deixar o cargo para se tornar presidente 
+
+
 do conselho de administração da gigante de comércio eletrônico, está em US$ 191 bilhões, 
 com isso a sua fortuna sera valorizada. Mas a fortuna do criador da Tesla (TSLA34) e da SpaceX 
 foi reduzida em US$ 4,58 bilhões, quando as ações da Tesla caíram 2,4% na bolsa de valores 
