@@ -119,6 +119,8 @@ main {
   display: grid;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  border:1px solid lightgrey;
+  background:#F5F5F5;
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
   }
