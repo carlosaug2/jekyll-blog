@@ -1,8 +1,11 @@
 ---
 layout: page
 permalink: /agradecimentos
+
 ---
 
+<p align="center">
+<h3> Obrigado !</h3> Sua mensagem foi recebida. </p> 
 
 <style>
   
@@ -20,6 +23,5 @@ margin:0 auto;
 <!-- <span class="img">![Netlify CMS Screenshot]( /assets/img/uploads/send2.png) </span> -->
 
 
-<p align="center">
-<h1> Obrigado !</h1> Seu email foi recebido. </p> <p>voltar para a <a href="https://www.pixeladasx.com/">página principal</a></p>
+
 
