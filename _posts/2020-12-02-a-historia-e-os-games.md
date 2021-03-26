@@ -2,7 +2,8 @@
 layout: post
 title: A historia e os games
 meta_description: games com historias famosas
-image: /assets/img/uploads/credencial_home_ccxp_world.JPG
+image: /assets/img/uploads/medalofhonor.jpg
+thumbnail: /assets/img/uploads/medalofhonor.jpg
 author: pixelbr
 date: 2020-12-02 12:00:00
 categories: article
