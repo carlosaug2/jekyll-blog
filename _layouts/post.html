@@ -2,6 +2,20 @@
 layout: default
 ---
 
+
+
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span style="border:1px solid;background:yellow;padding:5px;">{{category}}</span></a> 
+ {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
+
 {% assign author = site.data.authors[page.author] %}
 
  {% if page.related_image %}
@@ -40,17 +54,6 @@ layout: default
 <hr style="width:50%; height:1px; background-color:lightgrey; border:none;" /> 
 
 
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span style="border:1px solid;background:yellow;padding:5px;">{{category}}</span></a> 
- {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
 
 
 <nav aria-label="Adjacent Posts">
@@ -75,7 +78,7 @@ categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span 
  
     {% endif %} 
 
- <li style="border-left:1px solid lightgrey;height:40px;position:absolute;left:50%;border-width:1;"> </li>
+
 
   </ul>
 </nav>
@@ -84,14 +87,10 @@ categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span 
                                                                                                                                                                                                   
   <h2>Leia outros artigos</h2>                                                                        
       {% for post in site.categories.article %}
-     <li>
-       <img src="{{ post.thumbnail }}">
         <a href="{{ post.url }}">{{ post.title }}
             <img src="{{ post.thumbnail }}">
-        
-        </a>
-    </li>
-{% endfor %}                                                                                             
+        </a>   
+      {% endfor %}                                                                                             
 
 
 <p align="center"></p>
