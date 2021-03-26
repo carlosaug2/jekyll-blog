@@ -46,7 +46,7 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" style="border:1px solid grey;>{{category}}</a>
+categoria: <span style="border:1px solid grey;'> <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" >{{category}}</a> </span>
  {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
@@ -103,7 +103,7 @@ categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" style="
   </ul>
 </nav>
            
-                                                                                                   {% for post in site.related_posts limit:5 %}
+                                                                                                  {% for post in site.related_posts limit:5 %}
   {% assign match = false %}
   {% for category in post.categories %}
     {% if page.categories contains category %}
