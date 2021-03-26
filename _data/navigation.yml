@@ -1,7 +1,7 @@
 # specify main menu items here
 
 - text: 
-  url: /categories
+  url: /categories/misc
 - text: 
   url: /agradecimentos
 - text: home
