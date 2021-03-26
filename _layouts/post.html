@@ -102,6 +102,15 @@ categoria:  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{catego
 
   </ul>
 </nav>
+                                                                                                   
+      {% for post in site.categories.article %}
+    <li>
+        <a href="{{ post.url }}">
+            <img src="{{ post.thumbnail }}">
+            <p>{{ post.excerpt }}</p>
+        </a>
+    </li>
+{% endfor %}                                                                                             
 
 
 <p align="center"></p>
