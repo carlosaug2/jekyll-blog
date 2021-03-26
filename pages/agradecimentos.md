@@ -21,6 +21,5 @@ margin:0 auto;
 
 
 <p align="center">
-<h2> Obrigado !</h2> 
-<br>seu email foi recebido ! Entraremos em contato ! <br> voltar para a <a href="https://www.pixeladasx.com/">página principal</a></p>
+<h2> Obrigado !</h2> <br>seu email foi recebido. </p> <p align="center">voltar para a <a href="https://www.pixeladasx.com/">página principal</a></p>
 
