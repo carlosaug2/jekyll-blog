@@ -5,7 +5,8 @@ meta_description: ccxp20 agora online
 author: pixelbr
 date: 2020-12-08 12:00:00
 image: /assets/img/uploads/credencial_home_ccxp_world.JPG
-intro_paragraph: ""
+thumbnail: /assets/img/uploads/credencial_home_ccxp_world.JPG.jpg
+intro_paragraph: " EDICAO 100% ONLINE "
 categories: article
 ---
 
