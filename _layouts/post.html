@@ -23,10 +23,6 @@ layout: default
  </small>
  </time>
 
- </div>
- {% endif %}
-
-
 <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
@@ -38,6 +34,10 @@ categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span 
  {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
+
+ </div>
+ {% endif %}
+
 
 
 <hr style="width:100%; height:6px; background-color:#f16334; border:none;" />
