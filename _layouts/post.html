@@ -21,22 +21,18 @@ layout: default
     Postado por {{ author.name }}
    em {{ page.date | date_to_string }}
   
-<!-- <span style="float:right;"> 
+ <span style="float:right;"> 
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
     {% assign categories = page.categories %}
   {% endif %}
   <{% for category in categories %}
-categoria:<a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span style="border:1px solid;background:yellow;padding:5px;">{{category}}</span></a> 
+categoria:<a href="{{site.baseurl}}"/categories/#misc{{category|slugize}}" ><span style="border:1px solid;background:yellow;padding:5px;">{{category}}</span></a> 
  {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %} 
-  </span> -->
- 
- 
-{% for post in site.categories.misc %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+  </span> 
+
  
  <p> {% include read_time.html text=content %} de leitura </p>   
   
