@@ -103,22 +103,12 @@ categoria: <span style="border:1px solid grey;'> <a href="{{site.baseurl}}"/cate
   </ul>
 </nav>
            
-                                                                                                  {% for post in site.related_posts limit:5 %}
-  {% assign match = false %}
-  {% for category in post.categories %}
-    {% if page.categories contains category %}
-      {% assign match = true %}
-    {% endif %}
-  {% endfor %}
-  {% if match %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endif %}                       
-{% endfor %}
+                                                                                            
                                                                                                    
                                                                                                    
-                                                                                                   
+                                                                                               
       {% for post in site.categories.article %}
-    <li>
+     <li>
         <a href="{{ post.url }}">
             <img src="{{ post.thumbnail }}">
             <p>{{ post.excerpt }}</p>
