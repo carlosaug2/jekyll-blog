@@ -19,7 +19,7 @@ layout: default
  <small>
     {% if author %}
     Postado por {{ author.name }}
-   em {{ page.date | date_to_string }} <p>  {% include read_time.html text=content %} de leitura </p>   
+   em {{ page.date | date_to_string }} 
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -28,7 +28,8 @@ layout: default
   {% for category in categories %}
 categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span style="border:1px solid;background:yellow;padding:5px;">{{category}}</span></a> 
  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
+  {% endfor %} <p> {% include read_time.html text=content %} de leitura </p>   
+  
  </small>
  
  </time>
