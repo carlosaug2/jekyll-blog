@@ -2,7 +2,7 @@
 layout: post
 title: Sejam bem vindos ao mundo do pixeladasx!
 meta_description: nova pagina no ar
-thumbnail:
+thumbnail:/assets/img/uploads/welcome.jpg
 author: pixelbr
 date: 2020-11-10 12:00:00
 categories: article
