@@ -46,19 +46,9 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span style="border:1px solid;background:green;">{{category}}</span></a> 
+categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span style="border:1px solid;background:lightgrey;padding:10px;">{{category}}</span></a> 
  {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
-</div>
-
-
-<div class="Previous-next">
-  {% if page.previous.url %}
-    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
 </div>
 
 
