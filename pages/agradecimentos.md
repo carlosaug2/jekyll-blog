@@ -5,7 +5,7 @@ permalink: /agradecimentos
 ---
 
 <p align="center">
-<h3> Obrigado !</h3> Sua mensagem foi recebida. </p> 
+<h4> Obrigado !</h4> Sua mensagem foi recebida. </p> 
 
 <style>
   
