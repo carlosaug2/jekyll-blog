@@ -59,9 +59,10 @@ categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span 
 
 
 <nav aria-label="Adjacent Posts">
+ <hr style="width:50%; height:1px; background-color:lightgrey; border:none;" /> 
   <ul>
     {% if page.previous.url %}
-   <hr style="width:50%; height:1px; background-color:lightgrey; border:none;" /> 
+   
       <li>
         <a href="{{page.previous.url}}" style="font-size:.9em;" "rel="prev">&laquo; Artigo Anterior </a> <p style="font-size:.8em;"> {{page.previous.title}} </p>
  
@@ -81,10 +82,10 @@ categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span 
     {% endif %} 
 
 
-<hr style="width:50%; height:1px; background-color:lightgrey; border:none;" /> 
+
 
   </ul>
- 
+ <hr style="width:50%; height:1px; background-color:lightgrey; border:none;" /> 
 </nav>
            
            
