@@ -66,6 +66,17 @@ div.b {
 
 <!-- <p style="border: 1px dashed lightgrey;height:20px; height: 50px;"></p> -->
 
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
 
 
 <nav aria-label="Adjacent Posts">
