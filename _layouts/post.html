@@ -29,7 +29,10 @@ layout: default
 <style>
  
  hr.new2 {
-  border-top: 1px solid lightgrey;width:100%;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 </style>
 
@@ -50,7 +53,10 @@ layout: default
 <style>
  
  hr.new2 {
-  border-top: .1em solid lightgrey;width:600px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 </style>
 
@@ -61,8 +67,8 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}categoria:&nbsp;{% endunless %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">categoria:{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
 
