@@ -23,7 +23,7 @@ layout: default
  </small>
  </time>
 
-<div class="post-categories">
+
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -33,7 +33,7 @@ layout: default
 categoria:  <a href="{{site.baseurl}}"/categories/#{{category|slugize}}" ><span style="border:1px solid;background:yellow;padding:5px;">{{category}}</span></a> 
  {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
-</div>
+
 
  </div>
  {% endif %}
