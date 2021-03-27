@@ -28,7 +28,7 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   <{% for category in categories %}
-categoria:<a href="{{site.baseurl}}"/categories/{{category|slugize}}" ><span style="border:1px solid;background:yellow;padding:5px;">{{category}}</span></a> 
+<a href="{{site.baseurl}}"/categories/{{category|slugize}}" ><span style="border:1px solid lightgrey;background:none;padding:5px;">{{category}}</span></a> 
  {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %} 
   </span> 
@@ -68,7 +68,7 @@ categoria:<a href="{{site.baseurl}}"/categories/{{category|slugize}}" ><span sty
 
 
 <nav aria-label="Adjacent Posts">
- <hr style="width:50%; height:1px; background-color:lightgrey; border:none;" /> 
+ <!-- <hr style="width:50%; height:1px; background-color:lightgrey; border:none;" />  -->
   <ul>
     {% if page.previous.url %}
    
@@ -94,7 +94,7 @@ categoria:<a href="{{site.baseurl}}"/categories/{{category|slugize}}" ><span sty
 
 
   </ul>
- <hr style="width:50%; height:1px; background-color:lightgrey; border:none;" /> 
+
 </nav>
            
            
