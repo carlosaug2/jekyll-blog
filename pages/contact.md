@@ -9,7 +9,7 @@ intro_paragraph: |-
 
 <!-- <p style="border:1px dotter lightgrey;padding:5px;">Para assuntos comerciais: pixeladascanal@gmail.com</p><br> -->
 
-Verificou erros na página , possue sugestões de conteúdo, críticas ou assuntos comerciais: 
+Você possue sugestões de conteúdo, verificou links quebrados, erros de ortografia, divergencias nos textos entre outras coisas:
 
  **Envie-nos uma mensagem**
 
