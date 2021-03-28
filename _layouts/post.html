@@ -28,7 +28,7 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-<a href="{{site.baseurl}}"/categories/{{category|slugize}}"><span style="border:2px solid lightgrey;background:lightgrey;padding:5px;color:white;">{{category}}</span></a> 
+<a href="{{site.baseurl}}"/categories/misc{{category|slugize}}"><span style="border:2px solid lightgrey;background:lightgrey;padding:5px;color:white;">{{category}}</span></a> 
  {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %} 
   </span> 
