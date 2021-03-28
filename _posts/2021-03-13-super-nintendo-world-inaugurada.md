@@ -7,8 +7,8 @@ author: pixelbr
 thumbnail: /assets/img/uploads/bign2.jpeg
 date: 2021-03-13 11:19:51
 intro_paragraph: Espaço temático da Nintendo e inaugurado no Japão.
-tags: [web, jekyll]
-categories: misc
+category: programming
+tags: [github, github-pages, jekyll]
 ---
 Voce que viveu a era de ouro dos videogames mas mesmo com o tempo voce ainda curte jogar ou gosta de relembrar dos bons tempos de infância com seu amigos, a partir de agora voce pode reviver isso pessoalmente.
 
