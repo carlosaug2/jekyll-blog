@@ -21,7 +21,7 @@ layout: default
     Postado por {{ author.name }}
    em {{ page.date | date_to_string }}
   
- <!---<span style="float:right;"> 
+ <span style="float:right;"> 
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -31,8 +31,8 @@ layout: default
 <a href="{{site.baseurl}}"/categories/{{category|slugize}}"><span style="border:2px solid lightgrey;background:lightgrey;padding:5px;color:white;">{{category}}</span></a> 
  {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %} 
-  </span> -->
-{{page.tags | capitalize | join: ', '}}
+  </span> 
+
  
  <p> {% include read_time.html text=content %} de leitura </p>   
   
