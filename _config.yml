@@ -28,7 +28,7 @@ commentbox:
 
 
 # Permalink format (/blog/ is ignored for pages)
-permalink: /blog/:title/
+permalink: /tags/:title/
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
@@ -51,17 +51,15 @@ compress_html:
 
 # set some common post defaults
 
-collections:
-  category:
-    output: true
+
 
 defaults:
   -
     scope:
       path: " " # an empty string here means all files in the project
-      type: "category" # previously `post` in Jekyll 2.2.
+      type: "post" # previously `post` in Jekyll 2.2.
     values:
-      layout: "category" # set the correct default template for a post
+      layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
       
 
