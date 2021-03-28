@@ -19,7 +19,11 @@ layout: default
     {% if author %}
     Postado por {{ author.name }}
    em {{ page.date | date_to_string }}
-
+<small>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
+    {% endfor %}
+</small>
  
  <p> {% include read_time.html text=content %} de leitura </p>   
   
