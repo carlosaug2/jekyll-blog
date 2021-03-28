@@ -6,14 +6,13 @@ title: Categories
 
 
  
-{% for post in site.categories.Personal %}
+{% for post in site.tags.Personal %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-Tecnologia
 
 
  
-{% for post in site.categories.Tech %}
+{% for post in site.tags.Tech %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
