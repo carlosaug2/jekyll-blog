@@ -20,7 +20,7 @@ layout: default
     {% if author %}
     Postado por {{ author.name }}
    em {{ page.date | date_to_string }}
-  
+  <p id="post__meta">{{ tags_content }}</p>
 <!-- <span style="float:right;"> 
   {% if post %}
     {% assign categories = post.categories %}
