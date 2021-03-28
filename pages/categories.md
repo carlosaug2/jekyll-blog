@@ -16,7 +16,7 @@ title: Categories
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
-<!-- <div id="archives">
+<div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -30,6 +30,6 @@ title: Categories
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
     </article>
     {% endfor %}
-  <!--</div>
+  </div>
 {% endfor %}
-</div> -->
+</div> 
