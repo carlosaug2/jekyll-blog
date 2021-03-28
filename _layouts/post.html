@@ -16,17 +16,6 @@ layout: default
  <h2>{{ page.title }}</h2>
 <time datetime="{{ page.date }}">
 
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
  
  <p> {% include read_time.html text=content %} de leitura </p>   
   
