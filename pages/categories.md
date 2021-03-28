@@ -5,8 +5,19 @@ title: Categories
 ---
 
 
+ 
+{% for post in site.categories.Personal %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+Tecnologia
 
-<div id="archives">
+
+ 
+{% for post in site.categories.Tech %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+<!-- <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -20,6 +31,6 @@ title: Categories
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
     </article>
     {% endfor %}
-  </div>
+  <!--</div>
 {% endfor %}
-</div>
+</div> -->
