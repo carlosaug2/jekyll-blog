@@ -18,8 +18,8 @@ layout: default
 
  <span>[
   {% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/blog/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    {% capture tag %}{{ tag }}{% endcapture %}
+    <a href="/blog/{{ tag }}"><code class="highligher-rouge"><nobr>{{ tag }}</nobr></code>&nbsp;</a>
   {% endfor %}
 ]</span>
  <p> {% include read_time.html text=content %} de leitura </p>   
