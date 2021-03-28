@@ -1,20 +1,10 @@
 ---
 layout: page
-permalink: /tags/
+permalink: /categories/misc/
 title: Categories
 ---
 
 
- 
-{% for post in site.tags.Personal %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-
-
- 
-{% for post in site.tags.Tech %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
 
 <div id="archives">
 {% for category in site.categories %}
