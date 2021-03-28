@@ -50,19 +50,21 @@ compress_html:
   clippings: all
 
 # set some common post defaults
+
+collections:
+  category:
+    output: true
+
 defaults:
   -
     scope:
       path: " " # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      type: "category" # previously `post` in Jekyll 2.2.
     values:
-      layout: "post" # set the correct default template for a post
+      layout: "category" # set the correct default template for a post
       section: "post" # set the root section name
       
-collections:
-  category:
-    output: true
-   
+
 
 # Build settings
 markdown: kramdown
