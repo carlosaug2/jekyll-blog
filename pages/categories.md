@@ -21,3 +21,11 @@ title: Categorias
   </div>
 {% endfor %}
 </div>
+
+{% for post in site.categories.Personal %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+{% for post in site.categories.Tech %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
