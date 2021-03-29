@@ -7,7 +7,7 @@ author: pixelbr
 thumbnail: /assets/img/uploads/megafonenews.jpg
 date: 2021-02-16
 intro_paragraph: ""
-categories: misc
+categories: artigos
 ---
 
 
