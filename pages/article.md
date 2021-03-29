@@ -1,5 +1,5 @@
 ---
 layout: page
-permalink: /categories/
+permalink: /article/
 title: Artigos
 ---
