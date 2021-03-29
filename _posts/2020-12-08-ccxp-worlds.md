@@ -7,7 +7,7 @@ date: 2020-12-08 12:00:00
 related_image: /assets/img/uploads/credencial_home_ccxp_world.JPG
 thumbnail: /assets/img/uploads/logo_ccxp.jpg
 intro_paragraph: " EDICAO 100% ONLINE "
-categories: article
+category: article
 ---
 
 
