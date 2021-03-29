@@ -17,9 +17,9 @@ layout: default
 
 <time datetime="{{ page.date }}">
   <small>
-    <strong>{{ page.date | date_to_string }}</strong>
+   Em <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
-      by {{ author.name }}
+      por {{ author.name }}
     {% endif %}
 <div class="post-categories">
   {% if post %}
@@ -55,7 +55,7 @@ layout: default
       </span> -->
 
  
- <p> {% include read_time.html text=content %} de leitura </p>   
+ <p> Leitura de {% include read_time.html text=content %}  </p>   
   
  </small>
  
