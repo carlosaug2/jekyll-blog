@@ -17,7 +17,7 @@ layout: default
 
 <time datetime="{{ page.date }}">
   <small>
-   Em <strong>{{ page.date | date_to_string }}</strong>
+   Postado em: <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       por {{ author.name }}
     {% endif %}
@@ -28,7 +28,7 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  Categoria: <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
