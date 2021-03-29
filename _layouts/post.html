@@ -21,7 +21,7 @@ layout: default
     {% if author %}
       by {{ author.name }}
     {% endif %}
-<!--<div class="post-categories">
+<div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -31,8 +31,8 @@ layout: default
   <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
-</div>-->
-   <span>
+</div>
+ <!--  <span>
         {% assign post = page %}
         {% if post.categories.size > 0 %}
           {% capture categories_content %}<i class="fa fa-folder-open-o"></i> {% endcapture %}
@@ -52,7 +52,7 @@ layout: default
           {% assign categories_content = '' %}
         {% endif %}
         {{ categories_content }}
-      </span>
+      </span> -->
 
  
  <p> {% include read_time.html text=content %} de leitura </p>   
