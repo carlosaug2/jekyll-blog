@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /categories/
+permalink: /categories/misc/
+slug: misc
 title: Noticias
 ---
 
