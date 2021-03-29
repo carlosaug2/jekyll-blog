@@ -25,10 +25,13 @@ url: "https://pixeladasx.com" # the base hostname & protocol for your site, e.g.
 commentbox:
   id: 5724755676102656-proj
  
-
+collections:
+  my_categories:
+    output: true
+    
 
 # Permalink format (/blog/ is ignored for pages)
-permalink: /:title/
+permalink: /blog/category/:title/
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
