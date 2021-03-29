@@ -5,7 +5,7 @@ title: Categoria
 ---
 
 <div id="archives">
-{% for category in site.categories.misc %}
+{% for category in site.categories %} 
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
@@ -22,6 +22,6 @@ title: Categoria
 {% endfor %}
 </div>
  
-<!--{% for post in site.categories.Personal %}
+{% for post in site.categories.misc %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}-->
+{% endfor %}
