@@ -43,17 +43,15 @@ layout: default
 
 .flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-size: 14px;
   font-family: 'Asap', sans-serif;
   text-align: none;
   align-items: center; 
   width: 600px;
   height: auto;
-border:1px solid none;
-	background:#F5F5F5;
-
-
+  border:1px solid none;
+  background:#F5F5F5;
 
 }
 
@@ -63,24 +61,20 @@ border:1px solid none;
   flex: 40%; 
   max-width:100%;
 
-  
- 
 }
 
 .flex-item-right {
   background-color: none;
   padding: 20px;
   flex: 80%;
-	border:1px solid white;
-	background:white;
-  
- 
+  border:1px solid white;
+  background:white;
   
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
-  .flex-container {
+   .flex-container {
     flex-direction: column;
     width:100%;
 
