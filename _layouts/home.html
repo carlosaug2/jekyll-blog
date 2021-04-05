@@ -107,11 +107,16 @@ layout: default
 
 <style>
 .parent {
-     display: flex;
+  display: flex;
   width: 100%;
   height: 100px;
-  justify-content: space-between; /* Align Items Horizontally */
+  align-items: center; /* Align Items Vertically */
+  justify-content: space-between; /* Align Items Horizontally (with equal space in between each of them */
   background: #eee;
+}
+
+.children {
+  display: flex;
 }
 
 .child {
@@ -123,17 +128,17 @@ layout: default
 }
 </style>
 
-<div class="parent">
-  <div class="left">
-     <div class="child">1</div>
-     <div class="child">2</div>
-  </div>
-  <div class="right">
 
+<div class="parent">
+  <div class="children left-children">
+    <div class="child">1</div>
+    <div class="child">2</div>
     <div class="child">3</div>
+  </div>
+  <div class="children right-children">
     <div class="child">4</div>
     <div class="child">5</div>
+    <div class="child">6</div>
   </div>
 </div>
-
 <!--<iframe src="https://survey.zohopublic.com/zs/bKCsoH" frameborder='0' style='height:800px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto'></iframe>-->
