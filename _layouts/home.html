@@ -91,10 +91,7 @@ layout: default
        <!-- <div class="flex-item-left">   -->
        <!--  <img src="{{ post.thumbnail }}" /> -->
             <!--   </div> -->
-                 <div class="flex-item-right">
-                   <div class="child">1</div>
-                   <div class="child">2</div>
-                    <div class="child">3</div>
+      
               <!--   <span style="font-size:1.3em;"><a href="{{ post.url }}"> {{ post.title }}</span></a>
                     {{ post.excerpt | strip_newlines | truncate: 140 }}  
                     <a href="{{ site.baseurl }}{{ post.url }}">Leia mais >> </a> -->
@@ -106,7 +103,7 @@ layout: default
 
 
 <style>
-.parent {
+.flex-container  {
   display: flex;
   width: 100%;
   height: 100px;
@@ -129,16 +126,16 @@ layout: default
 </style>
 
 
-<div class="parent">
+<div class="flex-container ">
   <div class="children left-children">
-    <div class="child">1</div>
-    <div class="child">2</div>
-    <div class="child">3</div>
+    <div class="child"><img src="{{ post.thumbnail }}" /> </div>
+    <div class="child"><img src="{{ post.thumbnail }}" /> </div>
+   <!-- <div class="child">3</div> -->
   </div>
   <div class="children right-children">
     <div class="child">4</div>
     <div class="child">5</div>
-    <div class="child">6</div>
+ <!--   <div class="child">6</div> -->
   </div>
 </div>
 <!--<iframe src="https://survey.zohopublic.com/zs/bKCsoH" frameborder='0' style='height:800px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto'></iframe>-->
