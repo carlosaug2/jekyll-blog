@@ -23,7 +23,7 @@ layout: default
     {% endif %}
     <p> Leitura de {% include read_time.html text=content %}  </p>   
   
- </small>
+ 
  
  </time>
   </div>
@@ -34,9 +34,10 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  tags <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><span style="background:lightgrey;">{{category}}<span></a>
+  tags <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><span style="background:#F5F5F5;">{{category}}<span></a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
+ </small>
 </div>
  <!--  <span>
         {% assign post = page %}
