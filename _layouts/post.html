@@ -122,7 +122,39 @@ layout: default
       {% endfor %}                               
   </ul>
                                                    
-         
+       <style>
+.flex-container  {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center; /* Align Items Vertically */
+  justify-content: space-between; /* Align Items Horizontally (with equal space in between each of them */
+  background: #eee;
+}
+.children {
+  display: flex;
+}
+.child {
+  margin: 0 5px;
+  padding: 0 5px;
+  font-size: 30px;
+  background: #ccc;
+  color: #000;
+}
+</style>
+<div class="flex-container ">
+  <div class="children left-children">
+    <div class="child"><img src="{{ post.thumbnail }}" /> </div>
+    <div class="child"><img src="{{ post.thumbnail }}" /> </div>
+   <!-- <div class="child">3</div> -->
+<!--  </div>
+  <div class="children right-children">
+    <div class="child">4</div>
+    <div class="child">5</div>
+ <!--   <div class="child">6</div> -->
+ <!-- </div>
+</div> -->
+  
  
 <p align="center"></p>
                  
