@@ -10,3 +10,4 @@ intro_paragraph: |-
   ![](/assets/img/uploads/cmo_sumiit.jpg)
 categories: artigo
 ---
+![](/assets/img/uploads/cmo_sumiit.jpg)
