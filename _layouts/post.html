@@ -118,16 +118,19 @@ layout: default
 
 </nav>
            
-          <style>
-.relacionados {
+   <style>
+                                                                                                                                
+    .relacionados {
   display: flex;
   justify-content: center;
   align-items: center;
   width:600px;
   height:180px;
   margin:auto;
-  .img{
-         width:50%;
+   }  
+                                                                                                                                
+   .img {
+  width:50%;
          }
     </style>                                                                                                                            
                                                                                                                                
@@ -136,8 +139,11 @@ layout: default
   <h1>Leia outros artigos</h1>   
               <div class="relacionados">                                                                                                                  
       {% for post in site.categories.artigos %}
+                                       </div>
+                                       <div>
             <img src="{{ post.thumbnail }}">
           <a href="{{ post.url }}"><h1>{{ post.title }}</h1>
+                                  </div>
         </a>   
       {% endfor %}     
                                   </div>
