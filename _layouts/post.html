@@ -142,14 +142,15 @@ layout: default
   color: #000;
 }
 </style>
-  {% for post in site.categories.artigos limit:3 %} 
+  
 <div class="flex-container ">
+ {% for post in site.categories.artigos limit:3 %} 
   <div class="children left-children">
     <div class="child"> <img src="{{ post.thumbnail }}" style="width:250px" >   </div>
-     <div class="children right-children">
+     
     
-       </div>
-    </div>
+       
+  
  
  </div>
   <div class="children right-children">
@@ -157,8 +158,8 @@ layout: default
     <div class="child"> <a href="{{ post.url }}">{{ post.title }}</a>  </div>
   
  </div>
-</div> 
-   {% endfor %}     
+
+   {% endfor %}  </div>    
    <!--
  
 <p align="center"></p>
