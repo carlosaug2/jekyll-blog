@@ -121,7 +121,8 @@ layout: default
                                                                                                                                 
   </style>                                                                                                                            
                                                                                                                                                                                                   
-  <h1>Leia outros artigos</h1>   
+  <h1>Leia outros artigos</h1> 
+                                                                                                                                
     <div class="flex-container">    
                           
       {% for post in site.categories.artigos limit:3 %}   
@@ -129,21 +130,15 @@ layout: default
             <img src="{{ post.thumbnail }}" style="width:250px" >
                                                              
          <div class="flex-item-right">                           
-          <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>  
-                                  </div>
-                          </div>        
+          <a href="{{ post.url }}">{{ post.title }}</a>  
+ </div>
+</div>        
       {% endfor %}     
 </div>
                                   
-
-
-
-</style>
-
-                              
-                                  
-                                  
+<div>                      
 <p align="center"></p>
  {%- if site.commentbox.id -%}
     {%- include commentbox.html -%}
   {%- endif -%}
+   </div>
