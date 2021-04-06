@@ -8,7 +8,7 @@ slug: crew2-missao-espacial
 thumbnail: /assets/img/uploads/1.jpg
 date: 2021-03-08 10:50:34
 intro_paragraph: "# Próxima missão tripulada da SpaceX será lançada em abril."
-categories: misc
+categories: noticias
 ---
 
 
