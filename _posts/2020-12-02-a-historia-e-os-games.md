@@ -6,7 +6,7 @@ image: /assets/img/uploads/medalofhonor.jpg
 thumbnail: /assets/img/uploads/medalofhonor.jpg
 author: pixelbr
 date: 2020-12-02 12:00:00
-categories: article
+categories: artigos
 ---
 
 
