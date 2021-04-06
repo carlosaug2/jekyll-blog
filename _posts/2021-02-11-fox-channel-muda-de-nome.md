@@ -6,7 +6,7 @@ title: Canais FOX mudam de nome !
 author: pixelbr
 thumbnail: /assets/img/uploads/foxchannel_logo.jpg
 date: 2021-02-11 11:53:13
-categories: misc
+categories: noticias
 ---
 Salve galera ! Após um período de recesso no final de 2020 estamos de volta as atividades a todo vapor !!
 
