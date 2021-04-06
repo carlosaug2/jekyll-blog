@@ -6,7 +6,7 @@ author: pixelbr
 related_image: /assets/img/uploads/aniversario.jpg
 date: 2021-02-24 12:34:52
 thumbnail: /assets/img/uploads/aniversario.jpg
-categories: misc
+categories: noticias
 ---
 
 A Emissora de TV por Assinatura a Warner Bros Channel fez 25 anos de existencia no Brasil final do ano passado.
