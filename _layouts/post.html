@@ -21,6 +21,11 @@ layout: default
     {% if author %}
       por {{ author.name }}
     {% endif %}
+    <p> Leitura de {% include read_time.html text=content %}  </p>   
+  
+ </small>
+ 
+ </time>
 <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
@@ -28,7 +33,7 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  tags <a href="{{site.baseurl}}/categories/#{{category|slugize}} style="background:lightgrey;">{{category}}</a>
+  tags <a href="{{site.baseurl}}/categories/#{{category|slugize}}"><span style="background:lightgrey;">{{category}}<span></a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
@@ -55,11 +60,7 @@ layout: default
       </span> -->
 
  
- <p> Leitura de {% include read_time.html text=content %}  </p>   
-  
- </small>
- 
- </time>
+
 
 
  </div>
