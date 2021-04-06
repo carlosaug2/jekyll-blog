@@ -6,7 +6,7 @@ author: pixelbr
 date: 2020-12-15 21:12:32
 image: /assets/img/uploads/space_jam.jpg
 intro_paragraph: ""
-categories: misc
+categories: noticias
 ---
 
 
