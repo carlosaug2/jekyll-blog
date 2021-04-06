@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CMO SUMMIT
+title: CMO Summit
 meta_description: primeiro evento realizado em marte
 author: pixelbr
 date: 2021-03-15 00:12:23
