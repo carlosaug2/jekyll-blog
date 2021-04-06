@@ -96,7 +96,6 @@ layout: default
    justify-content: center;
    align-items: center;
    width:600px;
-   display: inline-block;
    margin:auto;}  
                                                                                                                                 
    .flex-item-left {
@@ -122,23 +121,23 @@ layout: default
 }
                                                                                                                                 
   </style>                                                                                                                            
-            <div class="flex-container">                                                                                                                                                                                     
+                                                                                                                                                                                             
   <h1>Leia outros artigos</h1> 
          
           <ul>                                                                                                                 
              {% for post in site.categories.artigos limit:3 %} 
-          
+          <div class="flex-container">    
          <div class="flex-item-left">                   
             <img src="{{ post.thumbnail }}" style="width:250px" >   
          <div class="flex-item-right">                           
           <a href="{{ post.url }}">{{ post.title }}</a>  
         </div> 
        </div>
-                              
+              </div>                      
       {% endfor %}    
                                  
   </ul>
-                                  </div>                           
+                                                       
                                 
              
  
