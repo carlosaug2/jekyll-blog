@@ -3,5 +3,5 @@ layout: home
 title: 
 permalink: /
 section: home
-intro_paragraph: drop news
+intro_paragraph: 
 ---
