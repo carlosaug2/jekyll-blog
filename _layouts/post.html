@@ -17,7 +17,7 @@ layout: default
 
 <time datetime="{{ page.date }}">
   <small>
-   Postado em: <strong>{{ page.date | date_to_string }}</strong>
+   Postado em <strong>{{ page.date | date_to_string }}</strong>
     {% if author %}
       por {{ author.name }}
     {% endif %}
@@ -28,7 +28,7 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  Categoria: <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  tags <a href="{{site.baseurl}}/categories/#{{category|slugize}} style="background:lightgrey;">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
@@ -120,8 +120,8 @@ layout: default
                                                                                                                                                                                                   
   <h1>Leia outros artigos</h1>                                                                        
       {% for post in site.categories.article %}
-            <img src="{{ post.thumbnail }} " style="width:50%;height:auto;">
-<a href="{{ post.url }}"><h1>{{ post.title }}</h1>
+            <img src="{{ post.thumbnail }}">
+          <a href="{{ post.url }}"><h1>{{ post.title }}</h1>
         </a>   
       {% endfor %}                                                                                             
 
