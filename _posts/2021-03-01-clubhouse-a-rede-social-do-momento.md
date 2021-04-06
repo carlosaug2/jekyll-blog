@@ -8,7 +8,7 @@ slug: clubhouse-rede-social
 thumbnail: /assets/img/uploads/clubhouse.jpg
 date: 2021-03-01 09:59:01
 intro_paragraph: ""
-categories: misc
+categories: noticias
 ---
 
 
