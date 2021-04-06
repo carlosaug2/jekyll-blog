@@ -6,7 +6,7 @@ thumbnail: /assets/img/uploads/cinemamovie.jpg
 date: 2021-02-13 13:39:22
 replace_image: /assets/img/uploads/cinemamovie.jpg
 title: Godzilla vs Kong - duelo de titãs!
-categories: misc
+categories: noticias
 ---
 
 Se voce achou que a pandemia parou a industria do cinema, voce esta completamente errado!
