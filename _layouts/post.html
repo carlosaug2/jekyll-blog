@@ -89,7 +89,7 @@ layout: default
            
    <style>
                                                                                                                                 
- .relacionados {
+   .flex-container {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -97,17 +97,53 @@ layout: default
    height:180px;
    margin:auto;}  
                                                                                                                                 
+   .flex-item-left {
+   background-color:none;
+   padding: 20px; /* controla distanciamento entre imagem e texto */
+   flex: 80%; 
+   max-width:100%;}
+                                                                                                                                
+   .flex-item-right {
+   background-color: none;
+ /* padding: 20px;
+   flex: 80%; */
+  border:1px solid white;
+  background:white;
+  
+}
+  
+@media (max-width: 800px) { /* Responsive layout - makes a one column-layout instead of two-column layout */
+   .flex-container {
+    flex-direction: column;
+    width:100%;
+  }
+}
+                                                                                                                                
   </style>                                                                                                                            
                                                                                                                                                                                                   
   <h1>Leia outros artigos</h1>   
-    <div class="relacionados">    
+    <div class="flex-container">    
                           
-      {% for post in site.categories.artigos limit:3 %}                                                      
+      {% for post in site.categories.artigos limit:3 %}   
+         <div class="flex-item-left">
+                                    
             <img src="{{ post.thumbnail }}" style="width:250px" >
-          <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>   
+                                                               </div>
+                                       <div class="flex-item-right">                           
+          <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>  
+                                  </div>
+                          </div>        
       {% endfor %}     
 </div>
+                                  
+
+
+
+</style>
+
                               
+                                  
+                                  
 <p align="center"></p>
  {%- if site.commentbox.id -%}
     {%- include commentbox.html -%}
