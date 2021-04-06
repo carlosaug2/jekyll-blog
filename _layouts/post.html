@@ -2,8 +2,6 @@
 layout: default
 ---
 
-
-
 {% assign author = site.data.authors[page.author] %}
 
  {% if page.related_image %}
@@ -22,9 +20,6 @@ layout: default
       por {{ author.name }}
     {% endif %}
     <p> Leitura de {% include read_time.html text=content %}  </p>   
-  
- 
- 
  </time>
   </div>
 <div class="post-categories">
@@ -61,18 +56,8 @@ layout: default
         {{ categories_content }}
       </span> -->
 
- 
-
-
-
-
-
-
-
 
 <hr style="width:100%; height:6px; background-color:#f16334; border:none;" />
-
-
 
 
 {% include page-intro.html %}
@@ -84,72 +69,44 @@ layout: default
 <!-- <a href="https://www.pixeladasx.com/contact"><span style="border:1px solid;background:lightyellow;font-size:.8em;padding:5px;float:right;"> reportar erro </span> </a> -->
 
 
-
-
-
-
 <nav aria-label="Adjacent Posts">
  <!-- <hr style="width:50%; height:1px; background-color:lightgrey; border:none;" />  -->
   <ul>
     {% if page.previous.url %}
-   
       <li>
         <a href="{{page.previous.url}}" style="font-size:.9em;" "rel="prev">&laquo; Artigo Anterior </a> <p style="font-size:.8em;"> {{page.previous.title}} </p>
- 
       </li>
-  
     {% endif %}
-
-
-
+                                                                                                                                   
     {% if page.next.url %}
-   
       <li>
        <a href="{{page.next.url}}" style="font-size:.9em;"  rel="next"> Próxima Artigo  &raquo;  </a> <p style="font-size:.8em;"> {{page.next.title}} </p>
-     
       </li>
- 
     {% endif %} 
-
-
-
-
   </ul>
 
 </nav>
            
    <style>
                                                                                                                                 
-    .relacionados {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width:600px;
-  height:180px;
-  margin:auto;
-   }  
+ .relacionados {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width:600px;
+   height:180px;
+   margin:auto;}  
                                                                                                                                 
-   .img {
-  width:50%;
-         }
-    </style>                                                                                                                            
-                                                                                                                               
-
+  </style>                                                                                                                            
                                                                                                                                                                                                   
   <h1>Leia outros artigos</h1>   
-              <div class="relacionados">                                                                                                                  
-      {% for post in site.categories.artigos %}
-                                       </div>
-                                       <div>
-            <img src="{{ post.thumbnail }}">
-          <a href="{{ post.url }}"><h1>{{ post.title }}</h1>
-                                  </div>
-        </a>   
+    <div class="relacionados">                                                                                                                  
+      {% for post in site.categories.artigos %}                                                      
+            <img src="{{ post.thumbnail }}" width="250" >
+          <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>   
       {% endfor %}     
-                                  </div>
-
-                                  
-                                  
+</div>
+                              
 <p align="center"></p>
  {%- if site.commentbox.id -%}
     {%- include commentbox.html -%}
