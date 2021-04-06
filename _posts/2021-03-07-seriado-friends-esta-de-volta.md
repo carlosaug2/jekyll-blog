@@ -8,7 +8,7 @@ slug: friends-edicao-especial
 thumbnail: /assets/img/uploads/friends-divulgacao-ok.jpg
 date: 2021-03-07 11:56:59
 intro_paragraph: ""
-categories: misc
+categories: noticias
 ---
 
 
