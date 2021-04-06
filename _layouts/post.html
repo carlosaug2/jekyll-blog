@@ -144,10 +144,11 @@ layout: default
 </style>
   
 
-  {% for post in site.posts limit:3 %} 
+
  <div class="flex-container ">
+    {% for post in site.posts limit:3 %} 
   <div class="children left-children">
-    <div class="child">      <img src="{{ post.thumbnail }}" style="width:250px" >   </div>
+    <div class="child">  <img src="{{ post.thumbnail }}" style="width:250px" >   </div>
    <div class="children right-children">
     <div class="child">2</div>
      </div>
@@ -159,8 +160,9 @@ layout: default
     <div class="child">5</div>
  <div class="child">6</div> 
  </div>
-</div>
  {% endfor %}
+</div>
+ 
 
  
  
