@@ -124,13 +124,14 @@ layout: default
  {{ page.categories }}
   
     <div class="row related-posts">
-      <h2 class="text-center">More {{ page.categories }} Posts!</h2>
+      <h2 class="text-center">More {{ page.categories limit:3 }} Posts!</h2>
       <div class="medium-12 small-12 columns">
         
           
 
            <h3>
             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+             <img src="{{ post.thumbnail }}" style="width:250px" >   
               {{ post.title }}
             </a>
            </h3>
