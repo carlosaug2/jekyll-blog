@@ -122,9 +122,9 @@ layout: default
 }
                                                                                                                                 
   </style>                                                                                                                            
-                                                                                                                                                                                                  
+                  <section>                                                                                                                                                                                
   <h1>Leia outros artigos</h1> 
-          <div>
+         
           <ul>                                                                                                                 
              {% for post in site.categories.artigos limit:3 %} 
            <div class="flex-container">  
@@ -138,9 +138,10 @@ layout: default
       {% endfor %}    
                                  
   </ul>
-                                  </div>
+                                  </section>
+                                
              
-                                  <div>
+ 
 <p align="center"></p>
  {%- if site.commentbox.id -%}
     {%- include commentbox.html -%}
