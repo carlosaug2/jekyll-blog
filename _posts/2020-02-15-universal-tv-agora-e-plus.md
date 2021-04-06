@@ -6,7 +6,7 @@ title: Universal TV agora e Plus !
 author: pixelbr
 thumbnail: /assets/img/uploads/tvs2.jpg
 date: 2021-02-15
-categories: misc
+categories: noticias
 ---
 
 
