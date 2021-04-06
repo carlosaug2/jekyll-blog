@@ -122,8 +122,9 @@ layout: default
   </style>                                                                                                                            
                                                                                                                                                                                                   
   <h1>Leia outros artigos</h1> 
+           <div class="flex-container">  
           <ul>                                                                                                               
-         <div class="flex-container">    
+           
              {% for post in site.categories.artigos limit:3 %}                    
          <div class="flex-item-left">                   
             <img src="{{ post.thumbnail }}" style="width:250px" >
@@ -132,9 +133,9 @@ layout: default
           <a href="{{ post.url }}">{{ post.title }}</a>  
         </div>               
       {% endfor %}   
-        </div>    
+          
   </ul>
-
+</div>  
                                   
 <div>                      
 <p align="center"></p>
