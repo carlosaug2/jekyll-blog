@@ -123,7 +123,7 @@ layout: default
   </ul> -->
 {% capture category %}{{ page.categories | first }}{% endcapture %}
 
-{% for post in site.categories[noticias] limit: 5 %}
+{% for post in site.categories['noticias'] limit: 5 %}
     <li>
         <p>
             <a href="{{ post.url | relative_url }}">
