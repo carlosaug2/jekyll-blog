@@ -121,7 +121,17 @@ layout: default
  </div>
       {% endfor %}                               
   </ul> -->
+{% capture category %}{{ page.categories | first }}{% endcapture %}
 
+{% for post in site.categories[category] limit: 5 %}
+    <li>
+        <p>
+            <a href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+        </p>
+    </li>
+{% endfor %}
 
  
 <p align="center"></p>
