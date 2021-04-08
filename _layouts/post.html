@@ -122,6 +122,7 @@ layout: default
       {% endfor %}                               
   </ul> -->
  <style>
+  
  #main {
   width: 400px;
   height: 400px;
@@ -134,7 +135,7 @@ layout: default
  
  
 {% capture category %}{{ page.categories | first }}{% endcapture %}
-
+ <div id="main">
 
 {% for post in site.categories['noticias'] limit: 3 %}
   
@@ -143,18 +144,18 @@ layout: default
  
     <li>
         <p> 
-      <div id="main">
-       <div style="background-color:coral;">
+     
+      
             <a href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
             </a>
-       </div>
-      </div>
+      
+     
         </p>
     </li>
-
+ 
 {% endfor %}
-
+</div>
  
 <p align="center"></p>
                  
