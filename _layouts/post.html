@@ -129,10 +129,7 @@ layout: default
   display: flex;
   flex-direction: row-reverse;
 }
-  #main div {
-  width: 50px;
-  height: 50px;
-}
+
  </style>
  
  
@@ -141,10 +138,10 @@ layout: default
  <div style="background-color:coral;">
 {% for post in site.categories['noticias'] limit: 5 %}
    </div>
-   <div style="background-color:lightblue;">
-  <img src="{{ post.thumbnail }}" style="width:250px" > 
-  </div>
-  </div>
+ </div>
+ <!-- <img src="{{ post.thumbnail }}" style="width:250px" > -->
+  
+ 
     <li>
         <p>
             <a href="{{ post.url | relative_url }}">
