@@ -139,13 +139,13 @@ layout: default
 
 {% for post in site.categories['noticias'] limit: 3 %}
   
- <!-- <img src="{{ post.thumbnail }}" style="width:250px" > -->
+
   
  
     <li>
         <p> 
      
-      
+      <img src="{{ post.thumbnail }}" style="width:250px" > 
             <a href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
             </a>
