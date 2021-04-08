@@ -130,8 +130,7 @@ layout: default
   border: 1px solid #c3c3c3;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
- /* align-items: center; */
+  align-items: center; 
   font-size: 15px;
   
   
@@ -167,9 +166,9 @@ layout: default
  
         <p> 
      
-     <div id="flex-item-left">   
+     <div id="flex-item-left" style="border:4px solid lightyellow;">   
       <img src="{{ post.thumbnail }}" > 
-     <div id="flex-item-right" style="background:lightyellow;">          
+     <div id="flex-item-right">          
       <a href="{{ post.url | relative_url }}" >
       {{ post.title | escape }} 
             </a>
