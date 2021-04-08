@@ -131,6 +131,18 @@ layout: default
   flex-direction: row-reverse;
   margin:0 auto;
 }
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
   @media (max-width: 800px) {
   #main {
     flex-direction: column;
@@ -150,9 +162,9 @@ layout: default
     <li>
         <p> 
      
-      <img src="{{ post.thumbnail }}" style="width:250px" > 
-            <a href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
+     <div class="flex-item-left">    <img src="{{ post.thumbnail }}" style="width:250px" > </div>
+  <div class="flex-item-right">          <a href="{{ post.url | relative_url }}">
+   {{ post.title | escape }} </div>
             </a>
       
      
@@ -168,6 +180,6 @@ layout: default
     {%- include commentbox.html -%}
   {%- endif -%}
                  
-        
+
                 
 
