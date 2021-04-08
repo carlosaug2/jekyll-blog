@@ -130,18 +130,22 @@ layout: default
   display: flex;
   flex-direction: row-reverse;
 }
+  @media (max-width: 800px) {
+  #main {
+    flex-direction: column;
+   width:100%;
+  }
+}
 
  </style>
  
  
 {% capture category %}{{ page.categories | first }}{% endcapture %}
+
  <div id="main">
 
 {% for post in site.categories['noticias'] limit: 3 %}
   
-
-  
- 
     <li>
         <p> 
      
