@@ -139,7 +139,7 @@ layout: default
 }
 
 .flex-item-left {}
-.flex-item-right {}
+.flex-item-right { background:yellow;}
   
   #main div {
   width: 180px;
@@ -168,7 +168,7 @@ layout: default
         <p> 
      
      <div id="flex-item-left">   
-      <img src="{{ post.thumbnail }}" style="border: 2px solid #c3c3c3;" > 
+      <img src="{{ post.thumbnail }}" > 
      <div id="flex-item-right">          
       <a href="{{ post.url | relative_url }}">
       {{ post.title | escape }} 
