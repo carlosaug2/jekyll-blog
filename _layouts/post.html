@@ -131,7 +131,7 @@ layout: default
   display: flex;
   flex-direction: row;
   justify-content: space-between; 
-  align-items: center;
+ /* align-items: center; */
   font-size: 15px;
   
   
@@ -139,7 +139,7 @@ layout: default
 }
 
 .flex-item-left {}
-.flex-item-right { background:yellow;}
+.flex-item-right {}
   
   #main div {
   width: 180px;
@@ -169,8 +169,8 @@ layout: default
      
      <div id="flex-item-left">   
       <img src="{{ post.thumbnail }}" > 
-     <div id="flex-item-right">          
-      <a href="{{ post.url | relative_url }}">
+     <div id="flex-item-right" style="background:lightyellow;">          
+      <a href="{{ post.url | relative_url }}" >
       {{ post.title | escape }} 
             </a>
       
